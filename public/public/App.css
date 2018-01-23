@@ -17,6 +17,16 @@
   color: rgba(0,0,0,.6);
 }
 
+.hpap .ui.button.hpap-blue {
+  background-color: #19BFEA;
+  color: #FFF;
+}
+
+.hpap p.input-help {
+  font-size: 0.95em;
+  margin-top: -0.5em;
+}
+
 .pull-right {
   float: right;
 }
@@ -45,12 +55,6 @@
   background: url(/assets/brand/background.jpg) repeat-x top center;
   min-height: 365px;
   padding: 1.5em 0;
-}
-
-/* Input fields */
-.hpap p.input-footer {
-  font-size: 0.95em;
-  margin-top: -0.5em;
 }
 
 /* Filters */
