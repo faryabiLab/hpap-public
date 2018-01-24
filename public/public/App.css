@@ -1,45 +1,46 @@
+/*
+ * Color scheme
+ * Background color: #F4F4F4
+ * Primary purple: #7E4C71
+ * Secondary purple: #D5CCD2
+ * Border purple: #BAB3B9
+*/
+
 /* Load icon font */
 @font-face {
   font-family: Icons;
   src: url(../node_modules/semantic-ui-css/themes/default/assets/fonts/icons.eot);
 }
 
-/* General styles */
-.hpap .ui.header {
-  color: #19BFEA;
+body {
+  background-color: #F4F4F4;
 }
 
-.hpap .ui.menu.submenu {
-  background-color: #E8E8E8;
-}
-
-.hpap .ui.menu.submenu .item {
-  color: rgba(0,0,0,.6);
-}
-
-.hpap .ui.button.hpap-blue {
-  background-color: #19BFEA;
-  color: #FFF;
-}
-
-.hpap p.input-help {
-  font-size: 0.95em;
-  margin-top: -0.5em;
-}
-
-.pull-right {
-  float: right;
-}
-
-/* Header */
-.hpap header {
+/* Previously used headers */
+/*.hpap header {
   padding: 14px 20px;
+}
+
+.hpap header {
+  background-image: url(/assets/brand/HPAP-background.jpg);
+  background-position: center;
+  height: 10em;
+}*/
+
+/* Background image */
+.hpap .background {
+  background: url(/assets/brand/HPAP-background.jpg) repeat-x top center;
+  position: absolute;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  z-index: -1; 
 }
 
 /* Navigation menu */
 .hpap .ui.menu.navbar,
 .hpap .ui.menu.navbar .menu {
-  background-color: #19BFEA;
+  background-color: #7E4C71;
 }
 
 .hpap .ui.menu.navbar .item {
@@ -52,9 +53,43 @@
 
 /* Main content */
 .hpap .main {
-  background: url(/assets/brand/background.jpg) repeat-x top center;
-  min-height: 365px;
   padding: 1.5em 0;
+}
+
+.hpap .ui.header {
+  color: #7E4C71;
+}
+
+.hpap a {
+  color: #7E4C71;
+}
+
+.hpap .ui.menu.submenu {
+  background-color: #D5CCD2;
+  border: 1px solid #BAB3B9;
+}
+
+.hpap .ui.menu.submenu .item {
+  color: rgba(0,0,0,.6);
+}
+
+.hpap .ui.segment {
+  background-color: rgba(255,255,255,.87);
+  border: 1px solid #BAB3B9;
+}
+
+.hpap .ui.button.hpap-color {
+  background-color: #7E4C71;
+  color: #FFF;
+}
+
+.hpap p.input-help {
+  font-size: 0.95em;
+  margin-top: -0.5em;
+}
+
+.pull-right {
+  float: right;
 }
 
 /* Filters */
