@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div>
+  <p><u><h3>PROTOCOL: ATAC-SEQ</h3></u></p>
+</div>
+<p><strong><u></u></strong></p>
+<p><strong><u>Reagents</u></strong><br />
+  1X PBS<br />
+  Nuclease-free  H<sub>2</sub>O<br />
+  NP-40  10%<br />
+  Nextera  DNA Library Prep Kit (Illumina, catalog #  FC-121-1030)<br />
+  MinElute  Reaction Cleanup Kit (Qiagen, catalog # 28204)<br />
+  Primers  (see table at end of protocol)<br />
+  NEBNext  High-Fidelity 2X PCR Master Mix (NEB, catalog # M0541S)<br />
+  SYBR  Green I (ThermoFisher, catalog # S7563) <br />
+  Agencourt  AMPure XP magnetic beads (Beckman Coulter, catalog # A63880)<br />
+  80%  Ethanol (made fresh)<br />
+  Agilent High  Sensitivity DNA Bioanalysis Kit (Agilent, catalog # 5067-4626)<br />
+  Qubit  dsDNA HS Assay Kit &amp; fluorometer (ThermoFisher, catalog # Q32851)</p>
+<p><strong><u>Notes</u></strong><br />
+  - The  primary protocol is based on the Buenrostro et al. papers, with the following  modification:<br />
+  - We found that column  purification of the libraries does not remove primer-dimers (78 bp), and our  libraries often contained large fragments 1,000-10,000 bp in length.&nbsp; Therefore, we use magnetic bead purification  rather than column purification of the libraries.&nbsp; <br />
+  - Cells  must be alive, fresh, not frozen. </p>
+<p><strong><u>Cell Lysis</u></strong><br />
+  - Wash  50,000 cells with 50 &#956;l cold 1X PBS in epi tube,  centrifuge to pellet, discard supernatant.<br />
+  - Add 50  &#956;l cold lysis buffer, pipet up  and down to resuspend cells.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 &#956;l &nbsp;&nbsp;&nbsp; 1M  Tris&middot;Cl, pH 7.4 (final 10 mM)<br />
+  &nbsp; 2 &#956;l &nbsp;&nbsp;&nbsp; 5 M NaCl (final 10 mM)<br />
+  &nbsp; 3 &#956;l &nbsp;&nbsp;&nbsp; 1 M MgCl<sub>2</sub> (final 3 mM)<br />
+  10 &#956;l &nbsp;&nbsp;&nbsp; 10%  NP-40 (final 0.1% v/v)<br />
+  <u>975 </u><u>&#956;</u><u>l</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nuclease-free H<sub>2</sub>O<br />
+  1,000 &#956;l<br />
+  -  Centrifuge at 500 xg for 10 minutes at 4<sup>o</sup>C.<br />
+-  Discard supernatant (cytoplasm), keep pellet (nuclei)</p>
+<p><strong><u>Transposition</u></strong> <br />
+  - While  cells are centrifuging, make transposition reaction mix, using the Nextera DNA  Library Prep Kit.&nbsp; Volumes per sample of  50,000 cells:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25 &#956;l &nbsp;&nbsp;&nbsp; 2X  TD Buffer<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.5 &#956;l &nbsp;&nbsp; Tn5  Transposase<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>22.5 </u><u>&#956;</u><u>l</u>&nbsp; nuclease-free H<sub>2</sub>O<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50 &#956;l<br />
+  - Add  transposition reaction mix to pellet, pipet up and down to resuspend nuclei.<br />
+-  Incubate at 37<sup>o</sup>C for 30 minutes</p>
+<p><strong><u>DNA Purification</u></strong><br />
+  -  Isolate DNA using Qiagen MinElute Reaction Cleanup Kit.<br />
+  - Elute  DNA in 10 &#956;l EB (Elution Buffer).</p>
+<p>**OK to  store DNA at -20<sup>o</sup>C at this point.</p>
+<p><strong><u>PCR Amplification (Library  Generation)</u></strong> <br />
+  - Combine  the following in a PCR tube for each sample:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 &#956;l&nbsp;&nbsp;&nbsp;&nbsp; purified  transposed DNA<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 &#956;l&nbsp;&nbsp;&nbsp;&nbsp; nuclease-free  H<sub>2</sub>O<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.5 &#956;l&nbsp;&nbsp;&nbsp; Ad1_noMX  primer (25 &#956;M)<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.5 &#956;l&nbsp;&nbsp;&nbsp; Ad2.* indexing primer (25 &#956;M)<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>25 &#956;l</u>&nbsp;&nbsp;&nbsp;&nbsp; NEBNext  High-Fidelity 2X PCR Master Mix<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50 &#956;l<br />
+  -  Amplify samples in PCR machine with following program:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 5 minutes&nbsp;&nbsp;&nbsp;&nbsp; <b>x5 cycles</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 30 seconds&nbsp;&nbsp; <b>x5 cycles</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 10  seconds&nbsp;&nbsp; <b>x5 cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 63<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30 seconds &nbsp; <b>x5 cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 minute&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>x5 cycles</b><br />
+  - Remove  tubes from PCR machine and use 5 &#956;l of each partially-amplified library to perform  qPCR to determine how many additional PCR cycles are needed.&nbsp; The goal is to stop amplification well prior  to saturation to avoid variation among samples due to PCR bias.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.00 &#956;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; partially-amplified library<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.41 &#956;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nuclease-free  H<sub>2</sub>O<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.25 &#956;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad1_noMX  primer (25 &#956;M)<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.25 &#956;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ad2.* indexing primer (25 &#956;M)<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.09 &#956;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100X SYBR Green I<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>5.00 &#956;l</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEBNext  High-Fidelity 2X PCR Master Mix<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15.00 &#956;l<br />
+  -  Perform qPCR using following program:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 30 seconds&nbsp;&nbsp; <b>x20 cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 10  seconds&nbsp;&nbsp; <b>x20 cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 63<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 30 seconds&nbsp;&nbsp; <b>x20 cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 1 minute &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>x20 cycles</b><br />
+  - Plot R  vs Cycle Number.&nbsp; Calculate the number of  additional PCR cycles needed for each sample, by determining the number of  cycles needed to reach 1/3 of the maximum R.<br />
+  -  Continue PCR on remaining 45 &#956;l of each partially-amplified library for the appropriate number (N)  of cycles:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 30 seconds&nbsp;&nbsp; <b>N cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 10  seconds&nbsp;&nbsp; <b>N cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 63<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 30 seconds&nbsp;&nbsp; <b>N cycles</b><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72<sup>o</sup>C&nbsp;&nbsp;&nbsp;&nbsp; 1 minute&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>N cycles</b></p>
+<p><strong><u>Library Purification:</u></strong> <br />
+  - Warm  AMPure XP beads to room temperature, and vortex to resuspend.<br />
+  - For  single left-sided bead purification (to remove primer dimers):<br />
+  - Transfer each PCR sample to  an epi tube, add 1.8X volume (81 &#956;l) AMPure XP beads, pipet up and down 10x to mix  thoroughly.<br />
+  - Incubate at room  temperature for 10 minutes.<br />
+  - Place epi tubes in magnetic  rack for 5 minutes.<br />
+  - Discard supernatant.<br />
+  - Wash beads with 200 &#956;l 80% EtOH  (freshly made), pipet EtOH over beads 10x, then discard EtOH.<br />
+  - Leave tube on  magnetic rack with cap open for 10 minutes.<br />
+  - Ensure all EtOH is  removed.<br />
+  - Resuspend beads in 20  &#956;l nuclease-free  H<sub>2</sub>O, pipet up and down 10x to mix thoroughly.<br />
+  - Place epi tube in magnetic  rack for 1-5 minutes.<br />
+  - Transfer supernatant to new  epi tube.<br />
+  - For  double-sided bead purification (to remove primer dimers and large &gt;1,000 bp  fragments):<br />
+  - Transfer each PCR sample to  an epi tube, add 0.5X volume (22.5 &#956;l) AMPure XP beads, pipet up and down 10x to mix  thoroughly.<br />
+  - Incubate at room  temperature for 10 minutes.<br />
+  - Place epi tubes in magnetic  rack for 5 minutes.<br />
+  - Transfer supernatant to new  epi tube.<br />
+  - Add 1.3X original volume  (58.5  &#956;l) AMPure  XP beads, pipet up and down 10x to mix thoroughly.&nbsp; (This results in a final 1.8X bead  buffer:sample ratio.)<br />
+  - Incubate at room  temperature for 10 minutes.<br />
+  - Place epi tubes in magnetic  rack for 5 minutes.<br />
+  - Discard supernatant.<br />
+  - Wash beads with 200 &#956;l 80% EtOH  (freshly made), pipet EtOH over beads 10x, then discard EtOH.<br />
+  - Leave tube on  magnetic rack with cap open for 10 minutes.<br />
+  - Ensure all EtOH is  removed.<br />
+  - Resuspend beads in 20  &#956;l nuclease-free  H<sub>2</sub>O, pipet up and down 10x to mix thoroughly.<br />
+  - Place epi tube in magnetic  rack for 1-5 minutes.<br />
+  - Transfer supernatant to new  epi tube.<br />
+- Store  purified libraries at -20<sup>o</sup>C.</p>
+<p><strong><u>Assessing Library Quality:</u></strong><br />
+  - Add 1 &#956;l of each library  to 3 &#956;l nuclease-free  H<sub>2</sub>O (to make 1:4 dilution).<br />
+  - Run 1 &#956;l of each diluted  library on an Agilent High Sensitivity DNA Bioanalysis chip.<br />
+  -  Use 1 &#956;l of each diluted library to measure DNA concentration by QuBit. </p>
+<p><strong><u>Sequencing:</u></strong> <br />
+  - Use 50  bp paired-end (50PE) sequencing to obtain &gt;50 million reads per sample  minimum to assess open vs closed chromatin regions, and &gt;200 million reads  per sample to detect transcription factor binding sites.</p>
+<strong><u><br clear="all" />
+</u></strong>
+<p><strong><u>&nbsp;</u></strong></p>
+<p><strong><u>Table of PCR Primers (based  on TruSeq indices):</u></strong><br />
+  <img src="../../../../AppData/Roaming/Adobe/Dreamweaver CS6/en_US/OfficeImageTemp/image005_0000.jpg" alt="Image4" width="623" height="555" /></p>
+<p><strong><u>References:</u></strong><strong><u> </u></strong><strong><u> </u></strong><br />
+  [1]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ackermann AM, Wang Z, Schug J, Naji A,  Kaestner KH (2016) Integration of ATAC-seq and RNA-seq identifies human alpha  cell and beta cell signature genes. Molecular Metabolism 5: 233-244<br />
+  [2]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buenrostro JD, Giresi PG, Zaba LC,  Chang HY, Greenleaf WJ (2013) Transposition of native chromatin for fast and  sensitive epigenomic profiling of open chromatin, DNA-binding proteins and  nucleosome position. Nature methods 10: 1213-1218<br />
+  [3]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buenrostro JD, Wu B, Chang HY,  Greenleaf WJ (2015) ATAC-seq: A Method for Assaying Chromatin Accessibility  Genome-Wide. Current protocols in molecular biology / edited by Frederick M  Ausubel&nbsp; [et al] 109: 21.29.21-21.29.29<br />
+  [4]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tsompana M, Buck MJ (2014) Chromatin  accessibility: a window into the genome. Epigenetics &amp; chromatin 7: 33</p>
+</body>
+</html>
