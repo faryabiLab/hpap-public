@@ -64,6 +64,10 @@ body {
   color: #7E4C71;
 }
 
+.hpap p {
+  font-size: 1.1em;
+}
+
 .hpap .ui.menu.submenu {
   background-color: #D5CCD2;
   border: 1px solid #BAB3B9;
