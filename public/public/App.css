@@ -53,7 +53,7 @@ body {
 
 /* Main content */
 .hpap .main {
-  padding: 1.5em 0;
+  padding: 3em 0;
 }
 
 .hpap .ui.header {
@@ -63,6 +63,10 @@ body {
 .hpap a {
   color: #7E4C71;
   text-decoration: underline;
+}
+
+.hpap a:hover {
+  text-decoration: none;
 }
 
 .hpap p {
