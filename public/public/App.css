@@ -69,13 +69,18 @@ body {
   font-size: 1.1em;
 }
 
-.hpap .ui.menu.submenu {
+.hpap .ui.top.attached.menu {
   background-color: #D5CCD2;
   border: 1px solid #BAB3B9;
 }
 
-.hpap .ui.menu.submenu .item {
-  color: rgba(0,0,0,.6);
+.hpap .ui.top.attached.menu .item.active {
+  font-weight: bold;
+  background: rgba(0,0,0,.10);
+}
+
+.hpap .ui.top.attached.menu a.item:not(.active):hover {
+  background: rgba(0,0,0,.05);
 }
 
 .hpap .ui.segment {
