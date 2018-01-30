@@ -2,8 +2,8 @@
  * Color scheme
  * Background color: #F4F4F4
  * Primary purple: #7E4C71
- * Secondary purple: #D5CCD2
- * Border purple: #BAB3B9
+ * Lighter purple: #EBDEE4
+ * Border color: #C6A1B3
 */
 
 /* Load icon font */
@@ -74,22 +74,18 @@ body {
 }
 
 .hpap .ui.top.attached.menu {
-  background-color: #D5CCD2;
-  border: 1px solid #BAB3B9;
+  background-color: #EBDEE4;
+  border: 1px solid rgba(0,0,0,.15);
 }
 
 .hpap .ui.top.attached.menu .item.active {
   font-weight: bold;
-  background: rgba(0,0,0,.10);
-}
-
-.hpap .ui.top.attached.menu a.item:not(.active):hover {
-  background: rgba(0,0,0,.05);
+  background: rgba(0,0,0,.07);
 }
 
 .hpap .ui.segment {
   background-color: rgba(255,255,255,.87);
-  border: 1px solid #BAB3B9;
+  border: 1px solid rgba(0,0,0,.20);
 }
 
 .hpap .ui.button.hpap-color {
@@ -98,8 +94,9 @@ body {
 }
 
 .hpap p.input-help {
-  font-size: 0.95em;
   margin-top: -0.5em;
+  font-size: 0.95em;
+  font-style: italic;
 }
 
 .pull-right {
