@@ -3,7 +3,6 @@
  * Background color: #F4F4F4
  * Primary purple: #7E4C71
  * Lighter purple: #EBDEE4
- * Border color: #C6A1B3
 */
 
 /* Load icon font */
@@ -99,13 +98,52 @@ body {
   font-style: italic;
 }
 
+.ui.fullscreen.modal {
+  height: 95%;
+}
+
+.ui.fullscreen.modal .content {
+  height: 90%;
+}
+
+.ui.fullscreen.modal .content > div {
+  height: 95%;
+}
+
+.ui.fullscreen.modal .content > div .pane {
+  height: 100%;
+  overflow-y: auto;
+}
+
 .pull-right {
   float: right;
 }
 
 /* Filters */
-.range-wrapper {
+.hpap .range-wrapper {
   padding: 0em 0.5em 1.2em 0.5em;
+}
+
+.hpap .rc-slider-track {
+  background-color: #ceadbd;
+}
+
+.hpap .rc-slider-handle {
+  border-color: #bf95a9;
+}
+
+.hpap .rc-slider-handle:hover {
+  border-color: #a9708b;
+}
+
+.hpap .rc-slider-handle:active,
+.hpap .rc-slider-handle:focus {
+  border-color: #a9708b;
+  box-shadow: 0 0 5px #a9708b;
+}
+
+.hpap .rc-slider-dot-active {
+  border-color: #bf95a9;
 }
 
 /* File directory */
