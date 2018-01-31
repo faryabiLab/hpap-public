@@ -98,6 +98,14 @@ body {
   font-style: italic;
 }
 
+.hpap .pre-html-import {
+  margin-bottom: 1em; 
+}
+
+.hpap .html-import {
+  clear: both;
+}
+
 .ui.fullscreen.modal {
   height: 95%;
 }
