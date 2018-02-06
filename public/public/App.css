@@ -128,6 +128,10 @@ body {
 }
 
 /* Filters */
+.hpap .filter .ui.header {
+  display: inline-block;
+}
+
 .hpap .range-wrapper {
   padding: 0em 0.5em 1.2em 0.5em;
 }
