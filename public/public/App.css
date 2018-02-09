@@ -130,10 +130,21 @@ body {
 /* Filters */
 .hpap .filter .ui.header {
   display: inline-block;
+  margin-bottom: 0;
+}
+
+.hpap .filter .ui.checkbox {
+  display: block;
+  margin-top: 0.65em;
+}
+
+.hpap .filter .table .ui.checkbox {
+  margin-top: 0;
 }
 
 .hpap .range-wrapper {
   padding: 0em 0.5em 1.2em 0.5em;
+  margin-top: 0.65em;
 }
 
 .hpap .rc-slider-track {
