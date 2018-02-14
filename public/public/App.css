@@ -128,6 +128,15 @@ body {
   float: right;
 }
 
+.hpap .pagination-wrapper {
+  height: 2.2em;
+}
+
+.hpap .pagination-wrapper .result-count {
+  margin-top: 0.7em;
+  display: inline-block;
+}
+
 /* Filters */
 .hpap .filter .ui.header {
   display: inline-block;
