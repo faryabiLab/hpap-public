@@ -15,17 +15,6 @@ body {
   background-color: #F4F4F4;
 }
 
-/* Previously used headers */
-/*.hpap header {
-  padding: 14px 20px;
-}
-
-.hpap header {
-  background-image: url(/assets/brand/HPAP-background.jpg);
-  background-position: center;
-  height: 10em;
-}*/
-
 /* Background image */
 .hpap .background {
   background: url(/assets/brand/HPAP-background.jpg) repeat-x top center;
