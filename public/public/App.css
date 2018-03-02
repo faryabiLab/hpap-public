@@ -15,17 +15,6 @@ body {
   background-color: #F4F4F4;
 }
 
-/* Previously used headers */
-/*.hpap header {
-  padding: 14px 20px;
-}
-
-.hpap header {
-  background-image: url(/assets/brand/HPAP-background.jpg);
-  background-position: center;
-  height: 10em;
-}*/
-
 /* Background image */
 .hpap .background {
   background: url(/assets/brand/HPAP-background.jpg) repeat-x top center;
@@ -62,6 +51,7 @@ body {
 .hpap a {
   color: #7E4C71;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .hpap a:hover {
@@ -125,6 +115,16 @@ body {
 
 .pull-right {
   float: right;
+}
+
+.hpap .pagination-wrapper {
+  height: 2.2em;
+}
+
+.hpap .result-count,
+.hpap .pagination-wrapper .result-count {
+  margin-top: 0.7em;
+  display: inline-block;
 }
 
 /* Filters */
@@ -194,7 +194,7 @@ body {
 }
 
 .hpap .directory .ui.list .item:hover {
-  background-color: #C8EFF5;
+  background-color: #EBDEE4;
 }
 
 .hpap .directory .ui.list .item .checkbox {
