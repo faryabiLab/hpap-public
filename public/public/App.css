@@ -121,6 +121,7 @@ body {
   height: 2.2em;
 }
 
+.hpap .result-count,
 .hpap .pagination-wrapper .result-count {
   margin-top: 0.7em;
   display: inline-block;
@@ -193,7 +194,7 @@ body {
 }
 
 .hpap .directory .ui.list .item:hover {
-  background-color: #C8EFF5;
+  background-color: #EBDEE4;
 }
 
 .hpap .directory .ui.list .item .checkbox {
