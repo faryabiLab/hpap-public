@@ -113,6 +113,10 @@ body {
   overflow-y: auto;
 }
 
+.ui.fullscreen.modal .ui.button i.right {
+  margin: 0 .42857143em 0 -.21428571em !important;
+}
+
 .pull-right {
   float: right;
 }
