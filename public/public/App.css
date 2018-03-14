@@ -204,6 +204,14 @@ body {
   border-radius: 0 0 .28571429rem 0;
 }
 
+.hpap .donor-summary-form .ui.form .compact-field .ui.input input {
+  width: 75px;
+}
+
+.hpap .donor-summary-form .ui.form table td .grid .column:last-child {
+  padding-left: 0;
+}
+
 /* Filters */
 .hpap .filter .ui.header {
   display: inline-block;
