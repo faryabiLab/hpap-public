@@ -141,6 +141,69 @@ body {
   display: inline-block;
 }
 
+.hpap .donor-summary-form .ui.top.menu {
+  background-color: #ffffff;
+}
+
+.hpap .donor-summary-form .ui.top.menu .item {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hpap .donor-summary-form .ui.top.menu .item.header {
+  width: 24.25%;
+  padding-right: 0;
+  border-right: 1px solid #d4d4d5;
+}
+
+.hpap .donor-summary-form .ui.top.menu .item.dropdown-field {
+  padding-left: 0;
+  width: 75.75%;
+}
+
+.hpap .donor-summary-form .ui.top.menu .dropdown {
+  border: none;
+}
+
+.hpap .donor-summary-form .ui.grid .four.wide.column {
+  padding-right: 0;
+}
+
+.hpap .donor-summary-form .ui.grid .twelve.wide.column {
+  padding-left: 0;
+}
+
+.hpap .donor-summary-form .ui.vertical.menu {
+  border-top: none;
+  border-radius: 0 0 .0 .28571429rem;
+  background-color: #fff;
+  margin-left: -1px;
+}
+
+.hpap .donor-summary-form .ui.vertical.menu .item {
+  padding: 0.75em 1.14285714em;
+  margin: 0;
+}
+
+.hpap .donor-summary-form .ui.vertical.menu .item:first-child {
+  margin-top: 0;
+  padding-top: 1.1em;
+}
+
+.hpap .donor-summary-form .ui.vertical.menu .item.active {
+  background: rgba(0,0,0,.05);
+}
+
+.hpap .donor-summary-form .ui.vertical.menu .item.disabled {
+  color: #000;
+}
+
+.hpap .donor-summary-form .ui.bottom.segment {
+  border-top: none;
+  border-left: none;
+  border-radius: 0 0 .28571429rem 0;
+}
+
 /* Filters */
 .hpap .filter .ui.header {
   display: inline-block;
