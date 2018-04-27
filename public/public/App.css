@@ -15,6 +15,166 @@ body {
   background-color: #F4F4F4;
 }
 
+/* Landing page */
+.landing .ui.fixed.menu {
+  padding: 0.5em 0;
+  background-color: #41B3A3;
+  border-bottom: 1px solid rgba(53, 77, 73, .25);
+}
+
+.landing .ui.fixed.menu .item {
+  font-weight: bold;
+  font-size: 1.10em;
+}
+
+.landing .masthead {
+  margin-top: 4.5em;
+  padding: 6em 0;
+  background-color: #F9FBFA;
+  border-bottom: 1px solid #41B3A3;
+}
+
+.landing .masthead h1 {
+  margin-bottom: 0.5em !important;
+  color: #354D49;
+  font-size: 2.5em;
+}
+
+.landing .masthead p {
+  color: #354D49;
+  font-size: 1.35rem;
+}
+
+.landing .team {
+  padding: 2em 0;
+  background-color: #FFF;
+  border-bottom: 1px solid #41B3A3;
+}
+
+.landing .team h1 {
+  margin-bottom: 1em;
+  color: #354D49;
+  font-size: 3em;
+}
+
+.landing .team .ui.header.sub {
+  font-size: 1.05em;
+  text-transform: none;
+}
+
+.landing .team .affiliation {
+  text-align: center;
+  font-style: italic;
+}
+
+.landing .team .ui.divider {
+  margin: 2rem 0;
+}
+
+.landing .team .ui.images {
+  text-align: center;
+}
+
+.landing .team .ui.images .image {
+  margin: 0 30px;
+}
+
+.landing .data {
+  padding: 4em 0;
+  background-color: #F9FBFA;
+  border-bottom: 1px solid #41B3A3;
+}
+
+.landing .data h1 {
+  margin-bottom: 1em;
+  color: #354D49;
+  font-size: 3em;
+}
+
+.landing .data p.intro {
+  font-size: 1.35rem;
+  color: #354D49;
+}
+
+.landing .data .ui.menu {
+  background-color: #41B3A3;
+}
+
+.landing .data .ui.menu .item {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.landing .data .ui.menu .active.item {
+  background-color: white;
+  color: #41B3A3 !important;
+  border: 1px solid #41B3A3;
+  //border-radius: inherit;
+}
+
+
+.landing .data .ui.segment.slide {
+  background-color: #F9FBFA;
+}
+
+.landing .data .slide .ui.header {
+  color: #354D49;
+}
+
+.landing .data .slide p {
+  color: #354D49;
+  font-size: 1.1em;
+}
+
+.landing .data .slide h3 {
+  margin-bottom: 0;
+}
+
+.landing .data .slide p.caption {
+  margin-bottom: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.landing .data .slide .column.buffered {
+  padding-bottom: 2rem;
+}
+
+.landing .donors {
+  padding: 4em 0;
+  background-color: #FFF;
+  border-bottom: 1px solid #41B3A3;
+}
+
+.landing .donors .ui.header {
+  color: #354D49;
+}
+
+.landing .donors h1 {
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+.landing .footer {
+  padding-top: 3em;
+  padding-bottom: 2.5em;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.landing .icon.double.angle {
+  color: #354D49;
+  font-size: 3rem;
+}
+
+.background {
+  background: url(/assets/brand/HPAP-background.jpg) repeat-x center right;
+  position: absolute;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  z-index: -1; 
+}
+
 /* Background image */
 .hpap .background {
   background: url(/assets/brand/HPAP-background.jpg) repeat-x top center;
