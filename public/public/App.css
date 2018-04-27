@@ -16,15 +16,28 @@ body {
 }
 
 /* Landing page */
-.landing .ui.fixed.menu {
-  padding: 0.5em 0;
+.main .ui.fixed.menu.main-navbar {
   background-color: #41B3A3;
   border-bottom: 1px solid rgba(53, 77, 73, .25);
 }
 
-.landing .ui.fixed.menu .item {
+.main .ui.fixed.menu.main-navbar .item {
+  padding: 1.35em 1.14285714em;
   font-weight: bold;
   font-size: 1.10em;
+}
+
+.main .content {
+  margin-top: 8em;
+}
+
+.main .content .ui.header {
+  color: #354D49;
+}
+
+.main .content p {
+  color: #354D49;
+  font-size: 1.1em;
 }
 
 .landing .masthead {
@@ -186,6 +199,11 @@ body {
 }
 
 /* Navigation menu */
+
+.hpap .ui.menu.navbar {
+  margin-top: 4.6em;
+}
+
 .hpap .ui.menu.navbar,
 .hpap .ui.menu.navbar .menu {
   background-color: #7E4C71;
@@ -204,14 +222,15 @@ body {
 }
 
 .hpap .ui.menu.admin-navbar {
-  margin-top: 40px;
-  margin-bottom: -3.5em;
+  margin-top: 103px;
+  margin-bottom: -7.5em;
   background-color: #EBDEE4;
 }
 
 /* Main content */
 .hpap .main {
-  padding: 5.85em 0;
+  //padding: 5.85em 0;
+  padding: 10em 0;
 }
 
 .hpap .ui.header {
