@@ -19,6 +19,7 @@ body {
 .main .ui.fixed.menu.main-navbar {
   background-color: #41B3A3;
   border-bottom: 1px solid rgba(53, 77, 73, .25);
+  z-index: 2;
 }
 
 .main .ui.fixed.menu.main-navbar .item {
@@ -188,6 +189,12 @@ body {
   z-index: -1; 
 }
 
+
+.hpap p.citation {
+  font-size: 1.0em;
+  font-style: italic;
+}
+
 /* Background image */
 .hpap .background {
   background: url(/assets/brand/HPAP-background.jpg) repeat-x top center;
@@ -202,6 +209,7 @@ body {
 
 .hpap .ui.menu.navbar {
   margin-top: 4.6em;
+  z-index: 1;
 }
 
 .hpap .ui.menu.navbar,
