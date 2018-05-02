@@ -32,11 +32,12 @@ body {
   margin-top: 8em;
 }
 
-.main .content .ui.header {
+.main .main-content .ui.header {
   color: #354D49;
 }
 
-.main .content p {
+.main .main-content p,
+.main .main-content .html-import {
   color: #354D49;
   font-size: 1.1em;
 }
@@ -95,7 +96,7 @@ body {
 
 .landing .data {
   padding: 4em 0;
-  background-color: #F9FBFA;
+  background-color: #FFF;
   border-bottom: 1px solid #41B3A3;
 }
 
@@ -126,9 +127,45 @@ body {
   //border-radius: inherit;
 }
 
+.landing .data .ui.grid .column.clickable {
+  cursor: pointer;
+}
+
+.landing .data .ui.grid .column.clickable .icon {
+  padding-top: 100%;
+}
+
+.landing .data .ui.grid .column.clickable:hover .icon,
+.landing .data .ui.grid .column.clickable .icon:hover {
+  font-size: 5rem;
+}
+
+.landing .data .icon.double.angle {
+  color: #41B3A3;
+  font-size: 4.5rem;
+}
+
+.landing .team .ui.grid .column.clickable {
+  cursor: pointer;
+}
+
+.landing .team .ui.grid .column.clickable .icon {
+  padding-top: 70%;
+}
+
+.landing .team .ui.grid .column.clickable:hover .icon,
+.landing .team .ui.grid .column.clickable .icon:hover {
+  font-size: 4.5rem;
+}
+
+.landing .team .icon.double.angle {
+  color: #41B3A3;
+  font-size: 4rem;
+}
+
 
 .landing .data .ui.segment.slide {
-  background-color: #F9FBFA;
+ 
 }
 
 .landing .data .slide .ui.header {
@@ -156,7 +193,7 @@ body {
 
 .landing .donors {
   padding: 4em 0;
-  background-color: #FFF;
+  background-color: #F9FBFA;
   border-bottom: 1px solid #41B3A3;
 }
 
@@ -173,11 +210,6 @@ body {
   padding-top: 3em;
   padding-bottom: 2.5em;
   background-color: rgba(0, 0, 0, 0.05);
-}
-
-.landing .icon.double.angle {
-  color: #41B3A3;
-  font-size: 3rem;
 }
 
 .background {
