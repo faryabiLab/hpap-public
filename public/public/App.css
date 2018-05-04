@@ -212,15 +212,18 @@ body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.background {
+/*.background {
   background: url(/assets/brand/HPAP-background.jpg) repeat-x center right;
   position: absolute;
   opacity: 0.4;
   height: 100%;
   width: 100%;
   z-index: -1; 
-}
+}*/
 
+.hpap {
+  background-image: url(/assets/brand/histology_background2.jpg);
+}
 
 .hpap p.citation {
   font-size: 1.0em;
@@ -228,14 +231,14 @@ body {
 }
 
 /* Background image */
-.hpap .background {
-  background: url(/assets/brand/HPAP-background.jpg) repeat-x top center;
+/*.hpap .background {
+  background: url(/assets/brand/histology_background.jpg) repeat-x top center;
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.17;
   height: 100%;
   width: 100%;
   z-index: -1; 
-}
+}*/
 
 /* Navigation menu */
 
