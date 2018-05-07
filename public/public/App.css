@@ -11,8 +11,21 @@
   src: url(../node_modules/semantic-ui-css/themes/default/assets/fonts/icons.eot);
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #F4F4F4;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.main {
+  height: 100%;
 }
 
 .main .nav-dots {
@@ -237,6 +250,7 @@ body {
 
 .hpap {
   background-image: url(/assets/brand/histology_background3.jpg);
+  height: 100%;
 }
 
 .hpap p.citation {
