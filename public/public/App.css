@@ -11,21 +11,8 @@
   src: url(../node_modules/semantic-ui-css/themes/default/assets/fonts/icons.eot);
 }
 
-html {
-  height: 100%;
-}
-
 body {
   background-color: #F4F4F4;
-  height: 100%;
-}
-
-#root {
-  height: 100%;
-}
-
-.main {
-  height: 100%;
 }
 
 .main .nav-dots {
@@ -254,25 +241,20 @@ p.caption {
   z-index: -1; 
 }*/
 
-.hpap {
-  background-image: url(/assets/brand/histology_background3.jpg);
-  height: 100%;
-}
-
 .hpap p.citation {
   font-size: 1.0em;
   font-style: italic;
 }
 
 /* Background image */
-/*.hpap .background {
-  background: url(/assets/brand/histology_background.jpg) repeat-x top center;
-  position: absolute;
-  opacity: 0.17;
+.hpap .background {
+  background-image: url(/assets/brand/histology_background.jpg);
+  position: fixed;
+  opacity: 0.18;
   height: 100%;
   width: 100%;
-  z-index: -1; 
-}*/
+  z-index: -1;
+}
 
 /* Navigation menu */
 
@@ -307,7 +289,8 @@ p.caption {
 /* Main content */
 .hpap .main {
   //padding: 5.85em 0;
-  padding: 10em 0;
+  padding-top: 10em;
+  padding-bottom: 5em;
 }
 
 .hpap .ui.header {
