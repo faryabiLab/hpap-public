@@ -41,6 +41,12 @@ body {
   color: #41B3A3 !important;
 }
 
+p.caption {
+  margin-bottom: 0;
+  font-size: 1.1em !important;
+  font-style: italic;
+}
+
 /* Landing page */
 .main .ui.fixed.menu.main-navbar {
   background-color: #41B3A3;
