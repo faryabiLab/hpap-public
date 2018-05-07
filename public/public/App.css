@@ -15,6 +15,19 @@ body {
   background-color: #F4F4F4;
 }
 
+.main .nav-dots {
+  padding-top: 1em;
+}
+
+.main .nav-dots .icon {
+  padding: 0 .5em;
+  font-size: 1.1em;
+}
+
+.main .nav-dots .icon.active {
+  color: #41B3A3 !important;
+}
+
 /* Landing page */
 .main .ui.fixed.menu.main-navbar {
   background-color: #41B3A3;
@@ -44,7 +57,8 @@ body {
 
 .landing .masthead {
   margin-top: 4.5em;
-  padding: 6em 0;
+  padding-top: 4em;
+  padding-bottom: 3em;
   background-color: #F9FBFA;
   border-bottom: 1px solid #41B3A3;
 }
