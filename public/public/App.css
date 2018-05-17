@@ -41,8 +41,13 @@ body {
   font-size: 1.1em;
 }
 
-.app .content-page .html-import {
-  color: #354D49;
+.app .content-page a {
+  color: #41B3A3;
+  text-decoration: underline;
+}
+
+.app .content-page a:hover {
+  text-decoration: none;
 }
 
 .app .content-page .ui.button.main-color {
@@ -51,13 +56,21 @@ body {
   text-decoration: none;
 }
 
-.app .content-page a {
-  color: #41B3A3;
-  text-decoration: underline;
+.app .content-page .html-import {
+  color: #354D49;
 }
 
-.app .content-page a:hover {
-  text-decoration: none;
+.app .content-page .ui.items > .item > .content > .header,
+.app .content-page .ui.items > .item > .content > .description {
+  color: #354D49;
+}
+
+.app .content-page .ui.items > .item > .image.link {
+  cursor: pointer;
+}
+
+.app .content-page .ui.items > .item > .image.link:hover {
+  border: 1.5px solid #354D49;
 }
 
 /* Landing Page */
