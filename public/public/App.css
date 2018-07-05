@@ -198,7 +198,7 @@ body {
 }
 
 .main-app .landing-page .team {
-  padding: 2em 0;
+  padding: 4em 0;
   background-color: #FFF;
   border-bottom: 1px solid #41B3A3;
 }
@@ -409,6 +409,21 @@ body {
   opacity: 1;
 }
 
+.explore-app .directory.focus {    
+  border-radius: .28571429rem;
+  -o-animation: fadeIt 4s ease-in-out; 
+  animation: fadeIt 4s ease-in-out; 
+}
+
+@-o-keyframes fadeIt {
+  0%   { background-color: rgba(33,186,69,0.3); }
+  100% { background-color: rgba(255,255,255,.87); }
+}
+@keyframes fadeIt {
+  0%   { background-color: rgba(33,186,69,0.3); }
+  100% { background-color: rgba(255,255,255,.87); }
+}
+
 .explore-app .directory .ui.list .item {
   padding: 0.25em 0.5em;
   border-radius: .21428571rem;
@@ -484,6 +499,53 @@ body {
 
 .ui.modal .ui.button i.right {
   margin: 0 .42857143em 0 -.21428571em !important;
+}
+
+/* IMC Viewer */
+.imc-viewer {
+  height: 100%;
+}
+
+.imc-viewer .ui.grid {
+  height: 95%;
+}
+
+.imc-viewer .imc-menu {
+  padding-right: 0 !important;
+}
+
+.imc-viewer .imc-menu .ui.menu {
+  margin-left: 1em;
+}
+
+.imc-viewer .imc-menu .ui.menu.roi {
+  margin-top: -1px;
+}
+
+.imc-viewer .imc-menu .ui.menu .active.item {
+  font-weight: bold;
+}
+
+.imc-viewer .image-display {
+  padding-left: 0 !important;
+}
+
+.imc-viewer .image-display .ui.segment {
+  height: 90%;
+  padding: 0;
+  border-radius: .28571429rem;
+}
+
+.imc-viewer #imc-ocd {
+  height: 100%;
+}
+
+.openseadragon-container {
+  background-color: rgba(0,0,0,.03) !important;
+}
+
+.imc-viewer .key-display {
+  top: -7%;
 }
 
 /* Pagination */
