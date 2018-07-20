@@ -502,16 +502,50 @@ body {
 }
 
 /* IMC Viewer */
-.imc-viewer .region-menu {
+.imc-viewer {
+  height: 100%;
+}
+
+.imc-viewer .ui.grid {
+  height: 95%;
+}
+
+.imc-viewer .imc-menu {
   padding-right: 0 !important;
 }
 
-.imc-viewer .region-menu .ui.menu {
-  border-right: none;
+.imc-viewer .imc-menu .ui.menu {
+  margin-left: 1em;
+}
+
+.imc-viewer .imc-menu .ui.menu.roi {
+  margin-top: -1px;
+}
+
+.imc-viewer .imc-menu .ui.menu .active.item {
+  font-weight: bold;
 }
 
 .imc-viewer .image-display {
   padding-left: 0 !important;
+}
+
+.imc-viewer .image-display .ui.segment {
+  height: 90%;
+  padding: 0;
+  border-radius: .28571429rem;
+}
+
+.imc-viewer #imc-ocd {
+  height: 100%;
+}
+
+.openseadragon-container {
+  background-color: rgba(0,0,0,.03) !important;
+}
+
+.imc-viewer .key-display {
+  top: -7%;
 }
 
 /* Pagination */
