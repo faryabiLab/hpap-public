@@ -365,8 +365,7 @@ body {
 }
 
 .explore-app .range-wrapper {
-  padding: 0em 0.5em 1.2em 0.5em;
-  margin-top: 0.65em;
+  padding: 1.5em 1.0em 1.5em 0.7em;
 }
 
 .explore-app .rc-slider-track {
@@ -392,27 +391,27 @@ body {
 }
 
 /* Explore App - File Directory */
-.explore-app .ui.checkbox.active input:checked~.box:before, 
+.explore-app .ui.checkbox.active input:checked~.box:before,
 .explore-app .ui.checkbox.active input:checked~label:before {
   background: #FFFACD;
 }
 
-.explore-app .ui.checkbox.inactive input~.box:before, 
+.explore-app .ui.checkbox.inactive input~.box:before,
 .explore-app .ui.checkbox.inactive input~label:before {
   background: #F2F2F2;
 }
 
-.explore-app .ui.checkbox.inactive input~.box:after, 
+.explore-app .ui.checkbox.inactive input~.box:after,
 .explore-app .ui.checkbox.inactive input~label:after {
   color: rgba(0,0,0,.45);
   content: '\e800';
   opacity: 1;
 }
 
-.explore-app .directory.focus {    
+.explore-app .directory.focus {
   border-radius: .28571429rem;
-  -o-animation: fadeIt 4s ease-in-out; 
-  animation: fadeIt 4s ease-in-out; 
+  -o-animation: fadeIt 4s ease-in-out;
+  animation: fadeIt 4s ease-in-out;
 }
 
 @-o-keyframes fadeIt {
@@ -451,17 +450,17 @@ body {
   padding: 0 0 0 .5em;
 }
 
-.explore-app .directory .ui.accordion .accordion .title .dropdown.icon, 
+.explore-app .directory .ui.accordion .accordion .title .dropdown.icon,
 .explore-app .directory .ui.accordion .title .dropdown.icon {
   display: none;
 }
 
-.explore-app .directory .ui.accordion .accordion .title .dir-name, 
+.explore-app .directory .ui.accordion .accordion .title .dir-name,
 .explore-app .directory .ui.accordion .title .dir-name {
   vertical-align: middle;
 }
 
-.explore-app .directory .ui.accordion .accordion .title .dir-name:before, 
+.explore-app .directory .ui.accordion .accordion .title .dir-name:before,
 .explore-app .ui.accordion .title .dir-name:before {
   font-family: Icons;
   font-size: 1.2em;
@@ -470,7 +469,7 @@ body {
   content: '\f07b';
 }
 
-.explore-app .directory .ui.accordion .accordion .active.title .dir-name:before, 
+.explore-app .directory .ui.accordion .accordion .active.title .dir-name:before,
 .explore-app .directory .ui.accordion .active.title .dir-name:before {
   content: '\f07c';
 }
@@ -561,7 +560,7 @@ body {
 
 /* General Misc. */
 .pre-html-import {
-  margin-bottom: 1em !important; 
+  margin-bottom: 1em !important;
 }
 
 .html-import {
