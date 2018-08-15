@@ -509,33 +509,12 @@ body {
   height: 95%;
 }
 
-.imc-viewer .imc-menu {
-  padding-right: 0 !important;
-}
-
-.imc-viewer .imc-menu .ui.menu {
-  margin-left: 1em;
-}
-
-.imc-viewer .imc-menu .ui.menu.roi {
-  margin-top: -1px;
-}
-
-.imc-viewer .imc-menu .ui.menu .active.item {
-  font-weight: bold;
-}
-
-.imc-viewer .image-display {
-  padding-left: 0 !important;
-}
-
 .imc-viewer .image-display .ui.segment {
   height: 90%;
   padding: 0;
-  border-radius: .28571429rem;
 }
 
-.imc-viewer #imc-ocd {
+.imc-viewer #imc-osd {
   height: 100%;
 }
 
@@ -543,8 +522,9 @@ body {
   background-color: rgba(0,0,0,.03) !important;
 }
 
-.imc-viewer .key-display {
-  top: -7%;
+.imc-viewer .ui.image.color-key {
+  margin-right: 0;
+  margin-top: 1em;
 }
 
 /* Pagination */
