@@ -19,7 +19,7 @@ body {
 .main-app .ui.menu.main-navbar {
   background-color: #41B3A3;
   border-bottom: 1px solid rgba(53, 77, 73, .25);
-  z-index: 2;
+  z-index: 5;
 }
 
 .main-app .ui.menu.main-navbar .item {
@@ -266,7 +266,7 @@ body {
 
 .explore-app .ui.menu.explore-navbar {
   margin-top: 4.6em;
-  z-index: 1;
+  z-index: 4;
 }
 
 .explore-app .ui.menu.explore-navbar,
@@ -293,7 +293,7 @@ body {
 .explore-app .ui.menu.admin-navbar {
   margin-top: 7.4em;
   background-color: #EBDEE4;
-  z-index: 0;
+  z-index: 3;
 }
 
 .explore-app .content-wrapper {
@@ -336,11 +336,31 @@ body {
 
 .explore-app .ui.top.attached.menu .menu {
   background-color: #EBDEE4;
+  z-index: 2;
 }
 
 .explore-app .ui.top.attached.menu .item.active {
   font-weight: bold;
   background: rgba(0,0,0,.07);
+}
+
+.explore-app .ui.top.attached.menu .ui.pointing.dropdown>.menu {
+  top: -0.5px !important;
+}
+
+.explore-app .ui.top.attached.menu .ui.pointing.dropdown>.menu:after {
+  background: #EBDEE4;
+}
+
+.explore-app .ui.top.attached.menu .ui.dropdown .menu>.item .dropdown.icon {
+  font-size: 1em;
+}
+
+/* Firefox only fix */
+@-moz-document url-prefix() {
+  .explore-app .ui.top.attached.menu .ui.dropdown .menu>.item .dropdown.icon {
+    margin-top: -15px;
+  }
 }
 
 .explore-app .ui.button.hpap-color {
