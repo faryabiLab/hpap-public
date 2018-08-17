@@ -345,7 +345,8 @@ body {
 }
 
 .explore-app .ui.top.attached.menu .ui.pointing.dropdown>.menu {
-  top: -0.5px !important;
+  //top: -0.5px !important;
+  left: 102%;
 }
 
 .explore-app .ui.top.attached.menu .ui.pointing.dropdown>.menu:after {
