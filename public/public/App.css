@@ -504,6 +504,17 @@ body {
   height: 95%;
 }
 
+.ui.fullscreen.modal .header .header-labels {
+  margin-left: 0.5em;
+  margin-top: -0.1em;
+  position: absolute;
+  display: inline;
+}
+
+.ui.fullscreen.modal .header .header-labels .ui.label {
+  color: black;
+}
+
 .ui.fullscreen.modal .content {
   height: 90%;
 }
