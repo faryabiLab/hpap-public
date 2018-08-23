@@ -496,7 +496,7 @@ body {
   overflow-y: auto;
 }
 
-.ui.modal .ui.button i.right {
+.ui.modal .ui.button i.chevron.right {
   margin: 0 .42857143em 0 -.21428571em !important;
 }
 
@@ -509,17 +509,26 @@ body {
   height: 95%;
 }
 
-.imc-viewer .image-display .ui.segment {
-  height: 90%;
-  padding: 0;
-}
-
 .imc-viewer #imc-osd {
   height: 100%;
+  max-height: 700px;
+  padding: 0;
 }
 
 .openseadragon-container {
   background-color: rgba(0,0,0,.03) !important;
+}
+
+.imc-viewer .ui.selection.dropdown {
+  padding: 0.5em;
+}
+
+.imc-viewer .action-btns {
+  margin-top: 0.5em;
+}
+
+.imc-viewer .action-btns .ui.button {
+  margin: 0.5em;
 }
 
 .imc-viewer .ui.image.color-key {
