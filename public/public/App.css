@@ -524,7 +524,9 @@ body {
 }
 
 .imc-viewer .action-btns {
-  margin-top: 0.5em;
+  position: absolute;
+  right: 1.5em;
+  top: 22em;
 }
 
 .imc-viewer .action-btns .ui.button {
