@@ -682,3 +682,8 @@ p.input-help {
 .explore-app .donor-summary-form .ui.form table td .grid .column:last-child {
   padding-left: 0;
 }
+
+.explore-app .category-summary{
+  height: 450px;
+  overflow-y: scroll;
+}
