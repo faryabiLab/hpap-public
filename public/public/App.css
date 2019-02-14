@@ -687,3 +687,17 @@ p.input-help {
   height: 450px;
   overflow-y: scroll;
 }
+
+.explore-app .category-card-checkbox{
+  padding-right: 25px
+}
+
+.explore-app .category-filter-reset-button{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding-right: 25px;
+  color: #FFF;
+  background-color: #7E4C71;
+  text-decoration: none;
+}
