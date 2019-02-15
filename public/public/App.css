@@ -691,7 +691,10 @@ p.input-help {
 .explore-app .category-card-checkbox{
   padding-right: 25px
 }
-
+.explore-app .category-card-file-stats{
+  padding-left: 7px;
+  display: inline-block;
+}
 .explore-app .category-filter-reset-button{
   position: absolute;
   top: 5px;
