@@ -370,6 +370,18 @@ body {
   text-decoration: none;
 }
 
+.explore-app .ui.button.hpap-color-donor-link {
+  color: #FFF;
+  background-color: #7E4C71;
+  text-decoration: none;
+}
+
+.explore-app .ui.button.hpap-color-download-link {
+  color: #FFF;
+  background-color: #7E4C71;
+  text-decoration: none;
+}
+
 /* Explore App - Donor Filters */
 .explore-app .filter .ui.header {
   display: inline-block;
