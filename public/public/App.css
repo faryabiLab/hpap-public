@@ -376,10 +376,18 @@ body {
   text-decoration: none;
 }
 
+.explore-app .donor-link-container {
+  width: 18%;
+}
+
 .explore-app .ui.button.hpap-color-download-link {
   color: #FFF;
   background-color: #7E4C71;
   text-decoration: none;
+}
+
+.explore-app .view-choice-button-container {
+  position: relative;
 }
 
 /* Explore App - Donor Filters */
