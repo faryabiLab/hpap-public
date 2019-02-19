@@ -377,7 +377,12 @@ body {
 }
 
 .explore-app .donor-link-container {
-  width: 18%;
+  top: 14px;
+  margin-right: 10px;
+}
+
+.explore-app .download-link-container {
+
 }
 
 .explore-app .ui.button.hpap-color-download-link {
@@ -387,7 +392,10 @@ body {
 }
 
 .explore-app .view-choice-button-container {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Explore App - Donor Filters */
