@@ -79,11 +79,39 @@ body {
   margin-top: 4.5em;
 }
 
+
 .main-app .landing-page .masthead {
   padding-top: 4em;
   padding-bottom: 3em;
   background-color: #F9FBFA;
   border-bottom: 1px solid #41B3A3;
+}
+
+.main-app .landing-page .masthead .right-splash-div {
+  position: relative;
+  min-height: 9em;
+}
+
+.main-app .landing-page .masthead .right-container {
+  top:-3.5em;
+}
+
+.main-app .landing-page .masthead .right-image {
+  top: 2em;
+}
+
+.main-app .landing-page .masthead .top-title {
+  text-align: center;
+}
+
+.main-app .landing-page .masthead .bottom-title {
+  top: 1em;
+  position: absolute;
+  font-size: 6em;
+}
+
+.main-app .landing-page .masthead .description-title {
+  font-size: 1.5em;
 }
 
 .main-app .landing-page .masthead h1 {
@@ -368,6 +396,12 @@ body {
   color: #FFF;
   background-color: #7E4C71;
   text-decoration: none;
+}
+.explore-app .ui.button.hpap-color-cat-download {
+  color: #FFF;
+  background-color: #7E4C71;
+  text-decoration: none;
+  margin-right: 8px;
 }
 
 .explore-app .ui.button.hpap-color-donor-link {
@@ -729,4 +763,7 @@ p.input-help {
   color: #FFF;
   background-color: #7E4C71;
   text-decoration: none;
+}
+.ui.label.detail .file-size-stats-detail{
+  margin-left: 0px;
 }
