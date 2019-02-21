@@ -104,11 +104,22 @@ body {
   text-align: center;
 }
 
-.main-app .landing-page .masthead .bottom-title {
-  top: 1em;
-  position: absolute;
-  font-size: 6em;
+@media only screen and (min-width: 1201px) {
+  .main-app .landing-page .masthead .bottom-title {
+    top: 1em;
+    position: absolute;
+    font-size: 6em;
+  }
 }
+
+@media only screen and (max-width: 1200px) {
+  .main-app .landing-page .masthead .bottom-title {
+    top: 1.5em;
+    position: absolute;
+    font-size: 4em;
+  }
+}
+
 
 .main-app .landing-page .masthead .description-title {
   font-size: 1.5em;
