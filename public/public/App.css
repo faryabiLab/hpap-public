@@ -762,12 +762,19 @@ p.input-help {
 }
 
 .explore-app .category-card-checkbox{
-  padding-right: 25px
+  padding-right: 25px;
 }
+
+.explore-app .category-multi-check-category{
+  font-style: italic;
+  padding-left: 5px;
+}
+
 .explore-app .category-card-file-stats{
   padding-left: 7px;
   display: inline-block;
 }
+
 .explore-app .category-filter-reset-button{
   position: absolute;
   right: 5px;
@@ -775,9 +782,11 @@ p.input-help {
   background-color: #7E4C71;
   text-decoration: none;
 }
+
 .explore-app .file-size-stats-detail{
   margin-left: 0.5em;
 }
+
 .explore-app .file-size-stats-detail .inner-detail{
   margin-left: inherit;
 }
