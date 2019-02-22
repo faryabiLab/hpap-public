@@ -770,6 +770,13 @@ p.input-help {
   padding-left: 5px;
 }
 
+.explore-app .ui.attached.segment.filter{
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  background-color: #fcfafc;
+}
+
 .explore-app .category-card-file-stats{
   padding-left: 7px;
   display: inline-block;
