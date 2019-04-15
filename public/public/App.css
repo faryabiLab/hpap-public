@@ -790,6 +790,11 @@ p.input-help {
   text-decoration: none;
 }
 
+.explore-app .category-no-filter-text{
+  font-size: 1em !important; 
+  margin-left: 20px;
+}
+
 .explore-app .file-size-stats-detail{
   margin-left: 0.5em;
 }
