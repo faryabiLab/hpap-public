@@ -443,6 +443,14 @@ body {
   align-items: center;
 }
 
+/* Download data floating menu bar thing */
+.explore-app .ui.segment .floating-menu-bar {
+  position: sticky;
+  top: 103px;
+  z-index: 1;
+  background-color: rgba(255,255,255,1);
+}
+
 /* Explore App - Donor Filters */
 .explore-app .filter .ui.header {
   display: inline-block;
@@ -791,7 +799,7 @@ p.input-help {
 }
 
 .explore-app .category-no-filter-text{
-  font-size: 1em !important; 
+  font-size: 1em !important;
   margin-left: 20px;
 }
 
