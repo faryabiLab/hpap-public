@@ -125,6 +125,10 @@ body {
   font-size: 1.5em;
 }
 
+.main-app .landing-page .masthead .paper-icon {
+  float: left;
+}
+
 .main-app .landing-page .masthead h1 {
   margin-bottom: 0.5em !important;
   color: #354D49;
