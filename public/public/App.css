@@ -33,6 +33,14 @@ body {
   padding-bottom: 5em;
 }
 
+.main-app .content-wrapper .ui.items>.item .extra {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.65);
+  left: -125px;
+  top: -90%;
+}
+
 .main-app .content-wrapper .ui.header {
   color: #354D49;
 }
@@ -44,11 +52,11 @@ body {
 
 .main-app .content-wrapper a {
   color: #41B3A3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .main-app .content-wrapper a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .main-app .content-wrapper .ui.button.main-color {
