@@ -232,6 +232,14 @@ body {
   padding-bottom: 2rem;
 }
 
+.main-app .landing-page .recentPubs a:hover {
+  text-decoration: underline;
+}
+
+.main-app .landing-page .recentPubs a {
+  text-decoration: none;
+}
+
 .main-app .landing-page .donors {
   padding: 4em 0;
   background-color: #F9FBFA;
