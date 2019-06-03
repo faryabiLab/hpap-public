@@ -231,6 +231,15 @@ body {
 .main-app .landing-page .research .slide .column.buffered {
   padding-bottom: 2rem;
 }
+.main-app .landing-page .recentPubs .ui.items>.item .extra {
+  left: -125px;
+  top: -80%;
+  color: black;
+}
+.main-app .landing-page .recentPubs-content {
+  margin: auto;
+  width: 50%;
+}
 
 .main-app .landing-page .recentPubs a:hover {
   text-decoration: underline;
