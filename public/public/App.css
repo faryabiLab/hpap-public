@@ -33,6 +33,14 @@ body {
   padding-bottom: 5em;
 }
 
+.main-app .content-wrapper .ui.items>.item .extra {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.65);
+  left: -9%;
+  top: -90%;
+}
+
 .main-app .content-wrapper .ui.header {
   color: #354D49;
 }
@@ -40,15 +48,16 @@ body {
 .main-app .content-wrapper p {
   color: #354D49;
   font-size: 1.1em;
+  
 }
 
 .main-app .content-wrapper a {
   color: #41B3A3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .main-app .content-wrapper a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .main-app .content-wrapper .ui.button.main-color {
@@ -79,11 +88,10 @@ body {
   margin-top: 4.5em;
 }
 
-
 .main-app .landing-page .masthead {
   padding-top: 4em;
   padding-bottom: 3em;
-  background-color: #F9FBFA;
+  background-color: #FFF;
   border-bottom: 1px solid #41B3A3;
 }
 
@@ -155,7 +163,7 @@ body {
 
 .main-app .landing-page .research {
   padding: 4em 0;
-  background-color: #FFF;
+  background-color: #F9FBFA;
   border-bottom: 1px solid #41B3A3;
 }
 
@@ -222,6 +230,37 @@ body {
 
 .main-app .landing-page .research .slide .column.buffered {
   padding-bottom: 2rem;
+}
+
+.main-app .landing-page .recentPubs h1 {
+  margin-bottom: 1em;
+  color: #354D49;
+  font-size: 3em;
+}
+
+.main-app .landing-page .recentPubs {
+  padding: 4em;
+  border-bottom: 1px solid #41B3A3;
+  background-color: #FFF;
+}
+
+.main-app .landing-page .recentPubs .ui.items>.item .extra {
+  left: -125px;
+  top: -80%;
+  color: black;
+}
+
+.main-app .landing-page .recentPubs-content {
+  margin: auto;
+  width: 65%;
+}
+
+.main-app .landing-page .recentPubs a:hover {
+  text-decoration: underline;
+}
+
+.main-app .landing-page .recentPubs a {
+  text-decoration: none;
 }
 
 .main-app .landing-page .donors {
