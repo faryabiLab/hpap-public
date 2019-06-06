@@ -37,7 +37,7 @@ body {
   font-weight: bold;
   font-size: 1.1em;
   color: rgba(0, 0, 0, 0.65);
-  left: -125px;
+  left: -9%;
   top: -90%;
 }
 
@@ -48,6 +48,7 @@ body {
 .main-app .content-wrapper p {
   color: #354D49;
   font-size: 1.1em;
+  font-weight: bold;;
 }
 
 .main-app .content-wrapper a {
