@@ -336,6 +336,22 @@ body {
   background-color: #E8E8E8;
 }
 
+.main-app .html-iframe-container {
+  overflow: hidden;
+  /* aspect ratio */
+  padding-top: 150%;
+  position: relative;
+}
+
+.main-app .html-iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 /* Explore App */
 .explore-app .background {
   background-image: url(/assets/brand/histology_background.jpg);
