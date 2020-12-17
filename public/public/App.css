@@ -133,7 +133,6 @@ body {
   }
 }
 
-
 .main-app .landing-page .masthead .description-title {
   font-size: 1.5em;
 }
@@ -164,6 +163,11 @@ body {
 
 .main-app .landing-page .masthead .nav-dots .icon.active {
   color: #41B3A3 !important;
+}
+
+.main-app .landing-page .quick-search {
+  background-color: #41B3A3;
+  color: rgba(255,255,255,0.9);
 }
 
 .main-app .landing-page .research {
