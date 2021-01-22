@@ -88,6 +88,57 @@ body {
   border: 2px solid #354D49;
 }
 
+.main-app .about-pancdb-page {
+  margin-top: 4.5em;
+  padding-top: 4em;
+  padding-bottom: 3em;
+  background-color: #FFF;
+  border-bottom: 1px solid #41B3A3;
+}
+
+.main-app .about-pancdb-page .right-container {
+  top:-3.5em;
+}
+
+.main-app .about-pancdb-page .right-splash-div {
+  position: relative;
+  min-height: 9em;
+}
+
+@media only screen and (min-width: 601px) {
+  .main-app .about-pancdb-page .right-image {
+    top: 2em;
+    width: 175px;
+  }
+  .main-app .about-pancdb-page .bottom-title {
+    top: 1em;
+    position: relative;
+    font-size: 6em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-app .about-pancdb-page .right-image {
+    top: 2em;
+    width: 100px;
+  }
+  .main-app .about-pancdb-page .bottom-title {
+    top: 1.5em;
+    position: relative;
+    font-size: 4em;
+  }
+}
+
+.main-app .about-pancdb-page .sub-header {
+  font-size: 1.5em;
+}
+
+.main-app .about-pancdb-page p {
+  margin-top: 1em;
+  color: #354D49;
+  font-size: 1.35rem;
+}
+
 /* Landing Page */
 .main-app .landing-page {
   margin-top: 4.5em;
@@ -168,6 +219,19 @@ body {
 .main-app .landing-page .quick-search {
   background-color: #41B3A3;
   color: rgba(255,255,255,0.9);
+  border-style: solid;
+  border-width: 3px;
+  border-color: #41B3A3;
+}
+
+/* This gets picked up by the button when its
+   'disabled' property is set */
+.main-app .landing-page .quick-search:disabled {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #41B3A3;
+  color: #41B3A3;
 }
 
 .main-app .landing-page .research {
