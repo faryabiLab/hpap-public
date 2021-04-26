@@ -744,17 +744,23 @@ body {
 }
 
 /* IMC Viewer */
-.imc-viewer {
+.image-viewer {
   height: 100%;
 }
 
-.imc-viewer .ui.grid {
+.image-viewer .ui.grid {
   height: 95%;
 }
 
-.imc-viewer #imc-osd {
+.image-viewer #imc-osd {
   height: 100%;
   max-height: 700px;
+  padding: 0;
+}
+
+.image-viewer #histology-osd {
+  height: 100%;
+  max-width: 1700px;
   padding: 0;
 }
 
@@ -762,21 +768,21 @@ body {
   background-color: rgba(0,0,0,.03) !important;
 }
 
-.imc-viewer .ui.selection.dropdown {
+.image-viewer .ui.selection.dropdown {
   padding: 0.5em;
 }
 
-.imc-viewer .action-btns {
+.image-viewer .action-btns {
   position: absolute;
   right: 1.5em;
   top: 22em;
 }
 
-.imc-viewer .action-btns .ui.button {
+.image-viewer .action-btns .ui.button {
   margin: 0.5em;
 }
 
-.imc-viewer .ui.image.color-key {
+.image-viewer .ui.image.color-key {
   margin-right: 0;
   margin-top: 1em;
 }
