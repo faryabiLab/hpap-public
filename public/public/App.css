@@ -427,7 +427,7 @@ body {
 
 /* Explore App */
 .explore-app .background {
-  background-image: url(/assets/brand/histology_background.jpg);
+  /*background-image: url(/assets/brand/histology_background.jpg);*/
   position: fixed;
   opacity: 0.18;
   height: 100%;
@@ -918,7 +918,7 @@ p.input-help {
   border-right-style: none;
   border-left-style: none;
   border-bottom-style: none;
-  background-color: #fcfafc;
+  /*background-color: #fcfafc;*/
 }
 
 .explore-app .category-card-file-stats{
