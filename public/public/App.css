@@ -409,25 +409,29 @@ body {
   background-color: #E8E8E8;
 }
 
+/* Settings here are critical for getting the iframe
+   container's height to stay within the browser window
+   height so we avoid a scrollbar on the iframe. Otherwise,
+   the iframe and main window have scrollbars which is awkard. */
 .main-app .html-iframe-container {
   overflow: hidden;
-  /* aspect ratio */
-  padding-top: 150%;
+  padding-top: 5%;
   position: relative;
+  height: 95vh;
 }
 
 .main-app .html-iframe-container iframe {
    border: 0;
    height: 100%;
    left: 0;
-   position: absolute;
+   position: relative;
    top: 0;
    width: 100%;
 }
 
 /* Explore App */
 .explore-app .background {
-  background-image: url(/assets/brand/histology_background.jpg);
+  /*background-image: url(/assets/brand/histology_background.jpg);*/
   position: fixed;
   opacity: 0.18;
   height: 100%;
@@ -918,7 +922,7 @@ p.input-help {
   border-right-style: none;
   border-left-style: none;
   border-bottom-style: none;
-  background-color: #fcfafc;
+  /*background-color: #fcfafc;*/
 }
 
 .explore-app .category-card-file-stats{
