@@ -948,3 +948,106 @@ p.input-help {
 .explore-app .file-size-stats-detail .inner-detail{
   margin-left: inherit;
 }
+
+
+/* 
+ * Download and status matrix 
+*/
+
+.matrix__table {
+  border-collapse: collapse;
+}
+
+:root {
+  --matrix-border-color: #d8d8d8;
+}
+
+.matrix__common {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #000;
+  outline-color: #f0a26f00;
+  outline-width: 1px;
+  outline-style: solid;
+  border-radius: 2px;
+}
+
+.matrix__header-main th {
+  height: 200px;
+  writing-mode: vertical-rl;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  text-align: left;
+  padding-top: 10px;
+}
+
+.matrix__sample-class-header {
+  background-color: #EBDEE4
+}
+
+.matrix__sample-row-header {
+  text-align: right;
+  padding-right: 0.5em;
+  border-top: 1px solid var(--matrix-border-color);
+  border-bottom: 1px solid var(--matrix-border-color);
+}
+
+/*For cells that hold cumulatie info by sample/assay type*/
+.matrix__cells-cumul{
+  text-align: center;
+  background-color: #ffeff7;
+  border-color: var(--matrix-border-color);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.matrix__cells-body {
+/*    width: 40px;*/
+/*    line-height: 40px;*/
+    text-align: center;
+    /*height: 40px;*/
+    border-color: var(--matrix-border-color);
+    border-width: 1px;
+    border-style: solid;
+    /*border-collapse: collapse;*/
+}
+
+/* custom attribute to color body cells based 
+   on how many experiments they represent */
+.matrix__cells-body[data-cell-tier="1"] {
+  background-color: #cff3ee;
+}
+.matrix__cells-body[data-cell-tier="2"] {
+  background-color: #87cfc5;
+}
+.matrix__cells-body[data-cell-tier="3"] {
+  background-color: #41B3A3;
+}
+
+/*
+.matrix__cells-clickable {
+  background-color: #e9f3ae;
+}
+*/
+
+.matrix__cells-clickable:hover {
+  outline-color: #f06c14;
+  outline-width: 2px;
+  outline-style: solid;
+}
+
+/*Use custom attribute to track cell selection status.
+  Note that if this is preceded with .matrix__cells-clickable class, it doens't work.
+  https://css-tricks.com/a-complete-guide-to-data-attributes */
+.matrix__cells-clickable[data-cell-selected="true"] {
+  /* outline-color: #4922f3;
+  outline-width: 1px;
+  outline-style: solid; */
+  background-color: rgb(124, 137, 253);
+}
+
+
