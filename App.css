@@ -949,6 +949,10 @@ p.input-help {
   margin-left: inherit;
 }
 
+/* Add this to honor \n (and \t?) in a string */
+.honor-line-breaks {
+  white-space: pre-line;
+}
 
 /* 
  * Download and status matrix 
@@ -956,6 +960,7 @@ p.input-help {
 
 .matrix__table {
   border-collapse: collapse;
+  position: relative;
 }
 
 :root {
@@ -970,19 +975,42 @@ p.input-help {
   text-overflow: ellipsis;
   overflow: hidden;
   color: #000;
+  /*
   outline-color: #f0a26f00;
   outline-width: 1px;
   outline-style: solid;
-  border-radius: 2px;
+  */
 }
 
+.matrix__header-main {
+  /*as th elements stick to top of viewport, try to prevent borders from cells below them showing trough*/
+  /* not working, also tried in derived th
+  z-index: 100;
+  opacity: 1;
+  */
+  margin-bottom: 5px;
+
+}
 .matrix__header-main th {
   height: 200px;
   writing-mode: vertical-rl;
   writing-mode: tb-rl;
-  transform: rotate(180deg);
   text-align: left;
   padding-top: 10px;
+  transform: rotate(180deg);
+  background-color: white;
+  /* Sticky header. Need outlines, see matrix__header-main-special */
+  position: sticky;
+  top: 100px; /*needed for sticky. Make it half of height to get full cell to stay in view while sticking*/
+}
+
+/*Special class to add outline to only certain header cells.
+  This is because we don't want the first, empty cell to have outline.
+  These outlines are needed to hide an artifact from underlying cells' 
+  outlines/borders as they scroll underneath the header when it's sticky.
+ */
+.matrix__header-main-special {
+  outline: 1px solid var(--matrix-border-color);
 }
 
 .matrix__sample-class-header {
@@ -996,7 +1024,7 @@ p.input-help {
   border-bottom: 1px solid var(--matrix-border-color);
 }
 
-/*For cells that hold cumulatie info by sample/assay type*/
+/*For cells that hold cumulatie info by sample/assay/status type*/
 .matrix__cells-cumul{
   text-align: center;
   background-color: #ffeff7;
@@ -1006,14 +1034,22 @@ p.input-help {
 }
 
 .matrix__cells-body {
-/*    width: 40px;*/
-/*    line-height: 40px;*/
+    width: 40px;
+    line-height: 2em; /* is being ignored, as is 'height'*/
     text-align: center;
-    /*height: 40px;*/
     border-color: var(--matrix-border-color);
     border-width: 1px;
     border-style: solid;
-    /*border-collapse: collapse;*/
+}
+
+/*donor-specific cells in Data Status matrix*/
+.matrix__status_cells-body {
+  width: 40px;
+  line-height: 2em; /* is being ignored, as is 'height'*/
+  text-align: center;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
 }
 
 /* custom attribute to color body cells based 
@@ -1034,6 +1070,36 @@ p.input-help {
 }
 */
 
+.matrix__status_mixed-left {
+  width: 50%;
+  float: left;
+}
+.matrix__status_mixed-right {
+  width: 50%;
+  float: right;
+}
+.matrix__status_mixed-lower-left {
+  width: 50%;
+  clear
+  : left;
+}
+
+.matrix__status_Available {
+  background-color:rgba(57, 175, 77, 0.65);
+}
+.matrix__status_Pending {
+  background-color:rgba(147, 184, 154, 0.65);
+}
+.matrix__status_Never {
+  background-color:rgb(190, 188, 188);
+}
+.matrix__status_Revoked {
+  background-color:rgba(233, 107, 107, 0.65);
+}
+.matrix__status_mixed {
+  background-color: rgb(229, 231, 79);
+}
+
 .matrix__cells-clickable:hover {
   outline-color: #f06c14;
   outline-width: 2px;
@@ -1049,5 +1115,5 @@ p.input-help {
   outline-style: solid; */
   background-color: rgb(124, 137, 253);
 }
-
-
+  
+  
