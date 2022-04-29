@@ -1,14 +1,21 @@
 /*
  * Explore app color scheme
  * Background color: #E4EBF0
- * #212442
- * #212442
+ * var(--main-color)
+ * var(--main-color)
 */
 
 /* Load icon font */
 @font-face {
   font-family: Icons;
   src: url(../node_modules/semantic-ui-css/themes/default/assets/fonts/icons.eot);
+}
+
+/* variables */
+:root {
+  /*custom variable*/
+  --subtle-item-color: #888888;
+  --main-color: #212442;
 }
 
 body {
@@ -261,7 +268,7 @@ h3{
 
 .ui.button {
   color: #FFF !important;
-  background-color: #212442;
+  background-color: var(--main-color);
   text-decoration: none;
 }
 
@@ -280,7 +287,7 @@ h3{
 
 .ui.button:hover {
   color: #FFF !important;
-  background-color: #212442;
+  background-color: var(--main-color);
   text-decoration: none;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
@@ -307,7 +314,7 @@ h3{
   padding-top: 4em;
   padding-bottom: 3em;
   background-color: #FFF;
-  border-bottom: 1px solid #212442;
+  border-bottom: 1px solid var(--main-color);
 }*/
 
 .main-app .about-pancdb-page .right-container {
@@ -490,7 +497,7 @@ h3{
 
 .explore-app .ui.menu.explore-navbar,
 .explore-app .ui.menu.explore-navbar .menu {
-  background-color: #212442;
+  background-color: var(--main-color);
 }
 
 .explore-app .ui.menu.explore-navbar .item {
@@ -511,7 +518,7 @@ h3{
 
 .explore-app .ui.menu.admin-navbar {
   margin-top: 7.4em;
-  background-color: #212442;
+  background-color: var(--main-color);
   z-index: 3;
 }
 
@@ -521,11 +528,11 @@ h3{
 }
 
 .explore-app .content-wrapper .ui.header {
-  color: #212442;
+  color: var(--main-color);
 }
 
 .explore-app .content-wrapper a {
-  color: #212442;
+  color: var(--main-color);
   text-decoration: underline;
   cursor: pointer;
 }
@@ -549,12 +556,12 @@ h3{
 }
 
 .explore-app .ui.top.attached.menu {
-  background-color: #212442;
+  background-color: var(--main-color);
   border: 1px solid rgba(0,0,0,.15);
 }
 
 .explore-app .ui.top.attached.menu .menu {
-  background-color: #212442;
+  background-color: var(--main-color);
   z-index: 2;
 }
 
@@ -575,7 +582,7 @@ h3{
 }
 
 .explore-app .ui.top.attached.menu .ui.pointing.dropdown>.menu:after {
-  background: #212442;
+  background: var(--main-color);
 }
 
 .explore-app .ui.top.attached.menu .ui.dropdown .menu>.item .dropdown.icon {
@@ -612,7 +619,7 @@ h3{
 
 .explore-app .ui.button.hpap-color {
   color: #FFF;
-  background-color: #212442;
+  background-color: var(--main-color);
   text-decoration: none;
 }
 .explore-app .ui.button.hpap-color-cat-download {
@@ -622,7 +629,7 @@ h3{
 
 .explore-app .ui.button.hpap-color-donor-link {
   color: #FFF;
-  background-color: #212442;
+  background-color: var(--main-color);
   text-decoration: none;
 }
 
@@ -633,7 +640,7 @@ h3{
 
 .explore-app .ui.button.hpap-color-download-link {
   color: #FFF;
-  background-color: #212442;
+  background-color: var(--main-color);
   text-decoration: none;
 }
 
@@ -667,11 +674,11 @@ h3{
 }
 
 .explore-app .rc-slider-track {
-  background-color: #888888;
+  background-color: var(--subtle-item-color);
 }
 
 .explore-app .rc-slider-handle {
-  border-color: #888888;
+  border-color: var(--subtle-item-color);
 }
 
 .explore-app .rc-slider-handle:hover {
@@ -685,7 +692,7 @@ h3{
 }
 
 .explore-app .rc-slider-dot-active {
-  border-color: #888888;
+  border-color: var(--subtle-item-color);
 }
 
 /* Explore App - File Directory */
@@ -727,7 +734,7 @@ h3{
 }
 
 .explore-app .directory .ui.list .item:hover {
-  background-color: #212442;
+  background-color: var(--main-color);
   color: white;
   text-shadow: none;
 }
