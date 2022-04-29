@@ -1,0 +1,1 @@
+This is a dummy file so we can have git ignore all the other contents of this folder, but not the folder itself. Otherwise, if this folder gets removed somehow, the viewer can't dynamically generate the data it needs.

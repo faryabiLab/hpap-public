@@ -1,5 +1,9 @@
-/assets/IMC/DZI/
-/assets/histology/DZI
+#We want to ignore contents of DZI folders, but not the folder itself
+/assets/IMC/DZI/*
+!/assets/IMC/DZI/README
+/assets/histology/DZI/*
+!/assets/histology/DZI/README
+
 /bundle.js
 /bundle.js.map
 /googleae*.html
