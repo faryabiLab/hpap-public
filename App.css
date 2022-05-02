@@ -112,9 +112,9 @@ h3{
   height: 1em;
 }
 
-.main-app .ui.menu.main-navbar .logo-text{
-  font-size: 1.75em;
-  letter-spacing: 0.09em;
+.main-app .ui.menu.main-navbar .logo{
+  height: 60px;
+  width: auto;
 }
 
 .main-app .ui.menu.main-navbar .item .pointing{
@@ -141,7 +141,7 @@ h3{
   z-index: 5;
   justify-content: center;
   align-items: center;
-  height: 48px;
+  height: 60px;
   width: 100%;
   margin-left:  auto;
   margin-right:  auto;
@@ -155,7 +155,7 @@ h3{
   background: linear-gradient(90deg, #020413 0%, #090c2e 100%);
   z-index: 5;
   border-bottom: 1px solid rgba(53, 77, 73, .25);
-  height: 48px;
+  height: 60px;
   max-width: 1716px;
   text-align: center;
   margin: auto;
@@ -376,16 +376,20 @@ h3{
     font-size: 10em;
     text-align: center;
     vertical-align: middle;   
-    margin-top: 100px;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    margin-top: 80px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+     0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff,
+      0 0 60px #fff, 0 0 70px #fff;
   }
 
   .main-app .landing-page .banner .subtitle{
     font-size: 2em;
     text-align: center;
     vertical-align: middle;
-    margin-top: 100px;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    margin-top: 80px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+     0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff,
+      0 0 60px #fff, 0 0 70px #fff;
   }
 
   .main-app .landing-page .banner{
@@ -393,7 +397,7 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 400px;
+    height: 300px;
     margin-left: calc(50% - 50vw);
     box-shadow: inset 0 0 22px rgb(33,33,33);
   }
@@ -405,7 +409,7 @@ h3{
     text-align: center;
     vertical-align: middle;
     margin-top: 30px;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    text-shadow: 0 0 30px #fff, 0 0 40px #fff;
   }
 
   .main-app .landing-page .banner .subtitle{
@@ -413,7 +417,7 @@ h3{
     text-align: center;
     vertical-align: middle;
     margin-top: 60px;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    text-shadow: 0 0 30px #fff, 0 0 40px #fff;
   }
 
   .main-app .landing-page .banner{
@@ -427,7 +431,6 @@ h3{
   }
 }
 
-
 .main-app .landing-page .landing_button .icon{
   color: white;
 }
@@ -439,8 +442,8 @@ h3{
   height: 200px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  vertical-align: top;
   transition: box-shadow .1s;
 }
 
@@ -448,6 +451,13 @@ h3{
   box-shadow: 0 0 22px rgba(33,33,33,.5); 
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
   cursor: pointer;
+}
+
+.main-app .landing-page .landing_button .dataIcon{
+  vertical-align: top;
+  margin: 0.25em;
+  height: 100px;
+  width: auto;
 }
 
 .main-app .landing-page .landing_button h2 a{
@@ -463,6 +473,10 @@ h3{
 
 .main-app .landing-page .updates_link {
   color: #2b7bb9 !important
+}
+
+.main-app .landing-page .ui.segment.twitter {
+  padding: 0;
 }
 
 /* Settings here are critical for getting the iframe
