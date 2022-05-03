@@ -436,9 +436,7 @@ h3{
 }
 
 .main-app .landing-page .landing_button{
-
   background: linear-gradient(45deg, #020413 0%, #090c2e 50%, #020413 100%);
-  text-color: #FFFFFF;
   height: 200px;
   display: flex;
   align-items: center;
@@ -460,7 +458,7 @@ h3{
   width: auto;
 }
 
-.main-app .landing-page .landing_button h2 a{
+.main-app .landing-page .landing_button h2{
   font-size:  1em;
   margin: 0;
   color: white;
