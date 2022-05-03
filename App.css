@@ -109,7 +109,7 @@ h3{
 }
 
 .MainNavbar_gap{
-  height: 1em;
+  height: 2em;
 }
 
 .main-app .ui.menu.main-navbar .logo{
@@ -376,7 +376,7 @@ h3{
     font-size: 10em;
     text-align: center;
     vertical-align: middle;   
-    margin-top: 80px;
+    margin-top: 85px;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff,
      0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff,
       0 0 60px #fff, 0 0 70px #fff;
@@ -408,7 +408,7 @@ h3{
     font-size: 6em;
     text-align: center;
     vertical-align: middle;
-    margin-top: 30px;
+    margin-top: 35px;
     text-shadow: 0 0 30px #fff, 0 0 40px #fff;
   }
 
