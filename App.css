@@ -64,6 +64,24 @@ h3{
   text-align: center;
 }
 
+.ui.button.goToTop{
+  position: fixed;
+  background-color: #ff6424;
+  width: 120px;
+  bottom: 20px;
+  left: calc(100vw - 140px);
+  z-index: 100;
+}
+
+.ui.button.goToTop:hover{
+  position: fixed;
+  background-color: #ff6424;
+  width: 120px;
+  bottom: 20px;
+  left: calc(100vw - 140px);
+  z-index: 100;
+}
+
 .ui.menu .ui.dropdown .menu>.item {
 	color: white !important;
 }
@@ -115,6 +133,19 @@ h3{
 .main-app .ui.menu.main-navbar .logo{
   height: 60px;
   width: auto;
+}
+
+.main-app .ui.menu.main-navbar .customIcon{
+  height: 26px;
+  display: inline-block;
+  float: none;
+  font-size: 1em!important;
+  margin: 0 0.75em 0 0;
+}
+
+.main-app .ui.menu.main-navbar .dropdown .item{
+  height: 45px;
+  display: flex !important;
 }
 
 .main-app .ui.menu.main-navbar .item .pointing{
@@ -199,10 +230,17 @@ h3{
 .main-app .footer{
   background-color: #d4d8dd;
   max-width: 1716px;
+  width: 100%;
   text-align: center;
   margin: auto;
   left: auto;
   position: static;
+}
+
+.main-app .footer table{
+  text-align: left;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .main-app .footer .logos{
@@ -296,6 +334,10 @@ h3{
   color: #00101B;
 }
 
+.main-app .content-wrapper .html-import img{
+  width: auto;
+}
+
 .main-app .content-wrapper .ui.items > .item > .content > .header,
 .main-app .content-wrapper .ui.items > .item > .content > .description {
   color: #00101B;
@@ -369,7 +411,6 @@ h3{
 .main-app .landing-page > *{
   padding-top: 2em;
 }
-
 
 @media only screen and (min-width: 1001px) {
   .main-app .landing-page .banner .title{
@@ -473,7 +514,7 @@ h3{
   color: #2b7bb9 !important
 }
 
-.main-app .landing-page .ui.segment.twitter {
+.main-app .landing-page .ui.segment.noPadding {
   padding: 0;
 }
 
@@ -528,10 +569,10 @@ h3{
   padding-bottom: 2.25em;
 }
 
-.explore-app .ui.menu.admin-navbar {
-  margin-top: 7.4em;
-  background-color: var(--main-color);
-  z-index: 3;
+.ui.menu.admin-navbar {
+  position: fixed;
+  top: 60px;
+  z-index: -100;
 }
 
 /*.explore-app .content-wrapper {
