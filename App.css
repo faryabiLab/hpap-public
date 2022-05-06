@@ -268,26 +268,25 @@ h3{
 
 .ui.button {
   color: #FFF !important;
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
   text-decoration: none;
 }
 
 .ui.button:visted {
   color: #FFF !important;
-  background-color: #212442;
+  background-color: var(--main-color) !important;
   text-decoration: none;
 }
 
 .ui.button:active {
   color: #FFF !important;
-  background-color: #212442;
+  bbackground-color: var(--main-color) !important;
   text-decoration: none;
 }
 
-
 .ui.button:hover {
   color: #FFF !important;
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
   text-decoration: none;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
