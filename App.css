@@ -16,6 +16,7 @@
   /*custom variable*/
   --subtle-item-color: #888888;
   --main-color: #212442;
+  --accent-color: #ff6424;
 }
 
 body {
@@ -66,7 +67,7 @@ h3{
 
 .ui.button.goToTop{
   position: fixed;
-  background-color: #ff6424;
+  background-color: var(--accent-color) !important;
   width: 120px;
   bottom: 20px;
   left: calc(100vw - 140px);
@@ -75,7 +76,7 @@ h3{
 
 .ui.button.goToTop:hover{
   position: fixed;
-  background-color: #ff6424;
+  background-color: var(--accent-color) !important;
   width: 120px;
   bottom: 20px;
   left: calc(100vw - 140px);
@@ -254,7 +255,6 @@ h3{
 }
 
 .main-app .mobile_footer{
-  background-color: #d4d8dd;
   max-width: 1716px;
   text-align: center;
   margin: auto;
@@ -263,8 +263,8 @@ h3{
 }
 
 .main-app .mobile_footer .ui.fluid.button{
-  background-color: #e0e1e2;
   color: rgba(0,0,0,.6) !important;
+  background-color: #e0e1e2 !important;
 }
 
 .main-app .mobile_footer .ui.fluid.button:hover {
