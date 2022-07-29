@@ -955,6 +955,12 @@ p.input-help {
   float: right;
 }
 
+.filter-icon {
+  float: none;
+  margin-left: 0.3em !important;
+  font-size: 1.2em !important;
+}
+
 /* Data Entry Forms */
 .explore-app .donor-summary-form .ui.top.menu {
   background-color: #ffffff;
