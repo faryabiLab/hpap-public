@@ -83,6 +83,24 @@ h3{
   z-index: 100;
 }
 
+.main-app .videolist-page{
+  text-align: center;
+}
+
+.main-app .videolist-page p {
+  color: #00101B;
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+.videoResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .ui.menu .ui.dropdown .menu>.item {
 	color: white !important;
 }
