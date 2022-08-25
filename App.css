@@ -84,13 +84,17 @@ h3{
 }
 
 .main-app .videolist-page{
+  text-align: left;
+  vertical-align: top;
+}
+
+.main-app .videolist-page-mobile{
   text-align: center;
 }
 
 .main-app .videolist-page p {
   color: #00101B;
   font-size: 1.35rem;
-  text-align: center;
 }
 
 .videoResponsive iframe {
