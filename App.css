@@ -57,6 +57,10 @@ h3{
   text-align: center;
 }
 
+.leftText{
+  text-align: left;
+}
+
 .ui.header{
   margin: 0 0;
 }
@@ -86,6 +90,10 @@ h3{
 .main-app .videolist-page{
   text-align: left;
   vertical-align: top;
+}
+
+.main-app .videolist-page-segment{
+  padding: 1.5em 1em;
 }
 
 .main-app .videolist-page-mobile{
