@@ -1,4 +1,4 @@
-#We want to ignore contents of DZI folders, but not the folder itself
+# Ignore contents of DZI folders, but not the folder itself
 /assets/IMC/DZI/*
 !/assets/IMC/DZI/README
 /assets/histology/DZI/*
@@ -9,3 +9,6 @@
 /googleae*.html
 /history/V*
 /sftp_pubkey/key*.txt
+
+# directory of JSON files for Washington University Genome Browser
+/wugb_json
