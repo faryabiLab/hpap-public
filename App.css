@@ -57,6 +57,10 @@ h3{
   text-align: center;
 }
 
+.leftText{
+  text-align: left;
+}
+
 .ui.header{
   margin: 0 0;
 }
@@ -81,6 +85,32 @@ h3{
   bottom: 20px;
   left: calc(100vw - 140px);
   z-index: 100;
+}
+
+.main-app .videolist-page{
+  text-align: left;
+  vertical-align: top;
+}
+
+.main-app .videolist-page-segment{
+  padding: 1.5em 1em;
+}
+
+.main-app .videolist-page-mobile{
+  text-align: center;
+}
+
+.main-app .videolist-page p {
+  color: #00101B;
+  font-size: 1.35rem;
+}
+
+.videoResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .ui.menu .ui.dropdown .menu>.item {
