@@ -113,6 +113,126 @@ h3{
   position: absolute;
 }
 
+.donorCardFrame{
+  align-items: center;
+}
+
+@media only screen and (min-width: 1090px) {
+  .donorCard{
+    height: 280px;
+    max-width: 870px;
+    margin: auto;
+    margin-top: 16px;
+    overflow: hidden;
+  }
+
+  .donorCard .left{
+    width: 40%;
+    position: relative;
+  }
+
+  .donorCard .middle{
+    width: 30%;
+  }
+
+  .donorCard .right{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1091px) {
+  .donorCard{
+    margin: auto;
+    margin-top: 16px;
+  }
+
+  .donorCard .left{
+    position: relative;
+    display: block;
+    padding: 8px;
+  }
+
+  .donorCard .middle{
+    display: block;
+    padding: 8px;
+  }
+
+  .donorCard .right{
+    display: block;
+    padding: 8px;
+  }
+}
+
+.donorCard .left, .middle, .right{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+}
+
+.donorCard .thirdVert{
+  height: 33%;
+}
+
+.donorCard table{
+  width: 100%;
+  height: 100%;
+}
+
+.donorCard table th{
+  text-align: left;
+  font-size: 14px;
+}
+
+.donorCard table td{
+  text-align: left;
+  font-size: 16px;
+  color: #090c2e;
+  font-weight: bold;
+}
+
+.donorCard .right table{
+  height: 250px
+}
+
+.donorCard .right table th{
+  text-align: left;
+  font-size: 12px;
+  color: #2a3f5f;
+  font-weight: bold;
+}
+
+.donorCard .right table td{
+  text-align: left;
+  font-size: 18px;
+  color: #090c2e;
+  font-weight: normal;
+}
+
+.donorCard .text_1{
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.donorCard .text_2{
+  font-size: 14px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.donorCard .text_3{
+  font-size: 18px;
+  color: #090c2e;
+  font-weight: bold;
+}
+
+.donorCard .text_4{
+  font-size: 30px;
+  color: #090c2e;
+  font-weight: bold;
+}
+
 .ui.menu .ui.dropdown .menu>.item {
 	color: white !important;
 }
