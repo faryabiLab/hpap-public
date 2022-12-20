@@ -150,16 +150,19 @@ h3{
     position: relative;
     display: block;
     padding: 8px;
+    width: 100%;
   }
 
   .donorCard .middle{
     display: block;
     padding: 8px;
+    width: 100%;
   }
 
   .donorCard .right{
     display: block;
     padding: 8px;
+    width: 100%;
   }
 }
 
