@@ -1108,6 +1108,10 @@ p.input-help {
   float: right;
 }
 
+.pull-left {
+  float: left;
+}
+
 .filter-icon {
   float: none;
   margin-left: 0.3em !important;
