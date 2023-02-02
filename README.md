@@ -1,3 +1,14 @@
+
 # hpap-public
-Holds only the `public` folder for the [PANC-DB](https://hpap.pmacs.upenn.edu) website. 
-Used by [hpap](https://github.com/faryabiLab/hpap) repo as a submodule.
+
+This repository hosts the files in HPAP's `public` folder for
+[PANC-DB](https://hpap.pmacs.upenn.edu) website.
+
+See HPAP documentations at:
+https://github.com/faryabiLab/hpap-hub#1-hpap-documentation
+
+and the core HPAP repository at:
+https://github.com/faryabiLab/hpap
+
+To add new HPAP issues, go to:
+https://github.com/faryabiLab/hpap-hub/issues
