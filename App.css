@@ -376,7 +376,7 @@ h3{
   margin-right:  auto;
   left: auto;
   display: flex;
-  postion: static;
+  position: static;
   bottom: 0;
   width: 100%;
 }
@@ -1244,3 +1244,22 @@ p.input-help {
 /* Matrix stuff (download and data status matrix) has been moved
    to its own .css file in web_app/src/css
  */
+
+ .dimmed.dimmable > .ui.animating.dimmer, .dimmed.dimmable > .ui.visible.dimmer, .ui.active.dimmer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.modal,
+.ui.active.modal {
+  margin: 0 auto!important;
+  top: auto !important;
+  left: auto !important;
+  transform-origin: center !important;
+  transition: all ease .5s;
+}
+
+.donors{
+  padding-bottom: 1rem;
+}
