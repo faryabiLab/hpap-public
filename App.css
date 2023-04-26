@@ -1250,6 +1250,7 @@ p.input-help {
   align-items: center;
   justify-content: center;
 }
+
 .ui.modal,
 .ui.active.modal {
   margin: 0 auto!important;
@@ -1258,6 +1259,7 @@ p.input-help {
   transform-origin: center !important;
   transition: all ease .5s;
 }
+
 .donors{
   padding-bottom: 1rem;
 }
