@@ -1,1869 +1,1852 @@
 <html>
 
 <head>
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
 </head>
 
 <body>
-    <img src="/assets/workflow/Islet Physiology Studies/HPAP-logo.jpg"
-        alt="perifusion" width="200" height="90"
-        style="vertical-align:middle" />
-    </br>
-    <H3 align="center"><strong>HPAP CITEseq: Dual-index 3&#39; HT scRNAseq with
-            Antibody
-            Derived Tags and Hashtag Oligos</strong>
-    </H3>
-    <p align="center">Compiled by Vincent Wu and Gregory Golden of Betts
-        Lab<br />
-        Date submitted: May 2023</p>
+  <img src="/assets/workflow/Islet Physiology Studies/HPAP-logo.jpg"
+    alt="perifusion" width="200" height="90" style="vertical-align:middle" />
+  <br />
+  <H3 align="center"><strong>HPAP CITEseq: Dual-index 3&#39; HT scRNAseq with
+      Antibody
+      Derived Tags and Hashtag Oligos</strong>
+  </H3>
+  <p align="center">Compiled by Vincent Wu and Gregory Golden of Betts
+    Lab<br />
+    Date submitted: May 2023</p>
 
-    <ol type="I">
-        <li>
-            <font size="+1"><strong>Description</strong></font>
-        </li></br>
+  <ol type="I">
+    <li>
+      <font size="+1"><strong>Description</strong></font>
+    </li><br />
 
-        This assay simultaneously assesses mRNA and
-        select surface antigen profiles at single-cell resolution. This protocol
-        uses a
-        combination of oligo-labeled antibodies &#40;Biolegend TotalSeqA&#41;
-        and the 3&#39; scRNAseq chemistry &#40;10X Genomics&#41;.
-        Furthermore, samples are individually labeled with
-        hash-tagging antibodies &#40;oligo-labeled antibodies targeting &#946;2m
-        and
-        CD298&#41;
-        for multiplexing and increased resolution for multiplet
-        filtering upon superloading of the 10X chip. This
-        protocol utilizes the HT system compatible with the Chromium X
-        instrument,
-        allowing double the output of emulsified cells compared to regular
-        throughput
-        systems. This protocol builds upon the following
-        publications/protocols&#58;
-        <br />
-        <br />
-        <ul type="disc">
-            <li>Stoeckius et al&#46;&#44; <em>Nature Methods</em> 2017</li>
-            <li>Stoeckius et al&#46;&#44; <em>Genome Biology</em> 2018</li>
-            <li>BioLegend TotalSeq&#45;A Antibodies and Cell Hashing with
-                10x Single Cell 3&#39; Reagent Kit v3.1 &#40;Dual Index&#41;
-                Protocol
-                &#40;version from
-                10/22/21, Betts Lab&#41;</li>
-            <li>10X Genomics Chromium Next GEM Single Cell HT Reagent Kits v3.1
-                &#40;Dual Index&#41; &#45; RevB,
-                September 10&#44; 2021</li>
-        </ul>
-        <br />
-        <li>
-            <font size="+1"><strong>Reagents</strong></font>
+    This assay simultaneously assesses mRNA and
+    select surface antigen profiles at single-cell resolution. This protocol
+    uses a
+    combination of oligo-labeled antibodies &#40;Biolegend TotalSeqA&#41;
+    and the 3&#39; scRNAseq chemistry &#40;10X Genomics&#41;.
+    Furthermore, samples are individually labeled with
+    hash-tagging antibodies &#40;oligo-labeled antibodies targeting &#946;2m
+    and
+    CD298&#41;
+    for multiplexing and increased resolution for multiplet
+    filtering upon superloading of the 10X chip. This
+    protocol utilizes the HT system compatible with the Chromium X
+    instrument,
+    allowing double the output of emulsified cells compared to regular
+    throughput
+    systems. This protocol builds upon the following
+    publications/protocols&#58;
+    <br />
+    <br />
+    <ul type="disc">
+      <li>Stoeckius et al&#46;&#44; <em>Nature Methods</em> 2017</li>
+      <li>Stoeckius et al&#46;&#44; <em>Genome Biology</em> 2018</li>
+      <li>BioLegend TotalSeq&#45;A Antibodies and Cell Hashing with
+        10x Single Cell 3&#39; Reagent Kit v3.1 &#40;Dual Index&#41;
+        Protocol
+        &#40;version from
+        10/22/21, Betts Lab&#41;</li>
+      <li>10X Genomics Chromium Next GEM Single Cell HT Reagent Kits v3.1
+        &#40;Dual Index&#41; &#45; RevB,
+        September 10&#44; 2021</li>
+    </ul>
+    <br />
+    <li>
+      <font size="+1"><strong>Reagents</strong></font>
+    </li>
+    <p align="center">
+      <font color="#DF7800"><b>Cell preparation</b></font>
+    </p>
+
+    <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
+      align="center">
+      <tr>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Description</p>
+        </td>
+        <td width="119" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Vendor</p>
+        </td>
+        <td width="109" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Catalog #</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">PBS &#40;no Ca<sup>2+</sup> or
+            Mg<sup>2+</sup>&#41;
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Any</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">Any</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">EasySep<sup>TM</sup> Dead Cell Removal
+            &#40;Annexin
+            V&#41; Kit</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">StemCell</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">17899</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Trypan Blue Stain &#40;0.4&#37;&#41; for
+            use with
+            the Countess<sup>TM</sup> Automated Cell Counter</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">TF</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">T10282</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Fresh R10 &#40;RPMI 1640&#44; 10&#37;
+            FBS&#44;
+            U&#47;mL penicillin&#44; 100 &#956;g&#47;mL
+            streptavidin&#44; 2 mM
+            L&#45;glutamine&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">DNase I&#44; 10 U&#47;&#956;L in glycerol
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Roche Diagnostics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">4716728001</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+
+    <p align="center">
+      <font color="#DF7800"><b>Cell staining</b></font>
+    </p>
+
+    <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
+      align="center">
+      <tr>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Description</p>
+        </td>
+        <td width="119" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Vendor</p>
+        </td>
+        <td width="109" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Catalog #</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">TotalSeq<sup>TM</sup>&#45;A Human
+            Universal
+            Cocktail&#44; V1&#46;0</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Biolegend</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">399907</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">TotalSeq&#45;A Hashtag Antibodies</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Biolegend</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">multiple</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Human TruStain FcX<sup>TM</sup> &#40;Fc
+            Receptor
+            Blocking Solution&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Biolegend</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">422302</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Cell Staining Buffer</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Biolegend</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">420201</p>
+        </td>
+      </tr>
+      <td width="428" nowrap="nowrap" valign="middle">
+        <p align="center">1&#46;5ml DNA LoBind Tubes</p>
+      </td>
+      <td width="119" nowrap="nowrap" valign="middle">
+        <p align="center">Eppendorf</p>
+      </td>
+      <td width="109" nowrap="nowrap" valign="middle">
+        <p align="center">022431021</p>
+      </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">1&#46;5ml Protein LoBind Tubes</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Eppendorf</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">0030108442</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Flowmi<sup>&#9415;</sup> Cell Strainers
+            40&#956;m
+            &#40;50 count&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Millipore&#47;Sigma</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">BAH136800040&#45;50EA</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+
+    <p align="center">
+      <font color="#DF7800"><b>10X primary reagents</b></font>
+    </p>
+
+    <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
+      align="center">
+      <tr>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Description</p>
+        </td>
+        <td width="119" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Vendor</p>
+        </td>
+        <td width="109" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Catalog #</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Chromium Next GEM Single Cell 3&#39; HT
+            GEM Kit v3.1
+            &#40;8 rxns&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">1000373</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Dynabeads MyOne SILANE</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">2000048</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Library Construction Kit &#40;16 rxns&#41;
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">1000190</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Chromium Next GEM Single Cell 3&#39; HT
+            Gel Bead Kit
+            v3.1 &#40;8 rxns&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">1000372</p>
+        </td>
+      </tr>
+      <td width="428" nowrap="nowrap" valign="middle">
+        <p align="center">Dual Index Kit TT Set A&#44; 96 rxns</p>
+      </td>
+      <td width="119" nowrap="nowrap" valign="middle">
+        <p align="center">10X Genomics</p>
+      </td>
+      <td width="109" nowrap="nowrap" valign="middle">
+        <p align="center">1000215</p>
+      </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Chromium Partitioning Oil &#40;2X&#41;
+            &#40;check
+            volume&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">2000190</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Chromium Recovery Agent</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">220016</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Chromium Next GEM Chip M</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">2000417</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Chip Gasket&#44; HT&#44; 2&#45;pack</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">10X Genomics</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">3000656</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">10% Tween 20 </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">BioRad</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">1662404</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Glycerin &#40;glycerol&#41; 50&#37;
+            &#40;v&#47;v&#41;
+            Aqueous Solution</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Ricca Chemical Company</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">3290&#45;32</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+
+    <p align="center">
+      <font color="#DF7800"><b>Library preparation</b></font>
+    </p>
+
+    <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
+      align="center">
+      <tr>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Description</p>
+        </td>
+        <td width="119" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Vendor</p>
+        </td>
+        <td width="109" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Catalog #</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Qiagen Buffer EBv</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Qiagen</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">19086</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Low TE Buffer &#40;10mM Tris-HCl ph
+            8&#46;0&#44;
+            0&#46;1 mM
+            EDTA&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Thermo</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">12090015</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Molecular grade H<sub>2</sub>O</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Any</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">Any</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Pure ethanol &#40;200 proof&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Any</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">Any</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Eppendorf PCR tubes &#40;check 10X
+            protocol for
+            specific
+            catalog &#35;s&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">KAPA HiFi HotStart ReadyMix &#40;2X&#41;
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Kapa Biosystems</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">KK2601</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">SPRI select Reagent &#40;60 mL&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Beckman Coulter</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">B23318</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">CHECK 10X protocol for additional reagents
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+
+    <p align="center">
+      <font color="#DF7800"><b>Library QC reagents</b></font>
+    </p>
+
+    <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
+      align="center">
+      <tr>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Description</p>
+        </td>
+        <td width="119" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Vendor</p>
+        </td>
+        <td width="109" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Catalog #</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">PCR Tubes</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">D5000 HS Tapestation Screentape</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">D5000 HS Tapestation Buffers</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">D5000 HS Tapestation Ladder</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">D1000 HS Tapestation Screentape</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">D1000 HS Tapestation Buffers</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">D1000 HS Tapestation Ladder</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Qubit dsDNA HS Reagents</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Invitrogen</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent Tech Loading Tips &#40;for 2200
+            TapeStation&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">Agilent</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">5067&#45;5153</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+
+    <p align="center">
+      <font color="#DF7800"><b>Primers &#40;excluding 10X
+          reagents&#41;</b></font>
+    </p>
+
+    <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
+      align="center">
+      <tr>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Description</p>
+        </td>
+        <td width="428" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Sequence &#40;5&#39; &#45;&#62;
+            3&#39;&#41;</p>
+        </td>
+        <td width="119" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Vendor</p>
+        </td>
+        <td width="109" nowrap="nowrap" bgcolor="#C5C5C5" valign="middle">
+          <p align="center">Catalog #</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">ADT cDNA PCR additive primer</p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">CCTTGGCACCCGAGAATT&#42;C&#42;C</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">HTO cDNA PCR additive primer &#40;v2&#41;
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">
+            GTGACTGGAGTTCAGACGTGTGCTCTTCCGAT&#42;C&#42;T</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">ADT Forward and Reverse Primers &#40;1 per
+            well&#41;
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">variable</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="428" nowrap="nowrap" valign="middle">
+          <p align="center">HTO Forward and Reverse Primers &#40;1 per
+            well&#41;
+          </p>
+        </td>
+        <td width="119" nowrap="nowrap" valign="middle">
+          <p align="center">variable</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+        <td width="109" nowrap="nowrap" valign="middle">
+          <p align="center">&#45;</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <b>NOTES&#58;</b><br />
+    <ul type="disc">
+      <li>Indexing primers from Biolegend for compatibility with Dual
+        Indexing
+        for
+        both ADT and HTO reactions. Order at least a 100 nmole stock
+        with
+        standard
+        desalting. No need for HPLC purification&#44; per Smibert Lab
+        recommendation
+        though I imagine it would not hurt. Will cost a lot more money
+        though.
+        I have not used HPLC purification for these kind of primers for
+        my
+        other assays.</li>
+      <li>Store all primers in &#9472;20&#8451;.</li>
+    </ul>
+    <br />
+
+    <li>
+      <font size="+1"><b>Protocol</b></font>
+    </li><br />
+
+    <ol type="A">
+      <li><b>Section 1: Cell preparation</b></li><br />
+
+      <ol type="1">
+        <li>Prepare 500 mL fresh R10 media.</li>
+        <li>Prepare 50 mL of R10 &#43; 10 U&#47;mL</li>
+        <li>Procure cryopreserved vials of samples of interest&#44; keep
+          on dry
+          ice until ready for thawing.</li>
+        <li>To a conical tube, add 14 mL of R10 media per 1 mL of
+          cryopreserved
+          sample and label the tube with the respective sample name.
         </li>
-        <p align="center">
-            <font color="#DF7800"><b>Cell preparation</b></font>
-        </p>
-
-        <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
-            align="center">
-            <tr>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Description</p>
-                </td>
-                <td width="119" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Vendor</p>
-                </td>
-                <td width="109" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Catalog #</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">PBS &#40;no Ca<sup>2+</sup> or
-                        Mg<sup>2+</sup>&#41;
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Any</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">Any</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">EasySep<sup>TM</sup> Dead Cell Removal
-                        &#40;Annexin
-                        V&#41; Kit</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">StemCell</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">17899</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Trypan Blue Stain &#40;0.4&#37;&#41; for
-                        use with
-                        the Countess<sup>TM</sup> Automated Cell Counter</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">TF</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">T10282</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Fresh R10 &#40;RPMI 1640&#44; 10&#37;
-                        FBS&#44;
-                        U&#47;mL penicillin&#44; 100 &#956;g&#47;mL
-                        streptavidin&#44; 2 mM
-                        L&#45;glutamine&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <td width="428" nowrap="nowrap" valign="middle">
-                <p align="center">DNase I&#44; 10 U&#47;&#956;L in glycerol</p>
-            </td>
-            <td width="119" nowrap="nowrap" valign="middle">
-                <p align="center">Roche Diagnostics</p>
-            </td>
-            <td width="109" nowrap="nowrap" valign="middle">
-                <p align="center">4716728001</p>
-            </td>
-            </tr>
-        </table>
+        <li>To thaw the samples, partially submerge the cryopreserved
+          sample tubes in a 37&#39;&#8451; water bath and move the
+          tubes
+          to maintain a warm tube-water interface. Maintain movement
+          and submergence until the sample is thawed enough to slide
+          within the tube.</li>
+        <li>Immediately place the sample in its respective conical tube.
+          Wash the cryotubes out with 200 &#956;L R10 and place into
+          the conical tube.</li>
+        <li>Cap the conical tubes and invert to mix the samples.</li>
+        <li>Spin the samples for 5 minutes at 500 xg.</li>
+        <li>Decant supernatant and resuspend the samples in
+          R10 &#43; DNaseI and count. Place cell counts below&#58;
+        </li>
         <br />
 
-        <p align="center">
-            <font color="#DF7800"><b>Cell staining</b></font>
-        </p>
-
-        <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
-            align="center">
-            <tr>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Description</p>
-                </td>
-                <td width="119" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Vendor</p>
-                </td>
-                <td width="109" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Catalog #</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">TotalSeq<sup>TM</sup>&#45;A Human
-                        Universal
-                        Cocktail&#44; V1&#46;0</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Biolegend</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">399907</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">TotalSeq&#45;A Hashtag Antibodies</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Biolegend</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">multiple</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Human TruStain FcX<sup>TM</sup> &#40;Fc
-                        Receptor
-                        Blocking Solution&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Biolegend</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">422302</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Cell Staining Buffer</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Biolegend</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">420201</p>
-                </td>
-            </tr>
-            <td width="428" nowrap="nowrap" valign="middle">
-                <p align="center">1&#46;5ml DNA LoBind Tubes</p>
-            </td>
-            <td width="119" nowrap="nowrap" valign="middle">
-                <p align="center">Eppendorf</p>
-            </td>
-            <td width="109" nowrap="nowrap" valign="middle">
-                <p align="center">022431021</p>
-            </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">1&#46;5ml Protein LoBind Tubes</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Eppendorf</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">0030108442</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Flowmi<sup>&#9415;</sup> Cell Strainers
-                        40&#956;m
-                        &#40;50 count&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Millipore&#47;Sigma</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">BAH136800040&#45;50EA</p>
-                </td>
-            </tr>
-        </table>
-        <br />
-
-        <p align="center">
-            <font color="#DF7800"><b>10X primary reagents</b></font>
-        </p>
-
-        <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
-            align="center">
-            <tr>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Description</p>
-                </td>
-                <td width="119" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Vendor</p>
-                </td>
-                <td width="109" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Catalog #</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Chromium Next GEM Single Cell 3&#39; HT
-                        GEM Kit v3.1
-                        &#40;8 rxns&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">1000373</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Dynabeads MyOne SILANE</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">2000048</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Library Construction Kit &#40;16 rxns&#41;
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">1000190</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Chromium Next GEM Single Cell 3&#39; HT
-                        Gel Bead Kit
-                        v3.1 &#40;8 rxns&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">1000372</p>
-                </td>
-            </tr>
-            <td width="428" nowrap="nowrap" valign="middle">
-                <p align="center">Dual Index Kit TT Set A&#44; 96 rxns</p>
-            </td>
-            <td width="119" nowrap="nowrap" valign="middle">
-                <p align="center">10X Genomics</p>
-            </td>
-            <td width="109" nowrap="nowrap" valign="middle">
-                <p align="center">1000215</p>
-            </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Chromium Partitioning Oil &#40;2X&#41;
-                        &#40;check
-                        volume&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">2000190</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Chromium Recovery Agent</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">220016</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Chromium Next GEM Chip M</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">2000417</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Chip Gasket&#44; HT&#44; 2&#45;pack</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">10X Genomics</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">3000656</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">10% Tween 20 </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">BioRad</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">1662404</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Glycerin &#40;glycerol&#41; 50&#37;
-                        &#40;v&#47;v&#41;
-                        Aqueous Solution</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Ricca Chemical Company</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">3290&#45;32</p>
-                </td>
-            </tr>
-        </table>
-        <br />
-
-        <p align="center">
-            <font color="#DF7800"><b>Library preparation</b></font>
-        </p>
-
-        <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
-            align="center">
-            <tr>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Description</p>
-                </td>
-                <td width="119" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Vendor</p>
-                </td>
-                <td width="109" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Catalog #</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Qiagen Buffer EBv</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Qiagen</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">19086</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Low TE Buffer &#40;10mM Tris-HCl ph
-                        8&#46;0&#44;
-                        0&#46;1 mM
-                        EDTA&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Thermo</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">12090015</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Molecular grade H<sub>2</sub>O</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Any</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">Any</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Pure ethanol &#40;200 proof&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Any</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">Any</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Eppendorf PCR tubes &#40;check 10X
-                        protocol for
-                        specific
-                        catalog &#35;s&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">KAPA HiFi HotStart ReadyMix &#40;2X&#41;
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Kapa Biosystems</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">KK2601</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">SPRI select Reagent &#40;60 mL&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Beckman Coulter</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">B23318</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">CHECK 10X protocol for additional reagents
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-        </table>
-        <br />
-
-        <p align="center">
-            <font color="#DF7800"><b>Library QC reagents</b></font>
-        </p>
-
-        <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
-            align="center">
-            <tr>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Description</p>
-                </td>
-                <td width="119" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Vendor</p>
-                </td>
-                <td width="109" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Catalog #</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">PCR Tubes</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">D5000 HS Tapestation Screentape</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">D5000 HS Tapestation Buffers</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">D5000 HS Tapestation Ladder</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">D1000 HS Tapestation Screentape</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">D1000 HS Tapestation Buffers</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">D1000 HS Tapestation Ladder</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Qubit dsDNA HS Reagents</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Invitrogen</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent Tech Loading Tips &#40;for 2200
-                        TapeStation&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">Agilent</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">5067&#45;5153</p>
-                </td>
-            </tr>
-        </table>
-        <br />
-
-        <p align="center">
-            <font color="#DF7800"><b>Primers &#40;excluding 10X
-                    reagents&#41;</b></font>
-        </p>
-
-        <table class="a" border="1" cellspacing="0" cellpadding="0" width="692"
-            align="center">
-            <tr>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Description</p>
-                </td>
-                <td width="428" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Sequence &#40;5&#39; &#45;&#62;
-                        3&#39;&#41;</p>
-                </td>
-                <td width="119" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Vendor</p>
-                </td>
-                <td width="109" nowrap="nowrap" bgcolor="#C5C5C5"
-                    valign="middle">
-                    <p align="center">Catalog #</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">ADT cDNA PCR additive primer</p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">CCTTGGCACCCGAGAATT&#42;C&#42;C</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">HTO cDNA PCR additive primer &#40;v2&#41;
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">
-                        GTGACTGGAGTTCAGACGTGTGCTCTTCCGAT&#42;C&#42;T</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">ADT Forward and Reverse Primers &#40;1 per
-                        well&#41;
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">variable</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="428" nowrap="nowrap" valign="middle">
-                    <p align="center">HTO Forward and Reverse Primers &#40;1 per
-                        well&#41;
-                    </p>
-                </td>
-                <td width="119" nowrap="nowrap" valign="middle">
-                    <p align="center">variable</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-                <td width="109" nowrap="nowrap" valign="middle">
-                    <p align="center">&#45;</p>
-                </td>
-            </tr>
-        </table>
-        <br />
-        <b>NOTES&#58;</b><br />
-        <ul type="disc">
-            <li>Indexing primers from Biolegend for compatibility with Dual
-                Indexing
-                for
-                both ADT and HTO reactions. Order at least a 100 nmole stock
-                with
-                standard
-                desalting. No need for HPLC purification&#44; per Smibert Lab
-                recommendation
-                though I imagine it would not hurt. Will cost a lot more money
-                though.
-                I have not used HPLC purification for these kind of primers for
-                my
-                other assays.</li>
-            <li>Store all primers in &#9472;20&#8451;.</li>
-        </ul>
-        <br />
-
-        <li>
-            <font size="+1"><b>Protocol</b></font>
-        </li><br />
-
-        <ol type="A">
-            <li><b>Section 1: Cell preparation</b></li><br />
-
-            <ol type="1">
-                <li>Prepare 500 mL fresh R10 media.</li>
-                <li>Prepare 50 mL of R10 &#43; 10 U&#47;mL</li>
-                <li>Procure cryopreserved vials of samples of interest&#44; keep
-                    on dry
-                    ice until ready for thawing.</li>
-                <li>To a conical tube, add 14 mL of R10 media per 1 mL of
-                    cryopreserved
-                    sample and label the tube with the respective sample name.
-                </li>
-                <li>To thaw the samples, partially submerge the cryopreserved
-                    sample tubes in a 37&#39;&#8451; water bath and move the
-                    tubes
-                    to maintain a warm tube-water interface. Maintain movement
-                    and submergence until the sample is thawed enough to slide
-                    within the tube.</li>
-                <li>Immediately place the sample in its respective conical tube.
-                    Wash the cryotubes out with 200 &#956;L R10 and place into
-                    the conical tube.</li>
-                <li>Cap the conical tubes and invert to mix the samples.</li>
-                <li>Spin the samples for 5 minutes at 500 xg.</li>
-                <li>Decant supernatant and resuspend the samples in
-                    R10 &#43; DNaseI and count. Place cell counts below&#58;
-                </li>
-                <br />
-
-                <img width=503 height=429 src="/assets/workflow/Immunobiology/
+        <img width=503 height=429 src="/assets/workflow/Immunobiology/
         cite-image-1.jpg" alt="computer Description automatically generated 
 with low confidence" style="vertical-align:middle" /><br />
 
-                <li>Bring the concentration to 2x10<sup>6</sup> live
-                    cells&#47;mL
-                    for resting. If necessary, spin the samples at 500 xg for 5
-                    min,
-                    and resuspend in the amount of R10 &#43; DNAse1 to achieve
-                    2x10<sup>6</sup> live cells&#47;mL.</li>
-                <li>Place samples in TC&#45;treated flasks&#44; and place
-                    samples in a
-                    37&#8451; incubator
-                    &#40;5&#37; CO<sub>2</sub>&#41; for <u>2 hours</u> to rest.
-                </li><br />
+        <li>Bring the concentration to 2x10<sup>6</sup> live
+          cells&#47;mL
+          for resting. If necessary, spin the samples at 500 xg for 5
+          min,
+          and resuspend in the amount of R10 &#43; DNAse1 to achieve
+          2x10<sup>6</sup> live cells&#47;mL.</li>
+        <li>Place samples in TC&#45;treated flasks&#44; and place
+          samples in a
+          37&#8451; incubator
+          &#40;5&#37; CO<sub>2</sub>&#41; for <u>2 hours</u> to rest.
+        </li><br />
 
-                <b>NOTE&#58; After this point&#46; when spinning live cells, set
-                    the
-                    centrifuge
-                    to 10C to help keep cells viable&#47;slow transcriptional
-                    dynamics&#46;
-                    <u>KEEP SAMPLES COLD AT ALL TIMES&#33;&#33;&#46;</u></b>
-                <br /><br />
+        <b>NOTE&#58; After this point&#46; when spinning live cells, set
+          the
+          centrifuge
+          to 10C to help keep cells viable&#47;slow transcriptional
+          dynamics&#46;
+          <u>KEEP SAMPLES COLD AT ALL TIMES&#33;&#33;&#46;</u></b>
+        <br /><br />
 
-                <li>After resting, spin the cells down at 500 xg for 5 minutes
-                    at
-                    10&#8451;.</li>
-                <li>Carefully pipette off supernatant, and resuspend cells in
-                    1mL ice
-                    cold Cell Staining Buffer for low-cell count samples and 3
-                    mL for
-                    high-cell
-                    count samples. Count cells via trypan blue and automated
-                    cell counter
-                    (i.e.Countess
-                    II).</li>
-                <li>Place cell counts below &#40;pre-live cell
-                    enrichment&41;&#58;</li>
-                <br />
+        <li>After resting, spin the cells down at 500 xg for 5 minutes
+          at
+          10&#8451;.</li>
+        <li>Carefully pipette off supernatant, and resuspend cells in
+          1mL ice
+          cold Cell Staining Buffer for low-cell count samples and 3
+          mL for
+          high-cell
+          count samples. Count cells via trypan blue and automated
+          cell counter
+          (i.e.Countess
+          II).</li>
+        <li>Place cell counts below &#40;pre-live cell
+          enrichment&41;&#58;</li>
+        <br />
 
-                <img width=542 height=463
-                    src="/assets/workflow/Immunobiology/cite-image-2.jpg"
-                    alt="image-2" style="vertical-align:middle" /><br />
+        <img width=542 height=463
+          src="/assets/workflow/Immunobiology/cite-image-2.jpg" alt="image-2"
+          style="vertical-align:middle" /><br />
 
-                <li>If the viability of the sample is &#62;&#61;90&#37;&#44;
-                    proceed to
-                    the next step.</li>
+        <li>If the viability of the sample is &#62;&#61;90&#37;&#44;
+          proceed to
+          the next step.</li>
 
-                <ol type="a">
-                    <li>If the viability of the sample is &#60;90&#37; and you
-                        have
-                        <b>&#62;</b>10x10
-                        <sup>6</sup> cells per sample&#44; use the Dead Cell
-                        Removal kit
-                        &#40;StemCell&#59;
-                        annexin V labeling to target phosphatidylserine which is
-                        exposed on
-                        the surface
-                        of dying&#47;dead cells&#41;.
-                    </li>
-                    <li>If the viability of the sample is &#60;90&#37; and you
-                        have
-                        <b>&#60;</b>10x10
-                        <sup>6</sup> cells per sample&#58;
-                    </li>
-                    <ol type="i">
-                        <li>Filter the samples with 70 &#956;m FACS filter
-                            tubes&#46; Prime
-                            filter with 200 &#956;L Cell
-                            Staining Buffer, followed by pipetting the sample
-                            through the
-                            filter&#46;
-                            Then&#44; pipette another 500 &#956;L of cold Cell
-                            Staining Buffer
-                            onto the
-                            filter to flush through remaining cells&#46;</li>
-                        <br />
-                    </ol>
-                    <li>Do the same live cell enrichment for all samples in your
-                        experiment&#33;</li>
-                    <li>Place cell counts below &#40;post live cell
-                        enrichment&#41;&#58;
-                    </li><br />
-                </ol>
-
-                <img width=542 height=463
-                    src="/assets/workflow/Immunobiology/cite-image-3.png"
-                    alt="image-3" style="vertical-align:middle" /><br />
-
-                <li>Take 500k live cells from each sample and place in separate
-                    1&#46;5ml DNA lobind tubes.</li>
-                <li>Spin down the cells at 200g for 10 mins.</li>
-                <li>With a 1000&#956;l tip inserted inside a 200&#956;l tip&#44;
-                    carefully remove supernatant
-                    and resuspend cells in 22&#46;5&#956;l Cell Staining
-                    Buffer&#46;
-                    <b>Keep cells on ice&#33;</b>
-                </li>
-                <ul type="circle">
-                    <li>Note: it&#39;s better to leave a 5 &#956;l than lose
-                        cells&#33;
-                    </li>
-                    <li>Keep cells on ice for all remaining steps</li>
-                </ul>
-            </ol>
-            <br /><br />
-
-            <li><b>Section 2: Cell staining</b></li>
+        <ol type="a">
+          <li>If the viability of the sample is &#60;90&#37; and you
+            have
+            <b>&#62;</b>10x10
+            <sup>6</sup> cells per sample&#44; use the Dead Cell
+            Removal kit
+            &#40;StemCell&#59;
+            annexin V labeling to target phosphatidylserine which is
+            exposed on
+            the surface
+            of dying&#47;dead cells&#41;.
+          </li>
+          <li>If the viability of the sample is &#60;90&#37; and you
+            have
+            <b>&#60;</b>10x10
+            <sup>6</sup> cells per sample&#58;
+          </li>
+          <ol type="i">
+            <li>Filter the samples with 70 &#956;m FACS filter
+              tubes&#46; Prime
+              filter with 200 &#956;L Cell
+              Staining Buffer, followed by pipetting the sample
+              through the
+              filter&#46;
+              Then&#44; pipette another 500 &#956;L of cold Cell
+              Staining Buffer
+              onto the
+              filter to flush through remaining cells&#46;</li>
             <br />
-            <ol type="1">
-                <li>Take TotalSeqA v1&#46; cocktail out of 4C and equilibrate at
-                    RT for
-                    5 mins&#46;
-                    <b>DO NOT OPEN VIAL&#46;</b>
-                </li>
-                <ol type="a">
-                    <li>Use 1 cocktail vial per every two samples &#40;ie 8
-                        samples
-                        requires 4 vials&#41;</li>
-                    <li>TotalSeqA Cocktail
-                        Lot&#35;&#58;&#95;&#95;&#95;&#95;&#95;&#95;
-                    </li>
-                </ol>
-                <li>Spin down cocktail vial at 10k g for 30 seconds at RT.</li>
-                <li>Add 27&#46;5&#956;l of Cell Staining Buffer to each cocktail
-                    vial&#46;</li>
-                <li>Vortex cocktail vials for 10 seconds&#46; Briefly spin
-                    down&#46;
-                </li>
-                <li>Incubate at RT for 5 mins.</li>
-                <li>Vortex again and spin down at 10k g for 30 seconds at RT.
-                </li>
-                <li>Transfer the entire volume of each cocktail vial to an empty
-                    1&#46;5ml Protein LoBind
-                    tube &#40;one per vial&#41;.</li>
-                <li>Spin down at 14k g for 10 mins at 4C.</li>
-                <li>Add 2&#46;5&#956;l of TruStain FcX to each sample and gently
-                    pipet
-                    to mix.</li>
-                <li>Incubate for 10 mins at 4C.</li>
-                <li>Add 12&#46;5&#956;l of Cell Staining Buffer to each sample
-                    tube.
-                </li>
-                <li>Vortex and spin down hashing antibodies.</li>
-                <li>Add 0&#46;5&#956;g &#40;1&#956;l&#40; of hashtag antibody to
-                    each
-                    sample tube.
-                    Be sure to take hashtag antibody from the top portion of the
-                    vial.
-                    <u>Take note which HTO was
-                        added to each sample in the table below.</u>
-                </li><br />
-
-                <table class="a6" border="1" cellspacing="0" cellpadding="0"
-                    width="284" align="center">
-                    <tr>
-                        <td width="137" nowrap="nowrap" valign="middle">
-                            <p align="center">Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">HTO Antibody</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="137" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="137" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="137" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="137" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                </table>
-                <br />
-
-
-                <li>Add 12&#46;5&#956;l of antibody cocktail to each sample
-                    tube&#46;
-                    Gently pipet to mix.</li>
-                <li>Incubate for 30 mins at 4C.</li>
-                <ol type="a">
-                    <li>Make Template Switch Oligo &#40;TSO&#41; here&#44;
-                        unless already
-                        reconstituted</li>
-                    <li>Run Readiness test on the Chromium X instrument</li>
-                </ol>
-                <li>Add 1ml of Cell Staining Buffer to each sample tube.</li>
-                <li>Spin down at 400g for 5 mins.</li>
-                <li>With a 1000&#956;l tip inserted inside a 200&#956;l tip,
-                    carefully
-                    pipette out supernatant
-                    and discard supernatant.</li>
-                <li>Repeat steps 16&#45;18 for a total of 3 washes.</li>
-                <li>Resuspend cells in 200ul of Cell Staining Buffer. Count
-                    cells using
-                    trypan blue.</li>
-                <li><u>Place cell counts in table below&#58;</u></li><br />
-
-                <img width=495 height=423
-                    src="/assets/workflow/Immunobiology/cite-image-4.jpg"
-                    alt="image-4" style="vertical-align:middle" /><br />
-
-                <p align="center"><b>Pooled Cells&#47;&#956;l&#58;
-                        &#95;&#95;&#95;&#95;&#95;&#95;&#95;
-                        &#95;&#95;&#95;</b></p>
-                <br />
-                <br />
-
-                <li>Keep cells on ice until ready to merge cells and load for
-                    10X
-                    &#40;i&#46;e&#46; GEM
-                    beads are thawed and master mix is prepared&#44; refer to
-                    Section
-                    3&#44; Step 1&#41;.</li>
-                <li>In a new DNA lo&#45;bind tube of 1ml Cell Staining
-                    Buffer&#44; add
-                    cells from each
-                    sample to create a pooled sample&#46; Read step 25 and
-                    Section 3&#44;
-                    Step 2 below for more
-                    details before deciding how many cells to add.</li>
-                <ul type="circle">
-                    <li>Use the &#34;Cell Pooling Calculator &#40;10X&#41;&#34;
-                        on the
-                        Betts
-                        Google Drive to calculate how many cells you should add
-                        per sample.
-                    </li>
-                </ul>
-                <li>Spin down pooled cells at 400g for 5 min.</li>
-                <li>With a 1000&#956;l tip inserted inside a 200&#956;l tip,
-                    carefully
-                    pipette
-                    out the supernatant and discard.</li>
-                <li>Resuspend cell pellet in &#95;&#95;&#95;&#95; &#956;l of
-                    <u>CSB</u>
-                    &#40;whatever
-                    is indicated on the Calculator&#41; to get a final
-                    resuspension of
-                    1500 cells&#47;&#956;l
-                    or higher &#40;2000 cells&#47;&#956;l is recommended&#41;. I
-                    recommend
-                    at least a final
-                    volume of 150&#956;l to assist with the next step.</li>
-                <li>Into a new DNA lo-bind tube, filter cells through a
-                    40&#956;m
-                    strainer &#40;FlowMi strainer&#41;
-                    using a p1000 tip</li>
-                <ol type="a">
-                    <li>For cell pools &#62;250&#956;l&#44; split the cell pool
-                        into 2
-                        separate pools
-                        and use 2 FlowMi strainers&#46; Account for the extra
-                        loss in your
-                        calculations.</li>
-                    <li>Uptake the cells with the p1000 tip, and push the tip
-                        into a
-                        FlowMi &#40;with mild
-                        resistance&#41; until the pipette won&#39;t go further
-                        into the
-                        filter. Into the new
-                        DNA lo-bind tube&#44; gently push the pipette plunger
-                        until you are
-                        to the second stop.
-                        You will then observe the cell pool sample passing
-                        through the
-                        filter over a period
-                        of &#126;10 seconds.</li>
-                </ol>
-                <li>Count cells with trypan blue staining and get the cell
-                    concentration
-                    in cells&#47;&#956;l.</li><br />
-
-                <img width=313 height=55
-                    src="/assets/workflow/Immunobiology/cite-image-5.jpg"
-                    alt="image-5" style="vertical-align:middle" /><br />
-
-
-                <li>Keep cells on ice until use and proceed directly to loading
-                    the
-                    Chromium Chip M&#58;</li>
-                <ol type="a">
-                    <li>First&#58; take GEM Beads out of &#9472;80&#8451; and
-                        incubate at
-                        RT for 30 minutes
-                        before use.</li>
-                    <li>Note&#58; Loading is based upon <u>total</u> cell
-                        concentration&#44; not live cell&#44;
-                        since dead cells count as cells&#33;</li>
-                    <li>For cells &#43; H<sub>2</sub>O&#58; 86&#46;4&#956;l</li>
-                    <li>&#956;l and number of cells loaded per well&#58;</li>
-                    <ul type="none">
-                        <li>&#956;l of cells&#58; &#95;&#95;&#95;&#95;&#95;
-                            &nbsp; # of
-                            cells&#58; &#95;&#95;&#95;&#95;&#95;
-                            &nbsp; &#956;l of mH<sub>2</sub>O&#58;
-                            &#95;&#95;&#95;&#95;&#95;
-                        </li>
-                    </ul>
-                </ol>
-            </ol>
-
-            <br />
-            <li><b>Section 3: Modifications to 10X Chip M protocol</b>
-                <ol type="1">
-                    <br />
-                    <li>Follow the Chip M v3&#46;1 protocol until Step 1&#46;2c.
-                    </li>
-                    <li>To superload the chip&#44; we need to respect the volume
-                        limit in the chip. For rows 2A and 2B of Chip M, the
-                        final volume
-                        must be 140&#956;l. As such, the 10X protocol prepares
-                        an initial
-                        combined mixture of 150&#956;l &#40;10X builds in extra
-                        volume into
-                        the initial mixture&#41; before having the user load
-                        140ul, thus
-                        ensuring
-                        140&#956;l is loaded without having to worry about
-                        volumes. For the
-                        initial combined mixture, 63.6ul of Master Mix is used
-                        per well,
-                        granting
-                        86&#46;4&#956;l of space for cells.</li>
-                    <ol type="a">
-                        <li>Utilize the Cell Suspension Volume Calculator Table
-                            to decide
-                            how many
-                            cells to use.</li>
-                        <ol type="i">
-                            <li>When referring to your cell pool, <u>use total
-                                    cell count</u>,
-                                not live cell
-                                count, as dead cells are emulsed as well as
-                                alive.</li>
-                            <li>The Cell Suspension Volume Calculator Table only
-                                accounts for
-                                one well of
-                                Chip M &#40;i&#46;e 2A&#44; not 2A &#43; 2B&#41;
-                            </li>
-                        </ol>
-                        <li>For example, if we want a targeted cell
-                            concentration of
-                            17&#44;500 cells&#47;well and
-                            our cell stock concentration is at 1500
-                            cells&#47;&#956;l. We
-                            would then put in 24.1&#956;l of
-                            cells and add 62&#46;3&#956;l of nuclease&#45;free
-                            water to the
-                            Master Mix for Step 1&#46;2b.</li>
-                        <ol type="i">
-                            <li>If there are 16 reactions being run, that would
-                                require
-                                385&#46;6 &#956;l of cell
-                                suspension</li>
-                            <li>Expect a loss in cell concentration during
-                                washing and FlowMi
-                                filtration&#59; i&#46;e&#46;
-                                a drop from 2000 cells&#47;&#956;l to 1200
-                                cells&#47;&#956;l.
-                                So, expect to need a larger
-                                number of cells. Refer to the &#34;Cell Pooling
-                                Calculator
-                                &#40;10X&#41;&#34; on the
-                                <u>Betts Google Drive</u> to calculate how many
-                                cells you should
-                                add per sample.
-                            </li>
-                        </ol>
-                    </ol>
-
-                    <li>Proceed with the rest of 10X Protocol Step 1 through
-                        Step 1&#46;4.
-                    </li>
-                    <li>At the end of Step 1&#46;4&#44; the GEMs must be evenly
-                        distributed
-                        between shared samples tubes &#40;i&#46;e&#46; 1A and
-                        1B&#41; to
-                        ensure equal library representation downstream. For
-                        example, if
-                        there
-                        is equal GEM creation between 1a and 1b&#44; then move
-                        forward
-                        through
-                        10X protocol step 2&#46;1&#46; If there is unequal
-                        distribution
-                        between
-                        1a and 1b&#44; then from the sample with more GEMs
-                        slowly withdraw
-                        GEMs
-                        over 30 seconds and dispense in the opposite sample tube
-                        over 20
-                        seconds.</li>
-                    <ol type="a">
-                        <li>If 1a has complete/partial GEM emulsions and 1b has
-                            no GEMs,
-                            then move
-                            forward with a blank 1b.</li>
-                    </ol>
-                    <li>Proceed with the rest of 10X Protocol Step 1 through
-                        Step 2&#46;1.
-                    </li>
-                    <li>For Step 2&#46;2a, add in the additional reagents to
-                        cDNA
-                        Amplification
-                        Mix as such&#58;</li>
-                    <ol type="a">
-                        <li>Add in 1&#956;l of 0&#46;2&#956;M ADT PCR additive
-                            primer
-                            &#40;to create
-                            1X primer concentration&#41;</li>
-                        <li>Add in 1ul of 0.1uM HTO PCR additive primer &#40;to
-                            create 1X
-                            primer
-                            concentration&#41;</li>
-                        <ol type="i">
-                            <li>Just add 1&#956;l of each 10um primer to the
-                                final reaction.
-                            </li>
-                        </ol>
-                    </ol>
-                    <li>Add 65&#956;l of this amplification mix to the sample
-                        for Step
-                        2&#46;2b</li>
-                    <ol type="a">
-                        <li>Number of cDNA amplification cycles&#58;
-                            &#95;&#95;&#95;&#95;&#95;&#95;
-                            &#95;&#95;</li>
-                        <ol type="i">
-                            <li>For HT reactions, consider starting at 8 cycles
-                            </li>
-                        </ol>
-                    </ol>
-                    <li>Proceed with the rest of Step 2.2.</li>
-                    <li><b>For step 2.3, follow these instructions with the
-                            below
-                            modifications exactly.</b></li>
-                    <ol type="a">
-                        <li>In step 2&#46;3d&#44; DO NOT DISCARD THE
-                            SUPERNATANT. Reserve
-                            the supernatant
-                            in new strip tubes. Clearly label the tubes&#33;
-                            This supernatant
-                            contains
-                            your ADT and HTO libraries. Meanwhile, your beads
-                            are binding your
-                            full
-                            length cDNAs. <b>After the supernatant has been
-                                saved, proceed
-                                with the rest
-                                of the 10X protocol for the bead cleanup and
-                                preparation of your
-                                cDNA fraction.
-                                Follow the below steps for the supernatant.</b>
-                        </li>
-                        <li>With this supernatant, add 140ul &#40;thus doing a
-                            2X SPRI
-                            cleanup&#41; to the
-                            supernatant.</li>
-                        <ol type="i">
-                            <li>Add 2500&#956;l of SPRI beads to multichannel
-                                reservoir just
-                                prior to use &#40;
-                                for 16 rxns worth&#41;</li>
-                        </ol>
-                        <li>Pipet to mix and incubate for 10 min at RT with caps
-                            open and no
-                            bubbles</li>
-                        <ol type="i">
-                            <li>During the incubation, create new 80&#37; EtOH
-                                using molecular
-                                grade
-                                H<sub>2</sub>O</li>
-                            <li>If planning on running Tapestation&#47;Qbit,
-                                bring out enough
-                                TapeStation
-                                strips and allow to come to RT.</li>
-                            <li>Near end of incubation, create 8mL of 80&#37;
-                                EtOH
-                                &#40;1&#46;6 mL of
-                                H<sub>2</sub>O, 6&#46;4 mL of EtOH&#41; just
-                                prior to use
-                                &#40;for
-                                16 rxns worth&#41;</li>
-                        </ol>
-                        <li>Centrifuge briefly and place on magnet in High
-                            position.</li>
-                        <li>After beads have separated, remove and discard
-                            supernatant.</li>
-                        <li>Add 200ul of 80&#37; EtOH and wait 30 secs.</li>
-                        <li>Discard EtoH.</li>
-                        <li>Repeat steps f&#45;g one more time.</li>
-                        <li>Centrifuge the tube briefly to collect beads and
-                            place tube on
-                            magnet in Low
-                            position.</li>
-                        <li>Once beads have moved, use pipet to remove any
-                            remaining EtOH.
-                            Dry for 1 minute.</li>
-                        <ol type="i">
-                            <li>Add 1mL of EB to multichannel reservoir just
-                                prior to use
-                                &#40;for 16 rxns worth&#41;</li>
-                        </ol>
-                        <li>Resuspend beads in 46&#46;5&#956;l Buffer EB. Pipet
-                            to mix.</li>
-                        <li>Incubate for 2 min at RT.</li>
-                        <li>Place on magnet in Low position.</li>
-                        <li>After beads have separated, collect 46&#956;l of the
-                            volume into
-                            a strip tube.</li>
-                        <li>For each paired sample, combine the two fractions of
-                            46ul eluent
-                            &#40;ie from 1a and
-                            1b&#41; into a 92 ul pool.</li>
-                        <li>Quantify DNA concentration and quality of the RNA
-                            and
-                            ADT&#47;HTO libraries using the
-                            Qbit and Tapestation D5000</li>
-                        <ol type="i">
-                            <li><u>Tapestation</u> &#40;start first&#41;. Label
-                                enough
-                                tapestation&#45;compatible
-                                8 strip tubes for all samples &#43;1. Add
-                                2&#956;l of D5000
-                                buffer to each tube.
-                                Add 2 &#956;l D5000 ladder to the ladder tube.
-                                Add 2 &#956;l of
-                                each sample to
-                                their respective tube. Save photos of each
-                                electropherogram to
-                                ascertain sample quality.</li>
-                            <li><u>Qbit</u> &#40;during Tapestation
-                                run&#41;&#58; On the top
-                                of each tube, label enough Qbit
-                                tubes for all samples &#43; 2 standards
-                                &#40;Standard 1 and
-                                Standard 2&#41; &#43; 1 blank.
-                                Create enough Qbit working buffer &#40;1ul dye
-                                &#43; 199 &#956;l
-                                Qbit buffer&#956; for all
-                                tubes &#43; 1. Add 190&#956;l of buffer to the
-                                Standard
-                                tubes&#44; and 199&#956;l to all other
-                                tubes. Add 1&#956;l of sample to their
-                                respective sample
-                                tube&#44; or 1&#956;l EB to the Blank.
-                                Mix all tubes well via vortex and run on the
-                                Qbit.</li>
-                        </ol>
-                    </ol>
-                    <li>At Step 2&#46;3m&#44; pool samples from corresponding
-                        tubes to
-                        form cDNA samples for downstream analyses.</li>
-                    <li>Proceed with the rest of the 10X Chip M protocol as
-                        specified for
-                        the RNA fraction&#44; see protocol below for
-                        ADT&#47;HTO fraction.</li>
-                    <ol type="a">
-                        <li>Do not freeze RNA&#47;ADT&#47;HTO if quantifying the
-                            next
-                            day&#33;</li>
-                    </ol>
-                </ol>
-                <br />
-
-            <li><b>Section 4&#58; ADT amplification</b></li><br>
-            <ol type="1">
-                <li>Take 45&#956;l of the volume from Section 3&#44; Step 7 into
-                    a new
-                    strip tube.</li>
-                <li>Add 50&#956;l of Kapa Hifi Master Mix to each sample.</li>
-                <li>To each sample&#44; add 2&#46;5&#956;l &#40;10&#956;M
-                    stock&#41; of
-                    each primer in
-                    a DI&#95;ADTx primer pair. This will uniquely index that
-                    sample.
-                    RECORD WHICH PRIMER
-                    PAIRS ARE USED BY WHICH SAMPLE. Do not intermix primers from
-                    different
-                    pairs.</li><br />
-
-                <table class="a7" border="1" cellspacing="0" cellpadding="0"
-                    width="576" align="center">
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">10X Chip Well&#47;Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">ADT Primer Pair</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">10X Chip Well&#47;Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">ADT Primer Pair</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                </table>
-                <br />
-
-                <li>Pipet to mix sample &#40;final volume should be
-                    100&#956;l&#41;.
-                </li>
-                <li>Amplify with the following settings&#58;</li>
-                <ul type="circle">
-                    <li>2min &#64; 98&#8451;</li>
-                    <li>Cycle <b>6&#45;10x &#40;depending upon yield&#41;</b>
-                    </li>
-                    <ol type="i">
-                        <li>20sec &#64; 98&#8451;</li>
-                        <li>30sec &#64; <b>60&#8451;</b>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Cycles Done&#58; &#95;&#95;&#95;&#95;&#95;&#95;
-                            &#40;suggested
-                            8&#41;</li>
-                        <li>20sec &#64; 72&#8451;</li>
-                    </ol>
-                    <li>5 min &#64; 72&#8451;</li>
-                    <li>Hold &#64; 4&#8451;</li>
-                </ul>
-            </ol>
-            <br />
-            <li><b>Section 5: HTO amplification</b></li><br />
-            <ol type="1">
-                <li>Take 45&#956;l of the volume from Section 3&#44; Step 7n
-                    into a new
-                    strip tube.</li>
-                <li>Add 50&#956;l of Kapa Hifi Master Mix to each sample.</li>
-                <li>To each sample, add 2&#46;5&#956;l &#40;10&#956;M stock&#41;
-                    of each
-                    primer in a
-                    DI&#45;HTOx primer pair. This will uniquely index that
-                    sample. RECORD
-                    WHICH PRIMER
-                    PAIRS ARE USED BY WHICH SAMPLE. Do not intermix primers from
-                    different
-                    pairs.</li><br />
-
-
-                <table class="a7" border="1" cellspacing="0" cellpadding="0"
-                    width="576" align="center">
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">10X Chip Well&#47;Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">HTO Primer Pair</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">10X Chip Well&#47;Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">HTO Primer Pair</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                </table>
-                <br />
-
-                <li>Pipet to mix sample &#40;final volume should be 100ul&#41;.
-                </li>
-                <li>Amplify with the following settings&#58;</li>
-                <ul type="circle">
-                    <li>2min &#64; 98&#8451;</li>
-                    <li><b>Cycle 8&#45;12x &#40;depending upon yield&#41;</b>
-                    </li>
-                    <ol type="i">
-                        <li>20sec &#64; 98&#8451;</li>
-                        <li>30sec &#64; <b>64&#8451;</b>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Cycles Done&#58; &#95;&#95;&#95;&#95;&#95;&#95;
-                            &#40;suggested
-                            7&#45;8&#41;</li>
-                        <li>20sec &#64; 72&#8451;</li>
-                    </ol>
-                    <li>5 min &#64; 72&#8451;</li>
-                    <li>Hold &#64; 4&#8451;</li>
-                </ul>
-            </ol>
-            <br />
-            <li><b>Section 6: ADT and/or HTO cleanup</b></li><br />
-            <ol type="1">
-                <li>Ensure that libraries have equilibrated to RT.</li>
-                <li>From amplified products in Section 4 and&#47;or Section
-                    5&#44;
-                    proceed with a
-                    1&#46;2X SPRI purification by adding 120ul SPRI reagent to
-                    the
-                    library.</li>
-                <ol type="a">
-                    <li>Add 2300&#956;l of vortexed SPRI beads to multichannel
-                        reservoir
-                        just prior
-                        to use &#40;for 16 rxns worth&#41;</li>
-                </ol>
-                <li>Pipet to mix and incubate for 10 min at RT, no bubbles.</li>
-                <ol type="a">
-                    <li>If planning on running Tapestation&#47;Qbit&#44; bring
-                        out enough
-                        TapeStation strips and allow to come to RT.</li>
-                    <li>Near end of incubation, create 8mL of 80&#37; EtOH
-                        &#40;1.6 mL of
-                        H<sub>2</sub>O&#44;6&#46;4 mL of EtOH&#41; just prior to
-                        use
-                        &#40;for
-                        16 rxns worth&#41;</li>
-                </ol>
-                <li>Place tubes on the magnet in High position.</li>
-                <li>After beads have separated&#44; remove and discard
-                    supernatant.</li>
-                <li>Add 200ul of 80&#37; EtOH and wait 30 secs.</li>
-                <li>Discard EtoH</li>
-                <li>Repeat steps f&#45;g one more time.</li>
-                <li>Centrifuge the tube briefly to collect beads and place tube
-                    on
-                    magnet in Low
-                    position.</li>
-                <li>Once beads have moved, use pipet to remove any remaining
-                    EtOH. Dry
-                    for 1 minute.</li>
-                <ol type="a">
-                    <li>Add 1mL of EB to multichannel reservoir just prior to
-                        use &#40;for
-                        16 rxns
-                        worth&#41;</li>
-                </ol>
-                <li>Resuspend beads in <u>31ul Buffer EB</u>. Pipet to mix.</li>
-                <li>Incubate for 2 min at RT.</li>
-                <li>Place on magnet in Low position.</li>
-                <li>After beads have separated, collect 30ul into a new 8 strip
-                    tube.
-                    Label
-                    this carefully as this is your final library for ADT
-                    and&#47;or
-                    HTO&#33;.</li>
-                <li>Quantify DNA concentration and quality of the RNA and
-                    ADT&#47;HTO
-                    libraries
-                    using the Qbit and Tapestation D5000.</li>
-                <ol type="a">
-                    <li><u>Tapestation</u> &#40;start first&#41;. Label enough
-                        tapestation&#45;
-                        compatible 8 strip tubes for all samples &#43;1. Add
-                        2&#956;l of
-                        D5000 buffer
-                        to each tube. Add 2&#956;l D5000 ladder to the ladder
-                        tube. Add
-                        2&#956;l of each
-                        sample to their respective tube. Save photos of each
-                        electropherogram to ascertain
-                        sample quality.</li>
-                    <li><u>Qbit</u> &#40;during Tapestation run&#41;&#58; On the
-                        top of
-                        each tube, label
-                        enough Qbit tubes for all samples &#43; 2 standards
-                        &#40;Standard 1
-                        and Standard 2&#41;
-                        &#43; 1 blank. Create enough Qbit working buffer
-                        &#40;1&#956;l dye
-                        &#43; 199&#956;l
-                        Qbit buffer&#41; for all tubes &#43; 1. Add 190&#956;l
-                        of buffer to
-                        the Standard tubes&#44;
-                        and 199&#956;l to all other tubes. Add 1ul of sample to
-                        their
-                        respective sample tube,
-                        or 1&#956;l EB to the Blank. Mix all tubes well via
-                        vortex and run
-                        on the Qbit.</li>
-                </ol>
-                <li>Libraries can be stored at -20ï¿½C in DNA lo-bind tubes
-                    until ready
-                    to sequence.</li>
-            </ol>
-            <br />
-
-
-            <li><b>Section 7: ADT and/or HTO quality checks</b></li>
-            <br />
-            <ol type="1">
-                <li>Check library concentration using 1ul with Qubit and a HS
-                    dsDNA
-                    assay.</li>
-                <li>Check library fragments with a D1000 HS Tape. Both libraries
-                    should
-                    consist
-                    of one peak at 230bp. Refer to the original multiplexing
-                    cell hashing
-                    CITEseq
-                    and Biolegend protocols for troubleshooting if other peaks
-                    are
-                    observed.</li>
-            </ol>
-
-            <br />
-            <li><b>Section 8: RNA Library Index Primers</b></li><br />
-            <ol type="1">
-                <li>Record below which indexing primer pair &#40;or the well on
-                    the
-                    Primer Plate&#41;
-                    was used for each 10X well &#40;to enable pooling for
-                    sequencing&#41;.
-                </li><br />
-
-                <table class="a7" border="1" cellspacing="0" cellpadding="0"
-                    width="576" align="center">
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">10X Chip Well&#47;Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">Primer Pair &#40;Well on
-                                Plate&#41;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">10X Chip Well&#47;Sample</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">Primer Pair &#40;Well on
-                                Plate&#41;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                        <td width="140" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;
-                        </td>
-                        <td width="146" nowrap="nowrap" valign="middle">
-                            <p align="center">&#45;</p>
-                        </td>
-                    </tr>
-                </table>
-                <br />
-
-
-                <p align="center"><b>Index primer Plate Type&#58;
-                        &#95;&#95;&#95;&#95;
-                        &nbsp;&nbsp;&nbsp; PN&#58;
-                        &#95;&#95;&#95;&#95;&#95;&#95;
-                        &nbsp;&nbsp;&nbsp;
-                        LN&#58; &#95;&#95;&#95;&#95;&#95;&#95;&#95;</b></p>
-                <br />
-
-                <p align="center"><b>cDNA Sample Index PCR amplification cycles
-                        done&#58; &#95;&#95;&#95;
-                        &#95;&#95;&#95; &#40;11 recommended&#41;</b></p>
-            </ol>
+          </ol>
+          <li>Do the same live cell enrichment for all samples in your
+            experiment&#33;</li>
+          <li>Place cell counts below &#40;post live cell
+            enrichment&#41;&#58;
+          </li><br />
         </ol>
 
-</body>
+        <img width=542 height=463
+          src="/assets/workflow/Immunobiology/cite-image-3.png" alt="image-3"
+          style="vertical-align:middle" /><br />
 
+        <li>Take 500k live cells from each sample and place in separate
+          1&#46;5ml DNA lobind tubes.</li>
+        <li>Spin down the cells at 200g for 10 mins.</li>
+        <li>With a 1000&#956;l tip inserted inside a 200&#956;l tip&#44;
+          carefully remove supernatant
+          and resuspend cells in 22&#46;5&#956;l Cell Staining
+          Buffer&#46;
+          <b>Keep cells on ice&#33;</b>
+        </li>
+        <ul type="circle">
+          <li>Note: it&#39;s better to leave a 5 &#956;l than lose
+            cells&#33;
+          </li>
+          <li>Keep cells on ice for all remaining steps</li>
+        </ul>
+      </ol>
+      <br /><br />
+
+      <li><b>Section 2: Cell staining</b></li>
+      <br />
+      <ol type="1">
+        <li>Take TotalSeqA v1&#46; cocktail out of 4C and equilibrate at
+          RT for
+          5 mins&#46;
+          <b>DO NOT OPEN VIAL&#46;</b>
+        </li>
+        <ol type="a">
+          <li>Use 1 cocktail vial per every two samples &#40;ie 8
+            samples
+            requires 4 vials&#41;</li>
+          <li>TotalSeqA Cocktail
+            Lot&#35;&#58;&#95;&#95;&#95;&#95;&#95;&#95;
+          </li>
+        </ol>
+        <li>Spin down cocktail vial at 10k g for 30 seconds at RT.</li>
+        <li>Add 27&#46;5&#956;l of Cell Staining Buffer to each cocktail
+          vial&#46;</li>
+        <li>Vortex cocktail vials for 10 seconds&#46; Briefly spin
+          down&#46;
+        </li>
+        <li>Incubate at RT for 5 mins.</li>
+        <li>Vortex again and spin down at 10k g for 30 seconds at RT.
+        </li>
+        <li>Transfer the entire volume of each cocktail vial to an empty
+          1&#46;5ml Protein LoBind
+          tube &#40;one per vial&#41;.</li>
+        <li>Spin down at 14k g for 10 mins at 4C.</li>
+        <li>Add 2&#46;5&#956;l of TruStain FcX to each sample and gently
+          pipet
+          to mix.</li>
+        <li>Incubate for 10 mins at 4C.</li>
+        <li>Add 12&#46;5&#956;l of Cell Staining Buffer to each sample
+          tube.
+        </li>
+        <li>Vortex and spin down hashing antibodies.</li>
+        <li>Add 0&#46;5&#956;g &#40;1&#956;l&#40; of hashtag antibody to
+          each
+          sample tube.
+          Be sure to take hashtag antibody from the top portion of the
+          vial.
+          <u>Take note which HTO was
+            added to each sample in the table below.</u>
+        </li><br />
+
+        <table class="a6" border="1" cellspacing="0" cellpadding="0" width="284"
+          align="center">
+          <tr>
+            <td width="137" nowrap="nowrap" valign="middle">
+              <p align="center">Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">HTO Antibody</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="137" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="137" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="137" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="137" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+        </table>
+        <br />
+
+
+        <li>Add 12&#46;5&#956;l of antibody cocktail to each sample
+          tube&#46;
+          Gently pipet to mix.</li>
+        <li>Incubate for 30 mins at 4C.</li>
+        <ol type="a">
+          <li>Make Template Switch Oligo &#40;TSO&#41; here&#44;
+            unless already
+            reconstituted</li>
+          <li>Run Readiness test on the Chromium X instrument</li>
+        </ol>
+        <li>Add 1ml of Cell Staining Buffer to each sample tube.</li>
+        <li>Spin down at 400g for 5 mins.</li>
+        <li>With a 1000&#956;l tip inserted inside a 200&#956;l tip,
+          carefully
+          pipette out supernatant
+          and discard supernatant.</li>
+        <li>Repeat steps 16&#45;18 for a total of 3 washes.</li>
+        <li>Resuspend cells in 200ul of Cell Staining Buffer. Count
+          cells using
+          trypan blue.</li>
+        <li><u>Place cell counts in table below&#58;</u></li><br />
+
+        <img width=495 height=423
+          src="/assets/workflow/Immunobiology/cite-image-4.jpg" alt="image-4"
+          style="vertical-align:middle" /><br />
+
+        <p align="center"><b>Pooled Cells&#47;&#956;l&#58;
+            &#95;&#95;&#95;&#95;&#95;&#95;&#95;
+            &#95;&#95;&#95;</b></p>
+        <br />
+        <br />
+
+        <li>Keep cells on ice until ready to merge cells and load for
+          10X
+          &#40;i&#46;e&#46; GEM
+          beads are thawed and master mix is prepared&#44; refer to
+          Section
+          3&#44; Step 1&#41;.</li>
+        <li>In a new DNA lo&#45;bind tube of 1ml Cell Staining
+          Buffer&#44; add
+          cells from each
+          sample to create a pooled sample&#46; Read step 25 and
+          Section 3&#44;
+          Step 2 below for more
+          details before deciding how many cells to add.</li>
+        <ul type="circle">
+          <li>Use the &#34;Cell Pooling Calculator &#40;10X&#41;&#34;
+            on the
+            Betts
+            Google Drive to calculate how many cells you should add
+            per sample.
+          </li>
+        </ul>
+        <li>Spin down pooled cells at 400g for 5 min.</li>
+        <li>With a 1000&#956;l tip inserted inside a 200&#956;l tip,
+          carefully
+          pipette
+          out the supernatant and discard.</li>
+        <li>Resuspend cell pellet in &#95;&#95;&#95;&#95; &#956;l of
+          <u>CSB</u>
+          &#40;whatever
+          is indicated on the Calculator&#41; to get a final
+          resuspension of
+          1500 cells&#47;&#956;l
+          or higher &#40;2000 cells&#47;&#956;l is recommended&#41;. I
+          recommend
+          at least a final
+          volume of 150&#956;l to assist with the next step.
+        </li>
+        <li>Into a new DNA lo-bind tube, filter cells through a
+          40&#956;m
+          strainer &#40;FlowMi strainer&#41;
+          using a p1000 tip</li>
+        <ol type="a">
+          <li>For cell pools &#62;250&#956;l&#44; split the cell pool
+            into 2
+            separate pools
+            and use 2 FlowMi strainers&#46; Account for the extra
+            loss in your
+            calculations.</li>
+          <li>Uptake the cells with the p1000 tip, and push the tip
+            into a
+            FlowMi &#40;with mild
+            resistance&#41; until the pipette won&#39;t go further
+            into the
+            filter. Into the new
+            DNA lo-bind tube&#44; gently push the pipette plunger
+            until you are
+            to the second stop.
+            You will then observe the cell pool sample passing
+            through the
+            filter over a period
+            of &#126;10 seconds.</li>
+        </ol>
+        <li>Count cells with trypan blue staining and get the cell
+          concentration
+          in cells&#47;&#956;l.</li><br />
+
+        <img width=313 height=55
+          src="/assets/workflow/Immunobiology/cite-image-5.jpg" alt="image-5"
+          style="vertical-align:middle" /><br />
+
+
+        <li>Keep cells on ice until use and proceed directly to loading
+          the
+          Chromium Chip M&#58;</li>
+        <ol type="a">
+          <li>First&#58; take GEM Beads out of &#9472;80&#8451; and
+            incubate at
+            RT for 30 minutes
+            before use.</li>
+          <li>Note&#58; Loading is based upon <u>total</u> cell
+            concentration&#44; not live cell&#44;
+            since dead cells count as cells&#33;</li>
+          <li>For cells &#43; H<sub>2</sub>O&#58; 86&#46;4&#956;l</li>
+          <li>&#956;l and number of cells loaded per well&#58;</li>
+          <ul type="none">
+            <li>&#956;l of cells&#58; &#95;&#95;&#95;&#95;&#95;
+              &nbsp; # of
+              cells&#58; &#95;&#95;&#95;&#95;&#95;
+              &nbsp; &#956;l of mH<sub>2</sub>O&#58;
+              &#95;&#95;&#95;&#95;&#95;
+            </li>
+          </ul>
+        </ol>
+      </ol>
+
+      <br />
+      <li><b>Section 3: Modifications to 10X Chip M protocol</b>
+        <ol type="1">
+          <br />
+          <li>Follow the Chip M v3&#46;1 protocol until Step 1&#46;2c.
+          </li>
+          <li>To superload the chip&#44; we need to respect the volume
+            limit in the chip. For rows 2A and 2B of Chip M, the
+            final volume
+            must be 140&#956;l. As such, the 10X protocol prepares
+            an initial
+            combined mixture of 150&#956;l &#40;10X builds in extra
+            volume into
+            the initial mixture&#41; before having the user load
+            140ul, thus
+            ensuring
+            140&#956;l is loaded without having to worry about
+            volumes. For the
+            initial combined mixture, 63.6ul of Master Mix is used
+            per well,
+            granting
+            86&#46;4&#956;l of space for cells.</li>
+          <ol type="a">
+            <li>Utilize the Cell Suspension Volume Calculator Table
+              to decide
+              how many
+              cells to use.</li>
+            <ol type="i">
+              <li>When referring to your cell pool, <u>use total
+                  cell count</u>,
+                not live cell
+                count, as dead cells are emulsed as well as
+                alive.</li>
+              <li>The Cell Suspension Volume Calculator Table only
+                accounts for
+                one well of
+                Chip M &#40;i&#46;e 2A&#44; not 2A &#43; 2B&#41;
+              </li>
+            </ol>
+            <li>For example, if we want a targeted cell
+              concentration of
+              17&#44;500 cells&#47;well and
+              our cell stock concentration is at 1500
+              cells&#47;&#956;l. We
+              would then put in 24.1&#956;l of
+              cells and add 62&#46;3&#956;l of nuclease&#45;free
+              water to the
+              Master Mix for Step 1&#46;2b.</li>
+            <ol type="i">
+              <li>If there are 16 reactions being run, that would
+                require
+                385&#46;6 &#956;l of cell
+                suspension</li>
+              <li>Expect a loss in cell concentration during
+                washing and FlowMi
+                filtration&#59; i&#46;e&#46;
+                a drop from 2000 cells&#47;&#956;l to 1200
+                cells&#47;&#956;l.
+                So, expect to need a larger
+                number of cells. Refer to the &#34;Cell Pooling
+                Calculator
+                &#40;10X&#41;&#34; on the
+                <u>Betts Google Drive</u> to calculate how many
+                cells you should
+                add per sample.
+              </li>
+            </ol>
+          </ol>
+
+          <li>Proceed with the rest of 10X Protocol Step 1 through
+            Step 1&#46;4.
+          </li>
+          <li>At the end of Step 1&#46;4&#44; the GEMs must be evenly
+            distributed
+            between shared samples tubes &#40;i&#46;e&#46; 1A and
+            1B&#41; to
+            ensure equal library representation downstream. For
+            example, if
+            there
+            is equal GEM creation between 1a and 1b&#44; then move
+            forward
+            through
+            10X protocol step 2&#46;1&#46; If there is unequal
+            distribution
+            between
+            1a and 1b&#44; then from the sample with more GEMs
+            slowly withdraw
+            GEMs
+            over 30 seconds and dispense in the opposite sample tube
+            over 20
+            seconds.</li>
+          <ol type="a">
+            <li>If 1a has complete/partial GEM emulsions and 1b has
+              no GEMs,
+              then move
+              forward with a blank 1b.</li>
+          </ol>
+          <li>Proceed with the rest of 10X Protocol Step 1 through
+            Step 2&#46;1.
+          </li>
+          <li>For Step 2&#46;2a, add in the additional reagents to
+            cDNA
+            Amplification
+            Mix as such&#58;</li>
+          <ol type="a">
+            <li>Add in 1&#956;l of 0&#46;2&#956;M ADT PCR additive
+              primer
+              &#40;to create
+              1X primer concentration&#41;</li>
+            <li>Add in 1ul of 0.1uM HTO PCR additive primer &#40;to
+              create 1X
+              primer
+              concentration&#41;</li>
+            <ol type="i">
+              <li>Just add 1&#956;l of each 10um primer to the
+                final reaction.
+              </li>
+            </ol>
+          </ol>
+          <li>Add 65&#956;l of this amplification mix to the sample
+            for Step
+            2&#46;2b</li>
+          <ol type="a">
+            <li>Number of cDNA amplification cycles&#58;
+              &#95;&#95;&#95;&#95;&#95;&#95;
+              &#95;&#95;</li>
+            <ol type="i">
+              <li>For HT reactions, consider starting at 8 cycles
+              </li>
+            </ol>
+          </ol>
+          <li>Proceed with the rest of Step 2.2.</li>
+          <li><b>For step 2.3, follow these instructions with the
+              below
+              modifications exactly.</b></li>
+          <ol type="a">
+            <li>In step 2&#46;3d&#44; DO NOT DISCARD THE
+              SUPERNATANT. Reserve
+              the supernatant
+              in new strip tubes. Clearly label the tubes&#33;
+              This supernatant
+              contains
+              your ADT and HTO libraries. Meanwhile, your beads
+              are binding your
+              full
+              length cDNAs. <b>After the supernatant has been
+                saved, proceed
+                with the rest
+                of the 10X protocol for the bead cleanup and
+                preparation of your
+                cDNA fraction.
+                Follow the below steps for the supernatant.</b>
+            </li>
+            <li>With this supernatant, add 140ul &#40;thus doing a
+              2X SPRI
+              cleanup&#41; to the
+              supernatant.</li>
+            <ol type="i">
+              <li>Add 2500&#956;l of SPRI beads to multichannel
+                reservoir just
+                prior to use &#40;
+                for 16 rxns worth&#41;</li>
+            </ol>
+            <li>Pipet to mix and incubate for 10 min at RT with caps
+              open and no
+              bubbles</li>
+            <ol type="i">
+              <li>During the incubation, create new 80&#37; EtOH
+                using molecular
+                grade
+                H<sub>2</sub>O</li>
+              <li>If planning on running Tapestation&#47;Qbit,
+                bring out enough
+                TapeStation
+                strips and allow to come to RT.</li>
+              <li>Near end of incubation, create 8mL of 80&#37;
+                EtOH
+                &#40;1&#46;6 mL of
+                H<sub>2</sub>O, 6&#46;4 mL of EtOH&#41; just
+                prior to use
+                &#40;for
+                16 rxns worth&#41;</li>
+            </ol>
+            <li>Centrifuge briefly and place on magnet in High
+              position.</li>
+            <li>After beads have separated, remove and discard
+              supernatant.</li>
+            <li>Add 200ul of 80&#37; EtOH and wait 30 secs.</li>
+            <li>Discard EtoH.</li>
+            <li>Repeat steps f&#45;g one more time.</li>
+            <li>Centrifuge the tube briefly to collect beads and
+              place tube on
+              magnet in Low
+              position.</li>
+            <li>Once beads have moved, use pipet to remove any
+              remaining EtOH.
+              Dry for 1 minute.</li>
+            <ol type="i">
+              <li>Add 1mL of EB to multichannel reservoir just
+                prior to use
+                &#40;for 16 rxns worth&#41;</li>
+            </ol>
+            <li>Resuspend beads in 46&#46;5&#956;l Buffer EB. Pipet
+              to mix.</li>
+            <li>Incubate for 2 min at RT.</li>
+            <li>Place on magnet in Low position.</li>
+            <li>After beads have separated, collect 46&#956;l of the
+              volume into
+              a strip tube.</li>
+            <li>For each paired sample, combine the two fractions of
+              46ul eluent
+              &#40;ie from 1a and
+              1b&#41; into a 92 ul pool.</li>
+            <li>Quantify DNA concentration and quality of the RNA
+              and
+              ADT&#47;HTO libraries using the
+              Qbit and Tapestation D5000</li>
+            <ol type="i">
+              <li><u>Tapestation</u> &#40;start first&#41;. Label
+                enough
+                tapestation&#45;compatible
+                8 strip tubes for all samples &#43;1. Add
+                2&#956;l of D5000
+                buffer to each tube.
+                Add 2 &#956;l D5000 ladder to the ladder tube.
+                Add 2 &#956;l of
+                each sample to
+                their respective tube. Save photos of each
+                electropherogram to
+                ascertain sample quality.</li>
+              <li><u>Qbit</u> &#40;during Tapestation
+                run&#41;&#58; On the top
+                of each tube, label enough Qbit
+                tubes for all samples &#43; 2 standards
+                &#40;Standard 1 and
+                Standard 2&#41; &#43; 1 blank.
+                Create enough Qbit working buffer &#40;1ul dye
+                &#43; 199 &#956;l
+                Qbit buffer&#956; for all
+                tubes &#43; 1. Add 190&#956;l of buffer to the
+                Standard
+                tubes&#44; and 199&#956;l to all other
+                tubes. Add 1&#956;l of sample to their
+                respective sample
+                tube&#44; or 1&#956;l EB to the Blank.
+                Mix all tubes well via vortex and run on the
+                Qbit.</li>
+            </ol>
+          </ol>
+          <li>At Step 2&#46;3m&#44; pool samples from corresponding
+            tubes to
+            form cDNA samples for downstream analyses.</li>
+          <li>Proceed with the rest of the 10X Chip M protocol as
+            specified for
+            the RNA fraction&#44; see protocol below for
+            ADT&#47;HTO fraction.</li>
+          <ol type="a">
+            <li>Do not freeze RNA&#47;ADT&#47;HTO if quantifying the
+              next
+              day&#33;</li>
+          </ol>
+        </ol>
+        <br />
+
+      <li><b>Section 4&#58; ADT amplification</b></li><br>
+      <ol type="1">
+        <li>Take 45&#956;l of the volume from Section 3&#44; Step 7 into
+          a new
+          strip tube.</li>
+        <li>Add 50&#956;l of Kapa Hifi Master Mix to each sample.</li>
+        <li>To each sample&#44; add 2&#46;5&#956;l &#40;10&#956;M
+          stock&#41; of
+          each primer in
+          a DI&#95;ADTx primer pair. This will uniquely index that
+          sample.
+          RECORD WHICH PRIMER
+          PAIRS ARE USED BY WHICH SAMPLE. Do not intermix primers from
+          different
+          pairs.</li><br />
+
+        <table class="a7" border="1" cellspacing="0" cellpadding="0" width="576"
+          align="center">
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">10X Chip Well&#47;Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">ADT Primer Pair</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">10X Chip Well&#47;Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">ADT Primer Pair</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+        </table>
+        <br />
+
+        <li>Pipet to mix sample &#40;final volume should be
+          100&#956;l&#41;.
+        </li>
+        <li>Amplify with the following settings&#58;</li>
+        <ul type="circle">
+          <li>2min &#64; 98&#8451;</li>
+          <li>Cycle <b>6&#45;10x &#40;depending upon yield&#41;</b>
+          </li>
+          <ol type="i">
+            <li>20sec &#64; 98&#8451;</li>
+            <li>30sec &#64; <b>60&#8451;</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Cycles Done&#58; &#95;&#95;&#95;&#95;&#95;&#95;
+              &#40;suggested
+              8&#41;</li>
+            <li>20sec &#64; 72&#8451;</li>
+          </ol>
+          <li>5 min &#64; 72&#8451;</li>
+          <li>Hold &#64; 4&#8451;</li>
+        </ul>
+      </ol>
+      <br />
+      <li><b>Section 5: HTO amplification</b></li><br />
+      <ol type="1">
+        <li>Take 45&#956;l of the volume from Section 3&#44; Step 7n
+          into a new
+          strip tube.</li>
+        <li>Add 50&#956;l of Kapa Hifi Master Mix to each sample.</li>
+        <li>To each sample, add 2&#46;5&#956;l &#40;10&#956;M stock&#41;
+          of each
+          primer in a
+          DI&#45;HTOx primer pair. This will uniquely index that
+          sample. RECORD
+          WHICH PRIMER
+          PAIRS ARE USED BY WHICH SAMPLE. Do not intermix primers from
+          different
+          pairs.</li><br />
+
+
+        <table class="a7" border="1" cellspacing="0" cellpadding="0" width="576"
+          align="center">
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">10X Chip Well&#47;Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">HTO Primer Pair</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">10X Chip Well&#47;Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">HTO Primer Pair</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+        </table>
+        <br />
+
+        <li>Pipet to mix sample &#40;final volume should be 100ul&#41;.
+        </li>
+        <li>Amplify with the following settings&#58;</li>
+        <ul type="circle">
+          <li>2min &#64; 98&#8451;</li>
+          <li><b>Cycle 8&#45;12x &#40;depending upon yield&#41;</b>
+          </li>
+          <ol type="i">
+            <li>20sec &#64; 98&#8451;</li>
+            <li>30sec &#64; <b>64&#8451;</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Cycles Done&#58; &#95;&#95;&#95;&#95;&#95;&#95;
+              &#40;suggested
+              7&#45;8&#41;</li>
+            <li>20sec &#64; 72&#8451;</li>
+          </ol>
+          <li>5 min &#64; 72&#8451;</li>
+          <li>Hold &#64; 4&#8451;</li>
+        </ul>
+      </ol>
+      <br />
+      <li><b>Section 6: ADT and/or HTO cleanup</b></li><br />
+      <ol type="1">
+        <li>Ensure that libraries have equilibrated to RT.</li>
+        <li>From amplified products in Section 4 and&#47;or Section
+          5&#44;
+          proceed with a
+          1&#46;2X SPRI purification by adding 120ul SPRI reagent to
+          the
+          library.</li>
+        <ol type="a">
+          <li>Add 2300&#956;l of vortexed SPRI beads to multichannel
+            reservoir
+            just prior
+            to use &#40;for 16 rxns worth&#41;</li>
+        </ol>
+        <li>Pipet to mix and incubate for 10 min at RT, no bubbles.</li>
+        <ol type="a">
+          <li>If planning on running Tapestation&#47;Qbit&#44; bring
+            out enough
+            TapeStation strips and allow to come to RT.</li>
+          <li>Near end of incubation, create 8mL of 80&#37; EtOH
+            &#40;1.6 mL of
+            H<sub>2</sub>O&#44;6&#46;4 mL of EtOH&#41; just prior to
+            use
+            &#40;for
+            16 rxns worth&#41;</li>
+        </ol>
+        <li>Place tubes on the magnet in High position.</li>
+        <li>After beads have separated&#44; remove and discard
+          supernatant.</li>
+        <li>Add 200ul of 80&#37; EtOH and wait 30 secs.</li>
+        <li>Discard EtoH</li>
+        <li>Repeat steps f&#45;g one more time.</li>
+        <li>Centrifuge the tube briefly to collect beads and place tube
+          on
+          magnet in Low
+          position.</li>
+        <li>Once beads have moved, use pipet to remove any remaining
+          EtOH. Dry
+          for 1 minute.</li>
+        <ol type="a">
+          <li>Add 1mL of EB to multichannel reservoir just prior to
+            use &#40;for
+            16 rxns
+            worth&#41;</li>
+        </ol>
+        <li>Resuspend beads in <u>31ul Buffer EB</u>. Pipet to mix.</li>
+        <li>Incubate for 2 min at RT.</li>
+        <li>Place on magnet in Low position.</li>
+        <li>After beads have separated, collect 30ul into a new 8 strip
+          tube.
+          Label
+          this carefully as this is your final library for ADT
+          and&#47;or
+          HTO&#33;.</li>
+        <li>Quantify DNA concentration and quality of the RNA and
+          ADT&#47;HTO
+          libraries
+          using the Qbit and Tapestation D5000.</li>
+        <ol type="a">
+          <li><u>Tapestation</u> &#40;start first&#41;. Label enough
+            tapestation&#45;
+            compatible 8 strip tubes for all samples &#43;1. Add
+            2&#956;l of
+            D5000 buffer
+            to each tube. Add 2&#956;l D5000 ladder to the ladder
+            tube. Add
+            2&#956;l of each
+            sample to their respective tube. Save photos of each
+            electropherogram to ascertain
+            sample quality.</li>
+          <li><u>Qbit</u> &#40;during Tapestation run&#41;&#58; On the
+            top of
+            each tube, label
+            enough Qbit tubes for all samples &#43; 2 standards
+            &#40;Standard 1
+            and Standard 2&#41;
+            &#43; 1 blank. Create enough Qbit working buffer
+            &#40;1&#956;l dye
+            &#43; 199&#956;l
+            Qbit buffer&#41; for all tubes &#43; 1. Add 190&#956;l
+            of buffer to
+            the Standard tubes&#44;
+            and 199&#956;l to all other tubes. Add 1ul of sample to
+            their
+            respective sample tube,
+            or 1&#956;l EB to the Blank. Mix all tubes well via
+            vortex and run
+            on the Qbit.</li>
+        </ol>
+        <li>Libraries can be stored at -20ï¿½C in DNA lo-bind tubes
+          until ready
+          to sequence.</li>
+      </ol>
+      <br />
+
+
+      <li><b>Section 7: ADT and/or HTO quality checks</b></li>
+      <br />
+      <ol type="1">
+        <li>Check library concentration using 1ul with Qubit and a HS
+          dsDNA
+          assay.</li>
+        <li>Check library fragments with a D1000 HS Tape. Both libraries
+          should
+          consist
+          of one peak at 230bp. Refer to the original multiplexing
+          cell hashing
+          CITEseq
+          and Biolegend protocols for troubleshooting if other peaks
+          are
+          observed.</li>
+      </ol>
+
+      <br />
+      <li><b>Section 8: RNA Library Index Primers</b></li><br />
+      <ol type="1">
+        <li>Record below which indexing primer pair &#40;or the well on
+          the
+          Primer Plate&#41;
+          was used for each 10X well &#40;to enable pooling for
+          sequencing&#41;.
+        </li><br />
+
+        <table class="a7" border="1" cellspacing="0" cellpadding="0" width="576"
+          align="center">
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">10X Chip Well&#47;Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">Primer Pair &#40;Well on
+                Plate&#41;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">10X Chip Well&#47;Sample</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">Primer Pair &#40;Well on
+                Plate&#41;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+            <td width="140" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;
+            </td>
+            <td width="146" nowrap="nowrap" valign="middle">
+              <p align="center">&#45;</p>
+            </td>
+          </tr>
+        </table>
+        <br />
+
+
+        <p align="center"><b>Index primer Plate Type&#58;
+            &#95;&#95;&#95;&#95;
+            &nbsp;&nbsp;&nbsp; PN&#58;
+            &#95;&#95;&#95;&#95;&#95;&#95;
+            &nbsp;&nbsp;&nbsp;
+            LN&#58; &#95;&#95;&#95;&#95;&#95;&#95;&#95;</b></p>
+        <br />
+
+        <p align="center"><b>cDNA Sample Index PCR amplification cycles
+            done&#58; &#95;&#95;&#95;
+            &#95;&#95;&#95; &#40;11 recommended&#41;</b></p>
+      </ol>
+    </ol>
+  </ol>
+
+</body>
 </html>
