@@ -1,45 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>scATAC-seq SOP</title>
-<style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-</head>
+<html>
+  <head>
+    <title>scATAC-seq_UPenn</title>
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
 
-<body>
-<img src="/assets/workflow/Islet Molecular Phenotyping Studies/HPAP-logo.jpg" alt="perifusion" width="200" height="90" style= "vertical-align:middle"/>
-<h3 align="center"><strong>Single-cell  ATAC sequencing</strong></h3>
-<p align="center">Kaestner  lab, University of Pennsylvania<br />
-Date  submitted: August 13, 2020</p>
-<ol type="I">
-  <li><strong>Steps in pre-processing</strong></li><br/>
-  
-<ol start="1" type="1">
+  <body>
+    <img
+      src="/assets/workflow/Islet Molecular Phenotyping Studies/HPAP-logo.jpg"
+      alt="perifusion"
+      width="200"
+      height="90"
+      style="vertical-align: middle"
+    />
+    <h3 align="center"><strong>Single&#45;cell ATAC sequencing</strong></h3>
+    <p align="center">
+      Kaestner lab&#44; University of Pennsylvania<br />
+      Date submitted&#58; August 13&#44; 2020
+    </p>
+    <ol type="I">
+      <li><strong>Steps in pre&#45;processing</strong></li>
+      <br />
 
-  <li>Transfer&nbsp;<u>handpicked&nbsp;</u>islets       (approximately 5,000 IEQs) into 15 ml conical tube.&nbsp;</li>
-  <li>Add       10 ml of 1xPBS w/o Ca2+, Mg2+&nbsp;(Rockland,       MB-008). Centrifuge for 2 min at RT, 180 xg. Aspirate the supernatant.</li>
-  <li>Add       1 ml of warm (37&nbsp;oC) 0.05% Trypsin (Invitrogen, 25300054)       to the islets. Pipette up and down with p1000.&nbsp;</li>
-  <li>Incubate       at 37&nbsp;oC for 9 min, or until cells are in single cells.       Pipette up and down at t=7 min, 4 min, 2 min, 0 min.&nbsp;</li>
-  <li>Stop       the trypsin reaction by adding 1 ml of 100% FBS (Hyclone, SH3091003) to       the dissociated islets and pass cells through BD FACs tube with strainer       top (Corning 352235)</li>
-  <li>Use       1 ml of 100% FBS to rinse the tube and pass through the strainer.</li>
-  <li>Transfer       cells to 15 ml conical. Centrifuge 4 min, 400 xg.&nbsp;</li>
-  <li>Remove       the supernatant and wash cells with PBS with 10% FBS. Centrifuge for 4       min, 400 xg.&nbsp;</li>
-  <li>Wash       the cells with PBS with 10% FBS and centrifuge for 4 min, 400 xg. Remove       the supernatant.</li>
-  <li>Count cells using a  countess chamber. </li>
-  <li>For the scATACseq, do the  final resuspension in 0.04%&nbsp;BSA in PBS as is consistent with the  instructions for using fresh cell in the Nuclei Isolation Protocol.</li><br/>
-</ol>
-  <li><strong>Links to kits used in post-processing</strong></li><br/>
-<ol type="1">
-  <li>For nuclei isolation the protocol  used is: <a href="https://assets.ctfassets.net/an68im79xiti/5g035d2ngCW1aB9DFqPphO/71445a59fb282ea273a866c26cb5d319/CG000169_DemonstratedProtocol_NucleiIsolation_ATAC_Sequencing_RevD.pdf">Nuclei  Isolation for Single Cell ATAC Sequencing</a>.  We target a 5000 nuclei recovery for  this protocol.&nbsp;(If the link is broken, see <a href="/assets/workflow/Islet Molecular Phenotyping Studies/Nuclei Isolation for Single Cell ATAC Sequencing.pdf">local doc</a>) </li>
-  <li>Samples are processed for  scATAC seq using <a href="https://assets.ctfassets.net/an68im79xiti/4dXLdjCzh5xKBlgRBkfSmW/eb0b5b463ced5778fa68e7dc50829e50/CG000168_ChromiumSingleCell_ATAC_ReagentKits_UserGuide_RevD.pdf">Chromium  Single Cell ATAC Reagent Kits</a>.&nbsp;(If the link is broken, see <a href="/assets/workflow/Islet Molecular Phenotyping Studies/Chromium Single Cell ATAC Reagent Kits.pdf">local doc</a>)&nbsp; </li>
-</ol>
-</ol>
-<p>&nbsp;</p>
-</body>
+      <ol start="1" type="1">
+        <li>
+          Transfer <u>handpicked</u> islets &#40;approximately 5&#44;000
+          IEQs&#41; into 15 ml conical tube
+        </li>
+        <li>
+          Add 10 ml of 1 x PBS w&#47;o Ca<sup>2&#43;</sup>&#44; Mg<sup
+            >2&#43;</sup
+          >
+          &#40;Rockland&#44; MB&#45;008&#41;. Centrifuge for 2 mins at RT&#44;
+          180 xg. Aspirate the supernatant
+        </li>
+        <li>
+          Add 1 ml of warm &#40;37 &#8451;&#41; 0.05&#37; Trypsin
+          &#40;Invitrogen&#44; 25300054&#41; to the islets. Pipette up and down
+          with p1000
+        </li>
+        <li>
+          Incubate at 37 &#8451; for 9 mins&#44; or until cells are in single
+          cells. Pipette up and down at t &#61; 7 mins&#44; 4 mins&#44; 2
+          mins&#44; 0 min
+        </li>
+        <li>
+          Stop the trypsin reaction by adding 1 ml of 100&#37; FBS
+          &#40;Hyclone&#44; SH3091003&#41; to the dissociated islets and pass
+          cells through BD FACs tube with strainer top &#40;Corning 352235&#41;
+        </li>
+        <li>
+          Use 1 ml of 100&#37; FBS to rinse the tube and pass through the
+          strainer
+        </li>
+        <li>Transfer cells to 15 ml conical. Centrifuge 4 mins&#44; 400 xg</li>
+        <li>
+          Remove the supernatant and wash cells with PBS with 10&#37; FBS.
+          Centrifuge for 4 mins&#44; 400 xg
+        </li>
+        <li>
+          Wash the cells with PBS with 10&#37; FBS and centrifuge for 4
+          mins&#44; 400 xg. Remove the supernatant
+        </li>
+        <li>Count cells using a countess chamber</li>
+        <li>
+          For the scATAC&#45;seq&#44; do the final resuspension in 0.04&#37; BSA
+          in PBS as is consistent with the instructions for using fresh cell in
+          the Nuclei Isolation Protocol
+        </li>
+        <br />
+      </ol>
+      <li><strong>Links to kits used in post&#45;processing</strong></li>
+      <br />
+      <ol type="1">
+        <li>
+          For nuclei isolation the protocol used is&#58;
+          <a
+            href="https://assets.ctfassets.net/an68im79xiti/5g035d2ngCW1aB9DFqPphO/71445a59fb282ea273a866c26cb5d319/CG000169_DemonstratedProtocol_NucleiIsolation_ATAC_Sequencing_RevD.pdf"
+            >Nuclei Isolation for Single Cell ATAC Sequencing</a
+          >. We target a 5000 nuclei recovery for this protocol &#40;If the link
+          is broken&#44; see
+          <a
+            href="/assets/workflow/Islet Molecular Phenotyping Studies/Nuclei Isolation for Single Cell ATAC Sequencing.pdf"
+            >local doc</a
+          >&#41;
+        </li>
+        <li>
+          Samples are processed for scATAC seq using
+          <a
+            href="https://assets.ctfassets.net/an68im79xiti/4dXLdjCzh5xKBlgRBkfSmW/eb0b5b463ced5778fa68e7dc50829e50/CG000168_ChromiumSingleCell_ATAC_ReagentKits_UserGuide_RevD.pdf"
+            >Chromium Single Cell ATAC Reagent Kits</a
+          >
+          &#40;If the link is broken&#44; see
+          <a
+            href="/assets/workflow/Islet Molecular Phenotyping Studies/Chromium Single Cell ATAC Reagent Kits.pdf"
+            >local doc</a
+          >&#41;
+        </li>
+      </ol>
+    </ol>
+  </body>
 </html>
