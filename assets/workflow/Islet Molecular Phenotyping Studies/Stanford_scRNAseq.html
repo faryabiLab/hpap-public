@@ -1,42 +1,82 @@
-<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Stanford_scRNAseq</title>
-<style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-</head>
+  <head>
+    <title>Stanford_scRNAseq</title>
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
 
-<body>
-<img src="/assets/workflow/Islet Molecular Phenotyping Studies/HPAP-logo.jpg" alt="hpap-logo" width="200" height="90" style= "vertical-align:middle"/>
-<h3 align="center"><strong>Stanford protocol for processing Single-cell RNAseq</strong>
-	<br/>(only performed for HPAP T2D donors)</h3>
-<p align="center">Seung Kim lab, Stanford University<br />
-Date  submitted: August 11, 2021</p>
-<ol type="I">
-  <li><strong>Plate cells into 384-well lysis plate</strong></li><br/>
-  
-<ol start="1" type="1">
+  <body>
+    <img
+      src="/assets/workflow/Islet Molecular Phenotyping Studies/HPAP-logo.jpg"
+      alt="hpap-logo"
+      width="200"
+      height="90"
+      style="vertical-align: middle"
+    />
+    <h3 align="center">
+      <strong>Stanford protocol for processing Single&#45;cell RNAseq</strong>
+      <br />&#40;only performed for HPAP T2D donors&#41;
+    </h3>
+    <p align="center">
+      Seung Kim lab&#44; Stanford University<br />
+      Date submitted&#58; August 11&#44; 2021
+    </p>
+    <ol type="I">
+      <li><strong>Plate cells into 384&#45;well lysis plate</strong></li>
+      <br />
 
-  <li>Use SONY sorter to plate purified beta or alpha cells (see the Stanford SOP for <em>Human islet sorting</em> into 384-well plate, one cell per well, containing cell lysis buffer (Picelli S et al 2014 Nature Protocols 9,171-81). Based on NearIR live/dead stain, gate for live single cells.</li>
-  <li>Spin plate for 30 second at room temperature to collect cell lysis to the bottom of well.</li>
-  <li>Seal the plate and store at -80 until ready to proceed.</li>
-  <br/>
-</ol>
-  <li><strong>Construct libraries with SmartSeq2 full-length RNASeq protocol</strong></li><br/>
-<ol type="1">
-  <li>Following SmartSeq2 protocol (Picelli S et al 2014 Nature Protocols 9,171-81) to generate full-length cDNA library for each cell. </li>
-  <li>Dual indexing strategy was implemented with unique barcodes on both ends. </li>
-  <li>Quality check pooled cDNA library using Bioanalyzer high-sensitivity chips.</li>
-</ol>
-<br/>	
-  <li><strong>Perform 100bp pair-ended sequencing on Illumina NovaSeq6000</strong></li>
-</ol>
-<p>&nbsp;</p>
-</body>
+      <ol start="1" type="1">
+        <li>
+          Use SONY sorter to plate purified beta or alpha cells &#40;see the
+          Stanford SOP for <em>Human islet sorting</em>&#41; into 384&#45;well
+          plate&#44; one cell per well&#44; containing cell lysis buffer
+          &#40;Picelli S. <em>et al</em> 2014 Nature Protocols
+          9&#44;171&#45;81&#41;. Based on NearIR live&#47;dead stain&#44; gate
+          for live single cells
+        </li>
+        <li>
+          Spin plate for 30 second at room temperature to collect cell lysis to
+          the bottom of well
+        </li>
+        <li>
+          Seal the plate and store at &#8722;80 &#8451; until ready to proceed
+        </li>
+        <br />
+      </ol>
+      <li>
+        <strong
+          >Construct libraries with SmartSeq2 full&#45;length RNASeq
+          protocol</strong
+        >
+      </li>
+      <br />
+      <ol type="1">
+        <li>
+          Following SmartSeq2 protocol &#40;Picelli S et al 2014 Nature
+          Protocols 9&#44;171&#45;81&#41; to generate full&#45;length cDNA
+          library for each cell
+        </li>
+        <li>
+          Dual indexing strategy was implemented with unique bar codes on both
+          ends
+        </li>
+        <li>
+          Quality check pooled cDNA library using Bioanalyzer
+          high&#45;sensitivity chips
+        </li>
+      </ol>
+      <br />
+      <li>
+        <strong
+          >Perform 100 bp pair&#45;ended sequencing on Illumina
+          NovaSeq6000</strong
+        >
+      </li>
+    </ol>
+  </body>
 </html>
