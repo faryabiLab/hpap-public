@@ -1,124 +1,122 @@
 <html>
-  <head>
-    <title>Single-cell RNA sequencing</title>
-    <style>
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
-  </head>
+<head>
+  <title>Single-cell RNA sequencing</title>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
 
-  <body>
-    <img
-      src="/assets/workflow/Islet Molecular Phenotyping Studies/HPAP-logo.jpg"
-      alt="perifusion"
-      width="200"
-      height="90"
-      style="vertical-align: middle"
-    /><br />
-    <h3 align="center"><strong>Single&#45;cell RNA sequencing</strong></h3>
-    <p align="center">
-      Kaestner lab&#44; University of Pennsylvania<br />
-      Date modified&#58; August 12&#44; 2021
-    </p>
-    <ol type="I">
-      <li><strong>Steps in pre&#45;processing</strong></li>
+<body>
+  <img
+    src="/assets/workflow/Islet Molecular Phenotyping Studies/HPAP-logo.jpg"
+    alt="perifusion"
+    width="200"
+    height="90"
+    style="vertical-align: middle"
+  /><br />
+  <h3 align="center"><strong>Single&#45;cell RNA sequencing</strong></h3>
+  <p align="center">
+    Kaestner lab&#44; University of Pennsylvania<br />
+    Date modified&#58; August 12&#44; 2021
+  </p>
+  <ol type="I">
+    <li><strong>Steps in pre&#45;processing</strong></li>
+    <br />
+    <ol
+      start="1"
+      type="1"
+    >
+      <li>
+        Transfer <u>handpicked</u> islets &#40;approximately 5&#44;000
+        IEQs&#41; into 15 ml conical tube.
+      </li>
+      <li>
+        Add 10 ml of 1 x PBS w&#47;o Ca<sub>2&#43;</sub>&#44;
+        Mg<sub>2&#43;</sub>
+        &#40;Rockland&#44; MB&#45;008&#41;. Centrifuge for 2 mins at RT&#44;
+        180 xg. Aspirate the supernatant.
+      </li>
+      <li>
+        Add 1 ml of warm &#40;37 &#8451;&#41; 0.05&#37; Trypsin
+        &#40;Invitrogen&#44; 25300054&#41; to the islets. Pipette up and down
+        with p1000.
+      </li>
+      <li>
+        Incubate at 37 &#8451; for 9 mins&#44; or until cells are in single
+        cells. Pipette up and down at t &#61; 7 mins&#44; 4 mins&#44; 2
+        mins&#44; 0 min.
+      </li>
+      <li>
+        Stop the trypsin reaction by adding 1 ml of 100&#37; FBS
+        &#40;Hyclone&#44; SH3091003&#41; to the dissociated islets and pass
+        cells through BD FACs tube with strainer top &#40;Corning 352235&#41;
+      </li>
+      <li>
+        Use 1 ml of 100&#37; FBS to rinse the tube and pass through the
+        strainer.
+      </li>
+      <li>Transfer cells to 15 ml conical. Centrifuge 4 mins&#44; 400 xg.</li>
+      <li>
+        Remove the supernatant and wash cells with PBS with 10&#37; FBS.
+        Centrifuge for 4 mins&#44; 400 xg.
+      </li>
+      <li>
+        Wash the cells with PBS with 10&#37; FBS and centrifuge for 4
+        mins&#44; 400 xg. Remove the supernatant.
+      </li>
+      <li>Count cells using a countess chamber.</li>
+      <li>
+        For the scRNA&#45;seq&#44; do the final resuspension in 10&#37; FBS in
+        PBS and adjust the volume to make the final suspension 1000
+        cells&#47;micro&#45;liter. Filter the cells one more time prior to
+        loading them onto the 10X Genomics chip.
+      </li>
       <br />
-      <ol start="1" type="1">
-        <li>
-          Transfer <u>handpicked</u> islets &#40;approximately 5&#44;000
-          IEQs&#41; into 15 ml conical tube.
-        </li>
-        <li>
-          Add 10 ml of 1 x PBS w&#47;o Ca<sub>2&#43;</sub>&#44; Mg<sub
-            >2&#43;</sub
-          >
-          &#40;Rockland&#44; MB&#45;008&#41;. Centrifuge for 2 mins at RT&#44;
-          180 xg. Aspirate the supernatant.
-        </li>
-        <li>
-          Add 1 ml of warm &#40;37 &#8451;&#41; 0.05&#37; Trypsin
-          &#40;Invitrogen&#44; 25300054&#41; to the islets. Pipette up and down
-          with p1000.
-        </li>
-        <li>
-          Incubate at 37 &#8451; for 9 mins&#44; or until cells are in single
-          cells. Pipette up and down at t &#61; 7 mins&#44; 4 mins&#44; 2
-          mins&#44; 0 min.
-        </li>
-        <li>
-          Stop the trypsin reaction by adding 1 ml of 100&#37; FBS
-          &#40;Hyclone&#44; SH3091003&#41; to the dissociated islets and pass
-          cells through BD FACs tube with strainer top &#40;Corning 352235&#41;
-        </li>
-        <li>
-          Use 1 ml of 100&#37; FBS to rinse the tube and pass through the
-          strainer.
-        </li>
-        <li>Transfer cells to 15 ml conical. Centrifuge 4 mins&#44; 400 xg.</li>
-        <li>
-          Remove the supernatant and wash cells with PBS with 10&#37; FBS.
-          Centrifuge for 4 mins&#44; 400 xg.
-        </li>
-        <li>
-          Wash the cells with PBS with 10&#37; FBS and centrifuge for 4
-          mins&#44; 400 xg. Remove the supernatant.
-        </li>
-        <li>Count cells using a countess chamber.</li>
-        <li>
-          For the scRNA&#45;seq&#44; do the final resuspension in 10&#37; FBS in
-          PBS and adjust the volume to make the final suspension 1000
-          cells&#47;micro&#45;liter. Filter the cells one more time prior to
-          loading them onto the 10X Genomics chip.
-        </li>
-        <br />
-      </ol>
-
-      <li><strong>Links to Kits used in post&#45;processing</strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Older HPAP samples &#40;specifically donors HPAP&#45;001 to
-          HPAP&#45;019&#41; were processed using
-          <a
-            href="https://www.fluidigm.com/binaries/content/documents/fluidigm/resources/c1-system-for-mrna-seq-medium-cell-ht-pr-101-4964/c1-system-for-mrna-seq-medium-cell-ht-pr-101-4964/fluidigm%3Afile"
-            >C1 Single&#45;Cell mRNA Seq HT IFC and Reagent Kit v2</a
-          >
-          &#40;product ID&#58; 101&#45;4964&#41; which has been discontinued.
-          &#40;If link is broken&#44; see
-          <a
-            href="/assets/workflow/Islet Molecular Phenotyping Studies/C1 Single-Cell mRNA Seq HT IFC and Reagent Kit v2.pdf"
-            >local doc</a
-          >&#41;
-        </li>
-        <li>
-          All current samples &#40;HPAP&#45;019 onwards&#41; were processed
-          using the
-          <a
-            href="https://assets.ctfassets.net/an68im79xiti/4tjk4KvXzTWgTs8f3tvUjq/2259891d68c53693e753e1b45e42de2d/CG000183_ChromiumSingleCell3__v3_UG_Rev_C.pdf"
-            >Chromium Single Cell 3&rsquo; Reagent Kit</a
-          >. &#40;If the link is broken&#44; see
-          <a
-            href="/assets/workflow/Islet Molecular Phenotyping Studies/Chromium Single Cell 3 Reagent Kit.pdf"
-            >local doc</a
-          >&#41;
-        </li>
-        <li>
-          Unfortunately&#44; since 10x Genomics is going to stop manufacturing
-          the above kit&#44; we will be using the new kit
-          <a
-            href="https://assets.ctfassets.net/an68im79xiti/1eX2FPdpeCgnCJtw4fj9Hx/7cb84edaa9eca04b607f9193162994de/CG000204_ChromiumNextGEMSingleCell3_v3.1_Rev_D.pdf"
-            >Chromium Next GEM Single Cell 3&#697; Reagent Kits v3.1</a
-          >. For this protocol we target a 5000 cell recovery. &#40;If the link
-          is broken&#44; see
-          <a
-            href="/assets/workflow/Islet Molecular Phenotyping Studies/Chromium Next GEM Single Cell 3 Reagent Kits v3.1.pdf"
-            >local doc</a
-          >&#41;
-        </li>
-      </ol>
     </ol>
-  </body>
+
+    <li><strong>Links to Kits used in post&#45;processing</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Older HPAP samples &#40;specifically donors HPAP&#45;001 to
+        HPAP&#45;019&#41; were processed using
+        <a
+          href="https://www.fluidigm.com/binaries/content/documents/fluidigm/resources/c1-system-for-mrna-seq-medium-cell-ht-pr-101-4964/c1-system-for-mrna-seq-medium-cell-ht-pr-101-4964/fluidigm%3Afile">C1
+          Single&#45;Cell mRNA Seq HT IFC and Reagent Kit v2</a>
+        &#40;product ID&#58; 101&#45;4964&#41; which has been discontinued.
+        &#40;If link is broken&#44; see
+        <a
+          href="/assets/workflow/Islet Molecular Phenotyping Studies/C1 Single-Cell mRNA Seq HT IFC and Reagent Kit v2.pdf">local
+          doc</a>&#41;
+      </li>
+      <li>
+        All current samples &#40;HPAP&#45;019 onwards&#41; were processed
+        using the
+        <a
+          href="https://assets.ctfassets.net/an68im79xiti/4tjk4KvXzTWgTs8f3tvUjq/2259891d68c53693e753e1b45e42de2d/CG000183_ChromiumSingleCell3__v3_UG_Rev_C.pdf">Chromium
+          Single Cell 3&rsquo; Reagent Kit</a>. &#40;If the link is broken&#44;
+        see
+        <a
+          href="/assets/workflow/Islet Molecular Phenotyping Studies/Chromium Single Cell 3 Reagent Kit.pdf">local
+          doc</a>&#41;
+      </li>
+      <li>
+        Unfortunately&#44; since 10x Genomics is going to stop manufacturing
+        the above kit&#44; we will be using the new kit
+        <a
+          href="https://assets.ctfassets.net/an68im79xiti/1eX2FPdpeCgnCJtw4fj9Hx/7cb84edaa9eca04b607f9193162994de/CG000204_ChromiumNextGEMSingleCell3_v3.1_Rev_D.pdf">Chromium
+          Next GEM Single Cell 3&#697; Reagent Kits v3.1</a>. For this protocol
+        we target a 5000 cell recovery. &#40;If the link
+        is broken&#44; see
+        <a
+          href="/assets/workflow/Islet Molecular Phenotyping Studies/Chromium Next GEM Single Cell 3 Reagent Kits v3.1.pdf">local
+          doc</a>&#41;
+      </li>
+    </ol>
+  </ol>
+</body>
 </html>
