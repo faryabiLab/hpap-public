@@ -1,326 +1,448 @@
 <html>
-  <head>
-    <title>Untitled Document</title>
-    <style>
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
-  </head>
+<head>
+  <title>Whole Genome Bi-sulphite Sequencing (WGBS)</title>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
 
-  <body>
-    <img
-      src="/assets/workflow/Islet Physiology Studies/HPAP-logo.jpg"
-      alt="hpap-logo"
-      width="200"
-      height="90"
-      style="vertical-align: middle"
-    />
-    <h3 align="center">
-      <strong>Whole Genome Bi&#45;sulphite Sequencing &#40;WGBS&#41;</strong>
-    </h3>
-    <p align="center">
-      Kaestner Lab&#44; University of Pennsylvania<br />
-      Date Revised&#58; July 15&#44; 2020
-    </p>
-    <ol type="I">
-      <li><strong>Fragmentation </strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Covaris Fragmented gDNA&#58; 55 ng. Fragmentation program&#58; 200 bp
-          as the Covaris recommended in 130 &#956;l in the low TE buffer by
-          using snap&#45;cap micro&#45;tube &#40;Covaris&#44; cat#520045&#41;
-        </li>
-        <br />
-      </ol>
+<body>
+  <img
+    src="/assets/workflow/Islet Physiology Studies/HPAP-logo.jpg"
+    alt="hpap-logo"
+    width="200"
+    height="90"
+    style="vertical-align: middle"
+  />
+  <h3 align="center">
+    <strong>Whole Genome Bi&#45;sulphite Sequencing &#40;WGBS&#41;</strong>
+  </h3>
+  <p align="center">
+    Kaestner Lab&#44; University of Pennsylvania<br />
+    Date Revised&#58; July 15&#44; 2020
+  </p>
+  <ol type="I">
+    <li><strong>Fragmentation </strong></li>
+    <br />
+    <ol type="1">
       <li>
-        <strong
-          >Bisulfite by using Ultra low Methylation&#45;seq with TrueMethyl oxBS
-          &#40;NuGEN&#44; CAT#0541&#41; Only use the indicated
-          mock&#45;oxidation steps in the following</strong
-        >
+        Covaris Fragmented gDNA&#58; 55 ng. Fragmentation program&#58; 200 bp
+        as the Covaris recommended in 130 &#956;l in the low TE buffer by
+        using snap&#45;cap micro&#45;tube &#40;Covaris&#44; cat#520045&#41;
       </li>
       <br />
-      <ol type="1">
-        <li>Book thermo cycler and qPCR machine</li>
-      </ol>
+    </ol>
+    <li>
+      <strong>Bisulfite by using Ultra low Methylation&#45;seq with TrueMethyl
+        oxBS
+        &#40;NuGEN&#44; CAT#0541&#41; Only use the indicated
+        mock&#45;oxidation steps in the following</strong>
+    </li>
+    <br />
+    <ol type="1">
+      <li>Book thermo cycler and qPCR machine</li>
+    </ol>
 
-      <p align="center">
-        <strong>Table 3&#58; Thermal Cycler Programming</strong>
+    <p align="center">
+      <strong>Table 3&#58; Thermal Cycler Programming</strong>
+    </p>
+    <table
+      border="1"
+      align="center"
+      cellspacing="0"
+      cellpadding="0"
+    >
+      <tr>
+        <td
+          bgcolor="#9ebddc"
+          colspan="2"
+        >
+          <strong>END REPAIR </strong>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>VOLUME </strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <strong>Program 1 </strong> <br />
+            End Repair
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            25 &#8451; &#45; 30 mins&#44; 70 &#8451; &#45; 10 mins&#44; hold
+            at 4 &#8451;
+          </p>
+        </td>
+        <td align="center">
+          <p>16 &#956;L</p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          bgcolor="#9ebddc"
+          colspan="2"
+        >
+          <p><strong>ADAPTOR LIGATION </strong></p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>VOLUME</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <strong>Program 2</strong> <br />
+            Ligation
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            25 &#8451; &#45; 30 mins&#44; 70 &#8451; &#45; 10 mins&#44; hold
+            at 4 &#8451;
+          </p>
+        </td>
+        <td>
+          <p align="center">31 &#956;L</p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          bgcolor="#9ebddc"
+          colspan="2"
+        >
+          <p><strong>FINAL REPAIR</strong></p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>VOLUME</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <strong>Program 3</strong> <br />
+            Final Repair
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            60 &#8451; &#45; 10 mins&#44; hold at 4 &#8451;
+          </p>
+        </td>
+        <td>
+          <p align="center">40 &#956;L</p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          bgcolor="#9ebddc"
+          colspan="2"
+        >
+          <p><strong>OXIDATION</strong></p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>VOLUME</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <strong>Program 4</strong> <br />
+            Denaturation
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            37 &#8451; &#45; 5 mins&#44; hold at 25 &#8451;
+          </p>
+        </td>
+        <td>
+          <p align="center">10 &#8451;L</p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          bgcolor="#9ebddc"
+          colspan="2"
+        >
+          <p><strong>BISULFITE CONVERSION</strong></p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>VOLUME</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <strong>Program 5</strong><br />
+            Bisulfite Conversion
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            95 &#8451; &#45; 5 mins&#44; 60 &#8451; &#45; 20 mins&#44; 95
+            &#8451; &#45; 5 mins&#44; 60 &#8451; &#45; 40 mins&#44; 95 &#8451;
+            &#45; 5 mins&#44; 60 &#8451; &#45; 45 mins&#44; hold at 20 &#8451;
+          </p>
+        </td>
+        <td>
+          <p align="center">40 &#956;L</p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          bgcolor="#9ebddc"
+          colspan="2"
+        >
+          <p><strong>AMPLIFICATION</strong></p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>VOLUME</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <strong>Program 6</strong> <br />
+            Library Amplification
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            95 &#8451; &#45; 2 mins&#44; N&#40;95 &#8451; &#45; 15 s&#44; 60
+            &#8451; &#45; 1 min&#44; 72 &#8451; &#45; 30 s&#41;&#44; hold at
+            10 &#8451;
+          </p>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+    <br />
+    <ul>
+      <p>
+        <strong><em>NOTE&#58;</em></strong><br />
+        <strong><em>Extra order&#58; Evagreen</em></strong><br />
+        <strong><em>Check every box&#44; make sure things are ready
+          </em></strong><br />
+        <strong><em>Protocol Day&#45;0&#58; prepare all the material&#44; check
+            all
+            the material&#44; fragment DNA&#44; run bioanalyzer&#44; put
+            sample in &#8722;20C</em></strong><br />
+        <strong><em>Protocol Day&#45;1&#58; until bisulfate hold on
+            &#43;20C</em></strong>
       </p>
-      <table border="1" align="center" cellspacing="0" cellpadding="0">
-        <tr>
-          <td bgcolor="#9ebddc" colspan="2">
-            <strong>END REPAIR </strong>
-          </td>
-          <td bgcolor="#9ebddc">
-            <p align="center"><strong>VOLUME </strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-              <strong>Program 1 </strong> <br />
-              End Repair
-            </p>
-          </td>
-          <td>
-            <p align="center">
-              25 &#8451; &#45; 30 mins&#44; 70 &#8451; &#45; 10 mins&#44; hold
-              at 4 &#8451;
-            </p>
-          </td>
-          <td align="center">
-            <p>16 &#956;L</p>
-          </td>
-        </tr>
-        <tr>
-          <td bgcolor="#9ebddc" colspan="2">
-            <p><strong>ADAPTOR LIGATION </strong></p>
-          </td>
-          <td bgcolor="#9ebddc">
-            <p align="center"><strong>VOLUME</strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-              <strong>Program 2</strong> <br />
-              Ligation
-            </p>
-          </td>
-          <td>
-            <p align="center">
-              25 &#8451; &#45; 30 mins&#44; 70 &#8451; &#45; 10 mins&#44; hold
-              at 4 &#8451;
-            </p>
-          </td>
-          <td>
-            <p align="center">31 &#956;L</p>
-          </td>
-        </tr>
-        <tr>
-          <td bgcolor="#9ebddc" colspan="2">
-            <p><strong>FINAL REPAIR</strong></p>
-          </td>
-          <td bgcolor="#9ebddc">
-            <p align="center"><strong>VOLUME</strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-              <strong>Program 3</strong> <br />
-              Final Repair
-            </p>
-          </td>
-          <td>
-            <p align="center">
-              60 &#8451; &#45; 10 mins&#44; hold at 4 &#8451;
-            </p>
-          </td>
-          <td>
-            <p align="center">40 &#956;L</p>
-          </td>
-        </tr>
-        <tr>
-          <td bgcolor="#9ebddc" colspan="2">
-            <p><strong>OXIDATION</strong></p>
-          </td>
-          <td bgcolor="#9ebddc">
-            <p align="center"><strong>VOLUME</strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-              <strong>Program 4</strong> <br />
-              Denaturation
-            </p>
-          </td>
-          <td>
-            <p align="center">
-              37 &#8451; &#45; 5 mins&#44; hold at 25 &#8451;
-            </p>
-          </td>
-          <td>
-            <p align="center">10 &#8451;L</p>
-          </td>
-        </tr>
-        <tr>
-          <td bgcolor="#9ebddc" colspan="2">
-            <p><strong>BISULFITE CONVERSION</strong></p>
-          </td>
-          <td bgcolor="#9ebddc">
-            <p align="center"><strong>VOLUME</strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-              <strong>Program 5</strong><br />
-              Bisulfite Conversion
-            </p>
-          </td>
-          <td>
-            <p align="center">
-              95 &#8451; &#45; 5 mins&#44; 60 &#8451; &#45; 20 mins&#44; 95
-              &#8451; &#45; 5 mins&#44; 60 &#8451; &#45; 40 mins&#44; 95 &#8451;
-              &#45; 5 mins&#44; 60 &#8451; &#45; 45 mins&#44; hold at 20 &#8451;
-            </p>
-          </td>
-          <td>
-            <p align="center">40 &#956;L</p>
-          </td>
-        </tr>
-        <tr>
-          <td bgcolor="#9ebddc" colspan="2">
-            <p><strong>AMPLIFICATION</strong></p>
-          </td>
-          <td bgcolor="#9ebddc">
-            <p align="center"><strong>VOLUME</strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-              <strong>Program 6</strong> <br />
-              Library Amplification
-            </p>
-          </td>
-          <td>
-            <p align="center">
-              95 &#8451; &#45; 2 mins&#44; N&#40;95 &#8451; &#45; 15 s&#44; 60
-              &#8451; &#45; 1 min&#44; 72 &#8451; &#45; 30 s&#41;&#44; hold at
-              10 &#8451;
-            </p>
-          </td>
-          <td></td>
-        </tr>
-      </table>
+    </ul>
+    <br />
+    <li><strong>Fragmented DNA Purification</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Choose a nucleic acid column&#45;based purification system that allows
+        small volume elution, such as the MinElute® Reaction Cleanup Kit
+        &#40;QIAGEN&#44; Cat. &#35;28204&#41;. Alternatively&#44; you may use
+        the Agencourt bead&#45;based purification protocol detailed below&#44;
+        which is provided for your convenience. This protocol is designed to
+        work with a starting volume of 50 &#956;L of fragmented DNA. If your
+        starting volume is different&#44; change the volume of beads added in
+        Step 5 to 1.8 times the volume of your fragmented DNA.
+      </li>
+      <li>
+        Ensure the Agencourt beads and Nuclease&#45;free Water &#40;D1&#41;
+        have completely reached room temperature before proceeding.
+      </li>
+      <li>
+        Resuspend beads by vortexing the tube. Ensure beads are fully
+        resuspended before adding to sample. After resuspending&#44; do not
+        spin the beads.
+      </li>
+      <li>Prepare a fresh 70&#37; ethanol wash solution.</li>
+      <li>Briefly spin down samples.</li>
+      <li>
+        Add 90 &#956;L &#40;1.8 volume&#411; of bead suspension to each
+        reaction. Mix thoroughly by pipetting 10 times.
+      </li>
+      <li>Incubate at room temperature for 10 minutes.</li>
+      <li>
+        Transfer the tubes to the magnet and let stand 5 minutes to completely
+        clear the solution of beads.
+      </li>
+      <li>Carefully remove the binding buffer and discard it</li>
+      <br />
+      <ul>
+        <strong><em>NOTE&#58;</em></strong><br />
+        <strong><em>The beads should not disperse&#59; instead&#44; they will
+            stay on
+            the walls of the tubes. Significant loss of beads at this stage
+            will impact the amount of purified DNA&#44; so ensure beads are
+            not removed with the binding buffer or the wash.</em></strong>
+      </ul>
+      <br />
+      <li>
+        With the tubes still on the magnet&#44; add 200 &#956;L of freshly
+        prepared 70&#37; ethanol and allow to stand for 30 seconds.
+      </li>
+      <li>Remove the 70% ethanol wash using a pipette.</li>
+      <li>
+        Repeat steps 9 and 10 for a total of two 70&#37; ethanol washes.
+      </li>
+      <li>
+        Air dry the beads on the magnet for 5&#45;10 minutes. Inspect each
+        tube carefully to ensure that all the ethanol has evaporated.
+      </li>
+      <li>Remove the tubes from the magnet.</li>
+      <li>
+        Add 14 &#956;L room temperature of 1X low&#45;EDTA TE buffer or
+        Nuclease&#45;free Water &#40;green&#58; D1&#41; to the dried beads.
+        Mix thoroughly to ensure all the beads are resuspended.
+      </li>
+      <li>
+        Transfer the tubes to the magnet and let stand for 5 minutes to
+        completely clear the solution of beads.
+      </li>
+      <li>
+        Carefully remove 13 &#956;L of the eluate&#44; ensuring as few beads
+        as possible are carried over&#39; transfer to a fresh set of PCR tubes
+        and place on ice.
+      </li>
       <br />
       <ul>
         <p>
-          <strong><em>NOTE&#58;</em></strong
-          ><br />
-          <strong><em>Extra order&#58; Evagreen</em></strong
-          ><br />
-          <strong
-            ><em>Check every box&#44; make sure things are ready </em></strong
-          ><br />
-          <strong
-            ><em
-              >Protocol Day&#45;0&#58; prepare all the material&#44; check all
-              the material&#44; fragment DNA&#44; run bioanalyzer&#44; put
-              sample in &#8722;20C</em
-            ></strong
-          ><br />
-          <strong
-            ><em
-              >Protocol Day&#45;1&#58; until bisulfate hold on &#43;20C</em
-            ></strong
-          >
+          <strong><em>NOTE&#58;</em></strong><br />
+          <strong><em>Optional stopping point&#58; Store samples at &#8722;20
+              &#8451;.
+            </em></strong>
         </p>
+        <br />
+      </ul>
+    </ol>
+
+    <li><strong>End Repair</strong></li>
+
+    <p align="center"><strong>Table 5&#58; End Repair Master Mix</strong></p>
+    <table
+      border="1"
+      align="center"
+      cellspacing="0"
+      cellpadding="0"
+    >
+      <tr>
+        <td bgcolor="#9ebddc">
+          <p align="center"><strong>REAGENT</strong></p>
+        </td>
+
+        <td bgcolor="#9ebddc">
+          <p align="center">
+            <strong>END REPAIR BUFFER MIX &#40;BLUE&#58; ER1 </strong>ver
+            <strong>8&#41;</strong>
+          </p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center">
+            <strong>END REPAIR ENZYME MIX &#40;BLUE&#58; ER2 </strong>ver
+            <strong>4&#41;</strong>
+          </p>
+        </td>
+        <td bgcolor="#9ebddc">
+          <p align="center">
+            <strong>END REPAIR ENHANCER &#40;BLUE&#58; ER3 </strong>ver
+            <strong>2&#41;</strong>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p align="center">STORAGE</p>
+        </td>
+        <td>
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+        <td>
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+        <td>
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p align="center">1X REACTION VOLUME</p>
+        </td>
+        <td>
+          <p align="center">2.0 &#956;L</p>
+        </td>
+        <td>
+          <p align="center">0.5 &#956;L</p>
+        </td>
+        <td>
+          <p align="center">0.5 &#956;L</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <ol type="1">
+      <li>
+        Thaw ER1 at room temperature. Mix by vortexing&#44; spin down and
+        place on ice.
+      </li>
+      <li>Spin down ER2 and ER3 and place on ice.</li>
+      <li>
+        Obtain 13 &#956;L of fragmented DNA sample &#40;10&#45;300 ng&#41;
+        from the DNA Purification protocol.
+      </li>
+      <br />
+      <ul>
+        <strong>NOTE&#58;<br />
+          <em>To interrogate 5 hmC&#44; split the sample into two 13 &#956;L
+            aliquots to perform parallel library preparations with oxBS and
+            MOCK oxBS workflows. The aliquots can be diluted using
+            Nuclease&#45;free Water or 1X low&#45;EDTA TE buffer.</em></strong>
       </ul>
       <br />
-      <li><strong>Fragmented DNA Purification</strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Choose a nucleic acid column&#45;based purification system that allows
-          small volume elution, such as the MinElute® Reaction Cleanup Kit
-          &#40;QIAGEN&#44; Cat. &#35;28204&#41;. Alternatively&#44; you may use
-          the Agencourt bead&#45;based purification protocol detailed below&#44;
-          which is provided for your convenience. This protocol is designed to
-          work with a starting volume of 50 &#956;L of fragmented DNA. If your
-          starting volume is different&#44; change the volume of beads added in
-          Step 5 to 1.8 times the volume of your fragmented DNA.
-        </li>
-        <li>
-          Ensure the Agencourt beads and Nuclease&#45;free Water &#40;D1&#41;
-          have completely reached room temperature before proceeding.
-        </li>
-        <li>
-          Resuspend beads by vortexing the tube. Ensure beads are fully
-          resuspended before adding to sample. After resuspending&#44; do not
-          spin the beads.
-        </li>
-        <li>Prepare a fresh 70&#37; ethanol wash solution.</li>
-        <li>Briefly spin down samples.</li>
-        <li>
-          Add 90 &#956;L &#40;1.8 volume&#411; of bead suspension to each
-          reaction. Mix thoroughly by pipetting 10 times.
-        </li>
-        <li>Incubate at room temperature for 10 minutes.</li>
-        <li>
-          Transfer the tubes to the magnet and let stand 5 minutes to completely
-          clear the solution of beads.
-        </li>
-        <li>Carefully remove the binding buffer and discard it</li>
-        <br />
-        <ul>
-          <strong><em>NOTE&#58;</em></strong
-          ><br />
-          <strong
-            ><em
-              >The beads should not disperse&#59; instead&#44; they will stay on
-              the walls of the tubes. Significant loss of beads at this stage
-              will impact the amount of purified DNA&#44; so ensure beads are
-              not removed with the binding buffer or the wash.</em
-            ></strong
-          >
-        </ul>
-        <br />
-        <li>
-          With the tubes still on the magnet&#44; add 200 &#956;L of freshly
-          prepared 70&#37; ethanol and allow to stand for 30 seconds.
-        </li>
-        <li>Remove the 70% ethanol wash using a pipette.</li>
-        <li>
-          Repeat steps 9 and 10 for a total of two 70&#37; ethanol washes.
-        </li>
-        <li>
-          Air dry the beads on the magnet for 5&#45;10 minutes. Inspect each
-          tube carefully to ensure that all the ethanol has evaporated.
-        </li>
-        <li>Remove the tubes from the magnet.</li>
-        <li>
-          Add 14 &#956;L room temperature of 1X low&#45;EDTA TE buffer or
-          Nuclease&#45;free Water &#40;green&#58; D1&#41; to the dried beads.
-          Mix thoroughly to ensure all the beads are resuspended.
-        </li>
-        <li>
-          Transfer the tubes to the magnet and let stand for 5 minutes to
-          completely clear the solution of beads.
-        </li>
-        <li>
-          Carefully remove 13 &#956;L of the eluate&#44; ensuring as few beads
-          as possible are carried over&#39; transfer to a fresh set of PCR tubes
-          and place on ice.
-        </li>
-        <br />
-        <ul>
-          <p>
-            <strong><em>NOTE&#58;</em></strong
-            ><br />
-            <strong
-              ><em
-                >Optional stopping point&#58; Store samples at &#8722;20
-                &#8451;.
-              </em></strong
-            >
-          </p>
-          <br />
-        </ul>
+      <li>
+        Prepare a master mix by combining ER1&#44; ER2 and ER3 in a 0.5 mL
+        capped tube&#44; according to the volumes shown in Table 5.
+      </li>
+      <li>
+        Add 3 &#956;L of End Repair Master Mix to each sample tube for a total
+        of 16 &#956;L.
+      </li>
+      <li>Mix by pipetting&#44; cap and spin tubes and place on ice.</li>
+      <li>
+        Place tubes in a pre&#45;warmed thermal cycler programmed to run
+        Program 1 &#40;End Repair&#59; see Table 3&#41;&#58;
+      </li>
+      <ol type="a">
+        <li>25 &#8451; &#45; 30 mins</li>
+        <li>70 &#8451; &#45; 10 mins</li>
+        <li>hold at 4 &#8451;</li>
       </ol>
+      <li>
+        Remove tubes from the thermal cycler&#44; spin to collect condensation
+        and place on ice.
+      </li>
+    </ol>
+    <br />
 
-      <li><strong>End Repair</strong></li>
-
-      <p align="center"><strong>Table 5&#58; End Repair Master Mix</strong></p>
-      <table border="1" align="center" cellspacing="0" cellpadding="0">
+    <li><strong>Adaptor Ligation</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Remove Agencourt beads from 4 &#8451;. Place on the bench top to reach
+        room temperature for use in the next step.
+      </li>
+      <br />
+      <p align="center"><strong>Table 6&#58; Ligation Master Mix</strong></p>
+      <table
+        border="1"
+        cellspacing="0"
+        cellpadding="0"
+      >
         <tr>
           <td bgcolor="#9ebddc">
             <p align="center"><strong>REAGENT</strong></p>
@@ -328,20 +450,19 @@
 
           <td bgcolor="#9ebddc">
             <p align="center">
-              <strong>END REPAIR BUFFER MIX &#40;BLUE&#58; ER1 </strong>ver
-              <strong>8&#41;</strong>
+              <strong>NUCLEASE&#45;FREE WATER &#40;GREEN&#58; D1&#41;</strong>
             </p>
           </td>
           <td bgcolor="#9ebddc">
             <p align="center">
-              <strong>END REPAIR ENZYME MIX &#40;BLUE&#58; ER2 </strong>ver
+              <strong>LIGATION BUFFER MIX &#40;YELLOW&#58; L1 </strong>ver
               <strong>4&#41;</strong>
             </p>
           </td>
           <td bgcolor="#9ebddc">
             <p align="center">
-              <strong>END REPAIR ENHANCER &#40;BLUE&#58; ER3 </strong>ver
-              <strong>2&#41;</strong>
+              <strong>LIGATION ENZYME MIX &#40;YELLOW&#58; L3 </strong>ver
+              <strong>4&#41;</strong>
             </p>
           </td>
         </tr>
@@ -350,7 +471,7 @@
             <p align="center">STORAGE</p>
           </td>
           <td>
-            <p align="center">&#8722;20 &#8451;</p>
+            <p align="center">&#45;&#45;&#45;</p>
           </td>
           <td>
             <p align="center">&#8722;20 &#8451;</p>
@@ -364,1076 +485,168 @@
             <p align="center">1X REACTION VOLUME</p>
           </td>
           <td>
-            <p align="center">2.0 &#956;L</p>
+            <p align="center">4.5 &#956;L</p>
           </td>
           <td>
-            <p align="center">0.5 &#956;L</p>
+            <p align="center">6 &#956;L</p>
           </td>
           <td>
-            <p align="center">0.5 &#956;L</p>
+            <p align="center">1.5 &#956;L</p>
           </td>
         </tr>
       </table>
       <br />
-      <ol type="1">
+
+      <li>Spin down L3 and place on ice.</li>
+      <li>Thaw adaptor plate on ice, spin down, and return to ice.</li>
+      <li>
+        Thaw L1 at room temperature. Mix by vortexing&#44; spin down and place
+        on ice. Add adaptors to each sample as follows&#58;
+      </li>
+      <ol type="a">
         <li>
-          Thaw ER1 at room temperature. Mix by vortexing&#44; spin down and
-          place on ice.
-        </li>
-        <li>Spin down ER2 and ER3 and place on ice.</li>
-        <li>
-          Obtain 13 &#956;L of fragmented DNA sample &#40;10&#45;300 ng&#41;
-          from the DNA Purification protocol.
-        </li>
-        <br />
-        <ul>
-          <strong
-            >NOTE&#58;<br />
-            <em
-              >To interrogate 5 hmC&#44; split the sample into two 13 &#956;L
-              aliquots to perform parallel library preparations with oxBS and
-              MOCK oxBS workflows. The aliquots can be diluted using
-              Nuclease&#45;free Water or 1X low&#45;EDTA TE buffer.</em
-            ></strong
-          >
-        </ul>
-        <br />
-        <li>
-          Prepare a master mix by combining ER1&#44; ER2 and ER3 in a 0.5 mL
-          capped tube&#44; according to the volumes shown in Table 5.
+          If using adaptors from 32&#45;plex Adaptor Plate
+          &#40;S02694&#41;&#44; add 3 &#956;L of the appropriate Ligation
+          Adaptor Mix to each sample. Mix thoroughly by pipetting.
         </li>
         <li>
-          Add 3 &#956;L of End Repair Master Mix to each sample tube for a total
-          of 16 &#956;L.
-        </li>
-        <li>Mix by pipetting&#44; cap and spin tubes and place on ice.</li>
-        <li>
-          Place tubes in a pre&#45;warmed thermal cycler programmed to run
-          Program 1 &#40;End Repair&#59; see Table 3&#41;&#58;
-        </li>
-        <ol type="a">
-          <li>25 &#8451; &#45; 30 mins</li>
-          <li>70 &#8451; &#45; 10 mins</li>
-          <li>hold at 4 &#8451;</li>
-        </ol>
-        <li>
-          Remove tubes from the thermal cycler&#44; spin to collect condensation
-          and place on ice.
+          If using adaptors from 96&#45;plex Adaptor Plate
+          &#40;S02169&#41;&#44; add the entire 16 &#956;L of sample to the
+          appropriate adaptor well&#44; mix well by pipetting&#44; then
+          transfer the entire sample to a PCR tube.
         </li>
       </ol>
-      <br />
-
-      <li><strong>Adaptor Ligation</strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Remove Agencourt beads from 4 &#8451;. Place on the bench top to reach
-          room temperature for use in the next step.
-        </li>
-        <br />
-        <p align="center"><strong>Table 6&#58; Ligation Master Mix</strong></p>
-        <table border="1" cellspacing="0" cellpadding="0">
-          <tr>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>REAGENT</strong></p>
-            </td>
-
-            <td bgcolor="#9ebddc">
-              <p align="center">
-                <strong>NUCLEASE&#45;FREE WATER &#40;GREEN&#58; D1&#41;</strong>
-              </p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center">
-                <strong>LIGATION BUFFER MIX &#40;YELLOW&#58; L1 </strong>ver
-                <strong>4&#41;</strong>
-              </p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center">
-                <strong>LIGATION ENZYME MIX &#40;YELLOW&#58; L3 </strong>ver
-                <strong>4&#41;</strong>
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">STORAGE</p>
-            </td>
-            <td>
-              <p align="center">&#45;&#45;&#45;</p>
-            </td>
-            <td>
-              <p align="center">&#8722;20 &#8451;</p>
-            </td>
-            <td>
-              <p align="center">&#8722;20 &#8451;</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">1X REACTION VOLUME</p>
-            </td>
-            <td>
-              <p align="center">4.5 &#956;L</p>
-            </td>
-            <td>
-              <p align="center">6 &#956;L</p>
-            </td>
-            <td>
-              <p align="center">1.5 &#956;L</p>
-            </td>
-          </tr>
-        </table>
-        <br />
-
-        <li>Spin down L3 and place on ice.</li>
-        <li>Thaw adaptor plate on ice, spin down, and return to ice.</li>
-        <li>
-          Thaw L1 at room temperature. Mix by vortexing&#44; spin down and place
-          on ice. Add adaptors to each sample as follows&#58;
-        </li>
-        <ol type="a">
-          <li>
-            If using adaptors from 32&#45;plex Adaptor Plate
-            &#40;S02694&#41;&#44; add 3 &#956;L of the appropriate Ligation
-            Adaptor Mix to each sample. Mix thoroughly by pipetting.
-          </li>
-          <li>
-            If using adaptors from 96&#45;plex Adaptor Plate
-            &#40;S02169&#41;&#44; add the entire 16 &#956;L of sample to the
-            appropriate adaptor well&#44; mix well by pipetting&#44; then
-            transfer the entire sample to a PCR tube.
-          </li>
-        </ol>
-        <ul>
-          <br />
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />In order to multiplex the oxBS and MOCK oxBS
-                processed samples&#44; unique indexes are required.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Prepare a master mix by combining D1&#44; L1 and L3 in a 0.5 mL capped
-          tube&#44; according to the volumes shown in Table 6. Mix by pipetting
-          slowly&#44; without introducing bubbles&#44; spin and place on ice.
-          Use the master mix immediately.
-        </li>
-        <ul>
-          <br />
-          <p>
-            <strong
-              ><em
-                >NOTE&#58; The L1 Ligation Buffer Mix is very viscous. Pipet
-                this reagent slowly and mix thoroughly.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Add 12 &#956;L Ligation Master Mix to each reaction for a total of 31
-          &#956;L. Mix thoroughly by pipetting slowly and gently&#44; spin down
-          and place on ice. Proceed immediately with the incubation.
-        </li>
-        <li>
-          Place tubes in a pre&#45;warmed thermal cycler programmed to run
-          Program 2 &#40;Ligation&#59; see Table 3&#41;&#58;
-        </li>
-        <ol type="a">
-          <li>25 &#8451; &#45; 30 mins</li>
-          <li>70 &#8451; &#45; 10 mins</li>
-          <li>hold at 4 &#8451;</li>
-        </ol>
-        <li>
-          Remove the tubes from the thermal cycler&#44; spin to collect
-          condensation and place on ice.
-        </li>
-      </ol>
-      <br />
-
-      <li><strong>Post&#45;Ligation Purification</strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Ensure the Agencourt beads and D1 have completely reached room
-          temperature before proceeding.
-        </li>
-        <li>
-          Resuspend the beads by vortexing the tube. Ensure the beads are fully
-          resuspended before adding to the sample. After resuspending&#44; do
-          not spin the beads.
-        </li>
-        <li>
-          At room temperature&#44; add 45 &#956;L &#40;1.5 volumes&#41; of the
-          bead suspension to each reaction. Mix thoroughly by pipetting 10
-          times.
-        </li>
-        <li>Incubate at room temperature for 10 minutes.</li>
-        <li>
-          Transfer the tubes to the magnet and let stand 5 minutes to completely
-          clear the solution of beads.
-        </li>
-        <li>Carefully remove the binding buffer and discard it.</li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />The beads should not disperse&#59; instead&#44;
-                they will stay on the walls of the tubes. Significant loss of
-                beads at this stage will impact the amount of purified DNA&#44;
-                so ensure beads are not removed with the binding buffer or the
-                wash.
-              </em></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          With the tubes still on the magnet&#44; add 200 μL of freshly prepared
-          70&#37; ethanol and allow to stand for 30 seconds.
-        </li>
-        <li>Remove the 70&#37; ethanol wash using a pipette.</li>
-        <li>Repeat steps 7 and 8 for a total of two 70&#37; ethanol washes.</li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />With the final wash&#44; it is critical to
-                remove as much of the ethanol as possible. Use at least two
-                pipetting steps and allow excess ethanol to collect at the
-                bottom of the tubes after removing most of the ethanol in the
-                first pipetting step.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Air dry the beads on the magnet for 5&#45;10 minutes. Inspect each
-          tube carefully to ensure that all the ethanol has evaporated. It is
-          critical that all residual ethanol be removed prior to continuing.
-        </li>
-        <li>Remove the tubes from the magnet.</li>
-        <li>
-          Add 16 &#956;L room temperature of 1X low&#45;EDTA TE buffer or D1 to
-          the dried beads. Mix thoroughly to ensure all the beads are
-          resuspended.
-        </li>
-        <li>
-          Transfer the tubes to the magnet and let stand for 5 minutes to
-          completely clear the solution of beads.
-        </li>
-        <li>
-          Carefully remove 15 &#956;L of the eluate&#44; ensuring as few beads
-          as possible are carried over&#59; transfer to a fresh set of PCR tubes
-          and place on ice.
-        </li>
-      </ol>
-      <br />
-      <li><strong>Final Repair </strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Remove the TrueMethyl oxBS Module Magnetic Bead Solution&#44; Binding
-          Buffer 1 and Binding Buffer 2 from 4 &#8451; and place at room
-          temperature for use in the next step.
-        </li>
-
-        <p align="center">
-          <strong>Table 7&#58; Final Repair Master Mix</strong>
-        </p>
-        <table
-          border="1"
-          align="center"
-          cellspacing="0"
-          cellpadding="0"
-          width="0"
-        >
-          <tr>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>REAGENT</strong></p>
-            </td>
-
-            <td bgcolor="#9ebddc" width="263">
-              <p align="center">
-                <strong>FINAL REPAIR BUFFER MIX &#40;PURPLE&#58; FR1 </strong
-                >ver <strong>4&#41;</strong>
-              </p>
-            </td>
-            <td bgcolor="#9ebddc" width="263">
-              <p align="center">
-                <strong
-                  >FINAL REPAIR ENZYME MIX &#40;PURPLE&#58; FR2&#41;</strong
-                >
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">STORAGE</p>
-            </td>
-            <td width="263">
-              <p align="center">&#8722;20 &#8451;</p>
-            </td>
-            <td width="240">
-              <p align="center">&#8722;20 &#8451;</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">1X REACTION VOLUME</p>
-            </td>
-            <td width="263">
-              <p align="center">4.5 &#956;L</p>
-            </td>
-            <td width="263">
-              <p align="center">0.5 &#956;L</p>
-            </td>
-          </tr>
-        </table>
-        <br />
-        <li>Spin down FR2 and place on ice.</li>
-        <li>
-          Thaw FR1 at room temperature. Mix by vortexing&#44; spin down and
-          place on ice.
-        </li>
-        <li>
-          Prepare a master mix by combining FR1 and FR2 in a 0.5 mL capped
-          tube&#44; according to the volumes shown in Table 7.
-        </li>
-        <li>
-          Add 5 &#956;L of the Final Repair Master Mix to each sample tube for a
-          total of 20 &#956;L.
-        </li>
-        <li>Mix by pipetting&#44; cap and spin tubes and place on ice.</li>
-        <li>
-          Place the tubes in a pre&#45;warmed thermal cycler programmed to run
-          Program 3 &#40;Final Repair&#59; see Table 3&#41;&#58;
-        </li>
-        <li>60 &#8451; &#45; 10 min&#44; hold at 4 &#8451;</li>
-        <li>
-          Remove the tubes from the thermal cycler&#44; spin to collect
-          condensation and place on ice.
-        </li>
-        <br />
-        <strong
-          ><em
-            >NOTE&#58;<br />Optional stopping point&#58; Store samples at
-            &#8722;20 &#8451;.</em
-          ></strong
-        ><br />
-        <br />
-        <li>
-          If using the True Methyl oxBS Module, continue with section H. DNA
-          Purification and Denaturation. For alternative bisulfite conversion
-          methods, perform bisulfite conversion according to the manufacturer
-          recommendations and proceed to protocol section
-          <strong>L. Library Amplification Optimization with qPCR</strong>.
-        </li>
-      </ol>
-      <br />
       <ul>
+        <br />
         <p>
-          <strong
-            ><em
-              >NOTE&#58;<br />Bisulfite conversion is critical for successful
-              library amplification</em
-            ></strong
-          >
+          <strong><em>NOTE&#58;<br />In order to multiplex the oxBS and MOCK
+              oxBS
+              processed samples&#44; unique indexes are required.</em></strong>
         </p>
       </ul>
       <br />
-
-      <li><strong>DNA Purification and Denaturation</strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Remove the TrueMethyl oxBS Module Oxidant Solution from &#8722;20
-          &#8451; and thaw on ice for use in the next step.
-        </li>
+      <li>
+        Prepare a master mix by combining D1&#44; L1 and L3 in a 0.5 mL capped
+        tube&#44; according to the volumes shown in Table 6. Mix by pipetting
+        slowly&#44; without introducing bubbles&#44; spin and place on ice.
+        Use the master mix immediately.
+      </li>
+      <ul>
         <br />
-        <strong
-          ><em
-            >NOTE&#58;<br />
-            The Oxidant Solution is light&#45;sensitive. Keep protected from
-            light.</em
-          ></strong
-        ><br />
-        <br />
-
-        <p align="center">
-          <strong
-            >Table 8&#58; Magnetic Bead Binding Solution 1 Master Mix</strong
-          >
+        <p>
+          <strong><em>NOTE&#58; The L1 Ligation Buffer Mix is very viscous.
+              Pipet
+              this reagent slowly and mix thoroughly.</em></strong>
         </p>
-        <table border="1" cellspacing="0" cellpadding="0" align="center">
-          <tr>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>REAGENT</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>BINDING BUFFER 1</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>MAGNETIC BEAD SOLUTION</strong></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">STORAGE</p>
-            </td>
-            <td>
-              <p align="center">4 &#8451;</p>
-            </td>
-            <td>
-              <p align="center">4 &#8451;</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">1X REACTION VOLUME</p>
-            </td>
-            <td>
-              <p align="center">120 &#956;L</p>
-            </td>
-            <td>
-              <p align="center">2.4 &#956;L</p>
-            </td>
-          </tr>
-        </table>
-        <br />
-
-        <li>
-          Remove Aceto-nitrile&#44; Ultra Pure water&#44; and Denaturing
-          Solution from storage and place on bench top.
-        </li>
-        <li>
-          Prepare a fresh stock of 80&#37; aceto&#45;nitrile&#44; using the
-          Ultra Pure water provided with the kit. Mix by vortexing or inversion
-          and place at room temperature.
-        </li>
-        <li>
-          Ensure Magnetic Bead Solution and Binding Buffer 1 have reached room
-          temperature before proceeding.
-        </li>
-        <li>Mix Binding Buffer 1 by inversion until homogenized.</li>
-        <li>Vortex Magnetic Bead Solution until homogenized.</li>
-        <li>
-          Prepare a master mix of Magnetic Bead Binding Solution 1
-          &#40;MBBS1&#41; as directed in Table 8.
-        </li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />MBBS1 should be prepared fresh on the day of
-                use. Do not store for longer than 1</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Vortex MBBS1 master mix thoroughly to ensure the beads are homogenized
-          in solution.
-        </li>
-        <li>
-          At room temperature, add 30 μL water of Ultra Pure water to each
-          sample for a total of 50 &#956;L.
-        </li>
-        <li>
-          Add 100 &#956;L of MBBS1 master mix to each 0.2 mL tube containing 50
-          &#956;L NGS library for a total of 150 &#956;L. Mix by pipetting and
-          centrifuge briefly.
-        </li>
-        <li>Incubate at room temperature for 20 mins.</li>
-        <li>
-          Transfer tubes to a magnetic separation plate and incubate at room
-          temperature for 5 minutes to completely clear the solution of beads.
-        </li>
-        <li>
-          Keeping the tubes on the magnet, carefully remove the supernatant and
-          discard it.
-        </li>
-        <li>
-          With the tubes still on the magnet&#44; carefully add 200 &#956;L of
-          80&#37; Aceto&#45;nitrile wash to the tubes without disturbing the
-          bead pellet.
-        </li>
-        <li>
-          Remove and discard the 200 &#956;L 80&#37; Aceto&#45;nitrile wash&#44;
-          carefully avoiding aspiration of the bead pellet.
-        </li>
-        <li>
-          Repeat Steps 13 and 14 twice to perform 3 x 200 &#956;L 80&#37;
-          Aceto&#45;nitrile washes in total. Remove as much of the final wash as
-          possible.
-        </li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />Ensure the tubes are dry before continuing the
-                protocol. If the tubes aren&#39;t dry after 5 minutes&#44;
-                incubate for a longer period of time.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Air dry the bead pellets for 5 minutes at room temperature&#44;
-          leaving the lids of the tubes open.
-        </li>
-        <li>Remove the tubes from the magnet.</li>
-        <li>
-          Add 10 &#956;L of Denaturing Solution directly onto the bead pellet.
-          Mix thoroughly to ensure all beads are resuspended.
-        </li>
-        <li>Centrifuge briefly to collect solution at bottom of the tubes.</li>
-        <li>
-          Place the tubes in a pre&#45;warmed thermal cycler programmed to run
-          Program 4 &#40;Denaturation&#59; see Table 3&#41;&#58;
-        </li>
-        <ol type="a">
-          <li>37 &#8451; &#45; 5 mins</li>
-          <li>hold at 25 &#8451;</li>
-        </ol>
-        <li>
-          Remove the tubes from the thermal cycler&#44; spin to collect
-          condensation and transfer to the magnet.
-        </li>
-        <li>Incubate at room temperature for 2 minutes.</li>
-        <li>
-          Carefully remove 9 &#956;L of the eluate&#44; ensuring as few beads as
-          possible are carried over&#44; transfer to a fresh 1.5 mL
-          micro&#45;centrifuge tube and place at room temperature.
-        </li>
-        <li>Remove Ultra Pure water from storage and place on bench top.</li>
-        <li>Set a heat block to 40 &#8451;.</li>
-        <li>
-          Prepare individual oxidation and mock oxidation reactions as
-          follows&#58;
-        </li>
-        <ol type="a">
-          <li>
-            <strong>Do not do:</strong> For each sample to be processed through
-            the oxBS workflow, add 1 μL of oxidant solution to 9 μL of DNA for a
-            total of 10 μL.
-          </li>
-          <li>
-            <strong>Only do&#58;</strong> For each sample to be processed
-            through the MOCK oxBS workflow&#44; add 1 μL of Ultra Pure water to
-            9 &#956;L of DNA for a total of 10 &#956;L.
-          </li>
-        </ol>
-        <li>Mix reactions by vortexing and centrifuge briefly.</li>
-        <li>
-          Place tubes in heat block and incubate for 10 min at 40 &#8451;.
-        </li>
-        <li>
-          Centrifuge reactions at 14000 x g for 10 minutes at room temperature
-          to pellet any black precipitate. MOCK treated samples will remain
-          clear and will not have any black precipitate.
-        </li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />In samples treated with oxidant solution&#44;
-                the color of the oxidation reaction should remain orange after
-                the 10 minute centrifugation&#44; indicating a successful
-                oxidation. If the solution turns any color other than
-                orange&#44; please see topic XVI below.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Transfer the orange supernatant to a fresh 0.2 mL PCR tube and place
-          at room temperature. Proceed immediately to the next step.
-        </li>
-        <br />
-
-        <ul type="disc">
-          <strong><em>NOTE&#58;</em></strong
-          ><br />
-          <li>
-            <strong
-              ><em
-                >Take care not to carry any black precipitate over as this could
-                inhibit downstream steps.</em
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><em
-                >Do not place the oxidized samples on ice to cool as this may
-                cause the solution to precipitate.</em
-              ></strong
-            >
-          </li>
-        </ul>
-      </ol>
-      <br />
-      <li><strong>Bisulfite Conversion</strong></li>
-      <br />
-      <ol type="1">
-        <li>Set a heat block or heated orbital incubator to 60 &#8451;.</li>
-        <li>
-          Remove Bisulfite Diluent and Bisulfite Reagent aliquots from storage
-          and place on bench top. Remove 1 aliquot of Bisulfite Reagent for
-          every 20 reactions to be processed.
-        </li>
-        <li>
-          Prepare Bisulfite Reagent Solution by adding 700 &#956;L of Bisulfite
-          Diluent to each aliquot of Bisulfite Reagent.
-        </li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />Each aliquot of Bisulfite Reagent Solution is
-                sufficient for up to 20 samples. A fresh aliquot of solution
-                should be prepared each time the kit is used and disposed of
-                immediately after use.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Seal the lid of each aliquot with Bisulfite Reagent Solution tightly.
-        </li>
-        <li>
-          Incubate the aliquots of Bisulfite Reagent Solution for 15 min at 60
-          &#8451;. Vortex regularly until the Bisulfite Reagent Solution is
-          completely dissolved.
-        </li>
-        <li>
-          Spin down Bisulfite Reagent Solution briefly and place at room
-          temperature.
-        </li>
-        <li>
-          Ensure oxidized DNA samples from previous step are at room temperature
-          before proceeding.
-        </li>
-        <li>
-          Prepare Bisulfite Conversion Reaction mix by adding 30 &#956;L of
-          Bisulfite Reagent Solution to each 10 &#956;L of DNA for a total of 40
-          &#956;L. Ensure that each sample pair being processed through the oxBS
-          and MOCK oxBS workflow is treated with the same aliquot of Bisulfite
-          Reagent Solution. Mix by pipetting&#44; spin down and place at room
-          temperature.
-        </li>
-        <li>Mix by pipetting&#44; spin down and place at room temperature.</li>
-        <br />
-
-        <br />
-        <ul type="disc">
-          <strong><em>NOTE&#58;</em></strong
-          ><br />
-          <li>
-            <strong
-              ><em
-                >If the Bisulfite Reagent Solution precipitates&#44; return to
-                60 &#8451; until dissolved.</em
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><em
-                >Samples treated with the oxidant solution may turn light gray
-                in color.</em
-              ></strong
-            >
-          </li>
-          <br />
-        </ul>
-        <br />
-
-        <li>
-          Place the tubes in a pre&#45;warmed thermal cycler programmed to run
-          Program 5 &#40;Bisulfite Conversion&#44; see Table 3&#41;&#58;
-        </li>
-        <ol type="a">
-          <li>95 &#8451; &#45; 5 mins, 60 &#8451; &#45; 20 mins</li>
-          <li>95 &#8451; &#45; 5 mins, 60 &#8451; &#45; 40 mins</li>
-          <li>95 &#8451; &#45; 5 mins, 60 &#8451; &#45; 45 mins</li>
-          <li>hold at 20 &#8451;</li>
-        </ol>
-        <br />
-        <ul>
-          <p>
-            <strong><em>NOTE&#58;</em></strong
-            ><br />
-            <strong
-              ><em
-                >Optional stopping point&#58; You may hold samples at room
-                temperature &#40;&#43;20 &#8451;&#41; for up to 16 hours. Do not
-                store below &#43;20 &#8451;.
-              </em></strong
-            >
-          </p>
-        </ul>
-        <br />
-        <li>
-          Once the bisulfite conversion is complete&#44; centrifuge samples
-          briefly to collect solution at bottom of the tubes.
-        </li>
-        <li>
-          Transfer samples to 1.5 mL tubes and centrifuge for 10 min at 14000 x
-          g.
-        </li>
-        <li>
-          Continue to K. Bisulfite&#45;Converted DNA Desulfonation and
-          Purification while the samples are in the centrifuge.
-        </li>
-      </ol>
+      </ul>
       <br />
       <li>
-        <strong
-          >Bisulfite&#45;Converted DNA Desulfonation and Purification</strong
-        >
+        Add 12 &#956;L Ligation Master Mix to each reaction for a total of 31
+        &#956;L. Mix thoroughly by pipetting slowly and gently&#44; spin down
+        and place on ice. Proceed immediately with the incubation.
       </li>
-      <br />
-      <ol type="1">
-        <li>
-          Remove Desulfonation Buffer&#44; Binding Buffer 2&#44; Magnetic Bead
-          Solution and Elution Buffer from storage and place at room temperature
-          for a minimum of 30 minutes before use
-        </li>
+      <li>
+        Place tubes in a pre&#45;warmed thermal cycler programmed to run
+        Program 2 &#40;Ligation&#59; see Table 3&#41;&#58;
+      </li>
+      <ol type="a">
+        <li>25 &#8451; &#45; 30 mins</li>
+        <li>70 &#8451; &#45; 10 mins</li>
+        <li>hold at 4 &#8451;</li>
+      </ol>
+      <li>
+        Remove the tubes from the thermal cycler&#44; spin to collect
+        condensation and place on ice.
+      </li>
+    </ol>
+    <br />
 
-        <p align="center">
-          <strong
-            >Table 9&#58; Magnetic Bead Binding Solution 2 Master Mix</strong
-          >
+    <li><strong>Post&#45;Ligation Purification</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Ensure the Agencourt beads and D1 have completely reached room
+        temperature before proceeding.
+      </li>
+      <li>
+        Resuspend the beads by vortexing the tube. Ensure the beads are fully
+        resuspended before adding to the sample. After resuspending&#44; do
+        not spin the beads.
+      </li>
+      <li>
+        At room temperature&#44; add 45 &#956;L &#40;1.5 volumes&#41; of the
+        bead suspension to each reaction. Mix thoroughly by pipetting 10
+        times.
+      </li>
+      <li>Incubate at room temperature for 10 minutes.</li>
+      <li>
+        Transfer the tubes to the magnet and let stand 5 minutes to completely
+        clear the solution of beads.
+      </li>
+      <li>Carefully remove the binding buffer and discard it.</li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />The beads should not disperse&#59;
+              instead&#44;
+              they will stay on the walls of the tubes. Significant loss of
+              beads at this stage will impact the amount of purified DNA&#44;
+              so ensure beads are not removed with the binding buffer or the
+              wash.
+            </em></strong>
         </p>
-
-        <table border="1" align="center" cellspacing="0" cellpadding="0">
-          <tr>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>REAGENT</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>BINDING BUFFER 2</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>MAGNETIC BEAD SOLUTION</strong></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">STORAGE</p>
-            </td>
-            <td>
-              <p align="center">4 &#8451;</p>
-            </td>
-            <td>
-              <p align="center">4 &#8451;</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">1X REACTION VOLUME</p>
-            </td>
-            <td>
-              <p align="center">200 &#956;L</p>
-            </td>
-            <td>
-              <p align="center">2.4 &#956;L</p>
-            </td>
-          </tr>
-        </table>
-        <br />
-
-        <li>
-          Prepare a fresh stock of 70&#37; Ethanol. Mix by vortexing or
-          inversion.
-        </li>
-        <li>Mix Binding Buffer 2 by inversion until homogenized.</li>
-        <li>Vortex Magnetic Bead Solution until homogenized.</li>
-        <li>
-          Prepare a master mix of Magnetic Bead Binding Solution 2
-          &#40;MBBS2&#41; as directed in Table 10.
-        </li>
-        <br />
-        <ul type="disc">
-          <strong><em>NOTE&#58;</em></strong>
-          <li>
-            <strong
-              ><em
-                >MBBS2 should be prepared fresh on the day of use. Do not store
-                for longer than 1 week.</em
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><em
-                >MBBS2 is a viscous solution. Pipet this reagent slowly and mix
-                thoroughly. Ensure that MBBS2 and the MBBS2-sample mix are
-                well&#45;mixed.</em
-              ></strong
-            >
-          </li>
-          <br />
-        </ul>
-        <li>
-          Transfer 40 &#956;L of the supernatant to a fresh set of 0.2 mL PCR
-          tubes. Avoid disturbing the pellet in the oxBS&#45;treated samples.
-        </li>
-        <li>
-          Vortex MBBS2 thoroughly to ensure the solution is homogenous before
-          aliquoting.
-        </li>
-        <li>
-          Carefully add 160 &#956;L of MBBS2 to each tube containing 40 &#956;L
-          bisulfite converted sample for a total of 200 &#956;L. Mix thoroughly
-          by pipetting slowly and gently&#44; spin down and place at room
-          temperature.
-        </li>
-        <li>Incubate at room temperature for 5 minutes.</li>
-        <li>Centrifuge briefly to collect solution at bottom of the tubes.</li>
-        <li>
-          Place the tubes onto the magnet and incubate at room temperature for
-          at least 5 minutes to completely clear the solution of beads.
-        </li>
-        <li>
-          Carefully remove the supernatant and discard it.<br />
-          13. Remove the tubes from the magnet.<br />
-          14. Add 200 μL of 70&#37; Ethanol to each sample tube. Resuspend the
-          beads completely by pipetting.
-        </li>
-        <li>
-          Place the tubes on the magnet and incubate at room temperature for 5
-          minutes to completely clear the solution of beads.
-        </li>
-        <li>
-          Carefully remove the 70&#37; Ethanol wash and discard it. Remove as
-          much of the wash as possible.
-        </li>
-        <li>Remove samples from the magnet.</li>
-        <li>
-          Add 200 μL of Desulfonation Buffer with EtOH added directly onto the
-          bead pellet. Resuspend the beads completely by pipetting.
-        </li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />Be sure that the ethanol has been added to the
-                desulfonation buffer&#44; as described in Section III B.
-                Preparation of Desulfonation Buffer for the TrueMethyl oxBS
-                Module.</em
-              ></strong
-            ><strong></strong>
-          </p>
-        </ul>
-        <br />
-        <li>
-          Close lids of sample tubes securely and place the tubes into the
-          magnetic separation rack. Incubate at room temperature for 5 minutes
-          to completely clear the solution of beads.
-        </li>
-        <li>
-          Remove the tubes from the magnet&#44; open the tubes&#44; and return
-          to the magnet.
-        </li>
-        <li>
-          Carefully remove 200 &#956;L of the Desulfonation Buffer and discard
-          it. Remove as much of the Desulfonation Buffer as possible without
-          disturbing the bead pellet.
-        </li>
-        <li>Remove the tubes from the magnet.</li>
-        <li>
-          Add 200 &#956;L of 70&#37; Ethanol to each sample tube. Resuspend the
-          beads completely by pipetting.
-        </li>
-        <li>
-          Place the tubes onto the magnet and incubate at room temperature for 5
-          minutes to completely clear the solution of beads.
-        </li>
-        <li>Remove the 200 &#956;L 70&#37; Ethanol wash and discard it.</li>
-        <li>
-          Repeat Steps 23&#45;25 to perform 2 x 200 &#956;L 70&#37; Ethanol
-          washes in total. Remove as much of the final wash as possible.
-        </li>
-        <li>
-          Air&#45;dry the the beads on the magnet for 15 minutes. Inspect each
-          tube carefully to ensure that all of the ethanol has evaporated.
-        </li>
-        <li>Remove the tubes from the magnet.</li>
-        <li>
-          Add Elution Buffer directly onto the bead pellet and resuspend
-          completely by pipetting&#58;
-        </li>
-        <ol type="a">
-          <li>
-            For Library Amplification Optimization with qPCR
-            &#40;recommended&#41;&#44; resuspend beads in 23 &#956;L Elution
-            Buffer.
-          </li>
-          <li>
-            If qPCR optimization is not required&#44; resuspend beads in 21
-            &#956;L Elution Buffer.
-          </li>
-        </ol>
-        <li>
-          Incubate at room temperature for 5 minutes to elute the TrueMethyl
-          converted DNA from the beads.
-        </li>
-        <li>Centrifuge briefly to collect sample at bottom of the tubes.</li>
-        <li>
-          Place the tubes onto the magnet and incubate at room temperature for 5
-          minutes to completely clear the solution of beads.
-        </li>
-        <li>Carefully transfer eluate into a fresh 0.2 mL tube:</li>
-        <ol type="a">
-          <li>
-            For Library Amplification Optimization with qPCR
-            &#40;recommended&#41;&#44; transfer 22 &#956;L eluate.
-          </li>
-          <li>
-            If qPCR optimization is not required&#44; transfer 20 &#956;L
-            eluate.
-          </li>
-          <br />
-        </ol>
-      </ol>
+      </ul>
       <br />
-      <li><strong>Library Amplification Optimization with qPCR</strong></li>
+      <li>
+        With the tubes still on the magnet&#44; add 200 μL of freshly prepared
+        70&#37; ethanol and allow to stand for 30 seconds.
+      </li>
+      <li>Remove the 70&#37; ethanol wash using a pipette.</li>
+      <li>Repeat steps 7 and 8 for a total of two 70&#37; ethanol washes.</li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />With the final wash&#44; it is critical to
+              remove as much of the ethanol as possible. Use at least two
+              pipetting steps and allow excess ethanol to collect at the
+              bottom of the tubes after removing most of the ethanol in the
+              first pipetting step.</em></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Air dry the beads on the magnet for 5&#45;10 minutes. Inspect each
+        tube carefully to ensure that all the ethanol has evaporated. It is
+        critical that all residual ethanol be removed prior to continuing.
+      </li>
+      <li>Remove the tubes from the magnet.</li>
+      <li>
+        Add 16 &#956;L room temperature of 1X low&#45;EDTA TE buffer or D1 to
+        the dried beads. Mix thoroughly to ensure all the beads are
+        resuspended.
+      </li>
+      <li>
+        Transfer the tubes to the magnet and let stand for 5 minutes to
+        completely clear the solution of beads.
+      </li>
+      <li>
+        Carefully remove 15 &#956;L of the eluate&#44; ensuring as few beads
+        as possible are carried over&#59; transfer to a fresh set of PCR tubes
+        and place on ice.
+      </li>
+    </ol>
+    <br />
+    <li><strong>Final Repair </strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Remove the TrueMethyl oxBS Module Magnetic Bead Solution&#44; Binding
+        Buffer 1 and Binding Buffer 2 from 4 &#8451; and place at room
+        temperature for use in the next step.
+      </li>
 
       <p align="center">
-        <strong>Table 10&#58; Library Amplification qPCR Master Mix</strong>
-      </p>
-      <table border="1" align="center" cellspacing="0" cellpadding="0">
-        <tr>
-          <td width="200" bgcolor="#9ebddc">
-            <br />
-            <p align="center"><strong>REAGENT</strong></p>
-          </td>
-          <td width="200" bgcolor="#9ebddc">
-            <p align="center">
-              <strong>AMPLIFICATION PRIMER MIX &#40;RED&#58; P2 </strong>ver
-              <strong>8&#41;</strong>
-            </p>
-          </td>
-          <td width="200" bgcolor="#9ebddc">
-            <p align="center">
-              <strong>AMPLIFICATION ENZYME MIX &#40;RED&#58; P3 </strong>ver
-              <strong>3&#41;</strong>
-            </p>
-          </td>
-          <td width="200" bgcolor="#9ebddc">
-            <p align="center"><strong>20 x EvaGreen</strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td width="119">
-            <p align="center">STORAGE</p>
-          </td>
-          <td width="184">
-            <p align="center">&#8722;20 &#8451;</p>
-          </td>
-          <td width="184">
-            <p align="center">&#8722;20 &#8451;</p>
-          </td>
-          <td width="78">
-            <p align="center">4 &#8451;</p>
-          </td>
-        </tr>
-        <tr>
-          <td width="119">
-            <p align="center">1X REACTION VOLUME</p>
-          </td>
-          <td width="184">
-            <p align="center">1.0 &#956;L</p>
-          </td>
-          <td width="184">
-            <p align="center">4.75 &#956;L</p>
-          </td>
-          <td width="78">
-            <p align="center">0.5 &#956;L</p>
-          </td>
-        </tr>
-      </table>
-      <br />
-      <ol type="1">
-        <li>
-          Aliquot 2 &#956;L of each sample into a fresh set of 0.2 mL tubes.
-          Reserve the remaining 20 &#956;L of sample on ice.
-        </li>
-        <li>
-          Add 14 &#956;L of Low&#45;EDTA TE Buffer to each sample for a total of
-          16 &#956;L. Mix well by pipetting&#44; spin down and place on the
-          bench top.
-        </li>
-        <li>
-          Aliquot 3.75 &#956;L of each sample into an appropriate PCR plate or
-          optically clear strip tubes&#44; in triplicate. Mix well by
-          pipetting&#44; spin down and place on ice.
-        </li>
-        <li>
-          Prepare a master mix by combining P2&#44; P3 and 20x EvaGreen in an
-          appropriately sized capped tube according to the volumes shown in
-          Table 11. Add P3 at the last moment and mix well by pipetting&#44;
-          taking care to avoid bubbles. Spin down and place on ice.
-        </li>
-        <li>
-          On ice&#44; add 6.25 &#956;L of Library Amplification qPCR Master Mix
-          to each 3.75 &#956;L of sample&#44; in triplicate&#44; for a total of
-          10 &#956;L per replicate.
-        </li>
-        <li>Mix well by pipetting&#44; spin down and place on ice.</li>
-        <li>Perform qPCR with the following cycling conditions&#58;</li>
-        <ol type="a">
-          <li>95 &#8451; &#45; 2 mins&#44; 35x&#40;95 &#8451; &#45; 15s</li>
-          <li>60 &#8451; &#45; 1 min&#44; 72 &#8451; &#45; 30s&#41;</li>
-        </ol>
-        <li>
-          Examine the log fluorescence vs. cycle number plot from the qPCR
-          system to determine the appropriate number of library amplification
-          cycles.
-        </li>
-        <ol type="a">
-          <li>
-            First&#44; select a cycle number within the late exponential phase
-            of the amplification plot. In the example in
-            <strong>Figure 5</strong>&#44; this is 11 cycles the &lsquo;BS
-            Library&rsquo; &#40;blue dotted vertical line&#44; left&#41; and 14
-            cycles in the &lsquo;oxBS Library&rsquo; &#40;red dotted vertical
-            line&#44; right&#41;.
-          </li>
-          <li>
-            Next&#44; subtract 3 from the selected cycle to determine the number
-            of PCR cycles to perform in the next step &#40;M. Library
-            Amplification&#41;. This compensates for the 1&#58;8 dilution of
-            sample used in the qPCR reaction.
-          </li>
-        </ol>
-      </ol>
-      <br />
-      <li><strong>Library Amplification</strong></li>
-      <br />
-      <p align="center">
-        <strong>Table 11&#58; Library Amplification Master Mix</strong>
+        <strong>Table 7&#58; Final Repair Master Mix</strong>
       </p>
       <table
         border="1"
@@ -1444,19 +657,24 @@
       >
         <tr>
           <td bgcolor="#9ebddc">
-            <br />
             <p align="center"><strong>REAGENT</strong></p>
           </td>
-          <td width="300" bgcolor="#9ebddc">
+
+          <td
+            bgcolor="#9ebddc"
+            width="263"
+          >
             <p align="center">
-              <strong>AMPLIFICATION PRIMER MIX &#40;RED&#58; P2 </strong>ver
-              <strong>8&#41;</strong>
+              <strong>FINAL REPAIR BUFFER MIX &#40;PURPLE&#58; FR1 </strong>ver
+              <strong>4&#41;</strong>
             </p>
           </td>
-          <td width="300" bgcolor="#9ebddc">
+          <td
+            bgcolor="#9ebddc"
+            width="263"
+          >
             <p align="center">
-              <strong>AMPLIFICATION ENZYME MIX &#40;RED&#58; P3 </strong>ver
-              <strong>3&#41;</strong>
+              <strong>FINAL REPAIR ENZYME MIX &#40;PURPLE&#58; FR2&#41;</strong>
             </p>
           </td>
         </tr>
@@ -1464,555 +682,1313 @@
           <td>
             <p align="center">STORAGE</p>
           </td>
-          <td width="300">
+          <td width="263">
             <p align="center">&#8722;20 &#8451;</p>
           </td>
-          <td width="300">
+          <td width="240">
             <p align="center">&#8722;20 &#8451;</p>
           </td>
         </tr>
         <tr>
-          <td width="300">
+          <td>
             <p align="center">1X REACTION VOLUME</p>
           </td>
-          <td width="300">
-            <p align="center">5.0 &#956;L</p>
+          <td width="263">
+            <p align="center">4.5 &#956;L</p>
           </td>
-          <td width="300">
-            <p align="center">25 L</p>
+          <td width="263">
+            <p align="center">0.5 &#956;L</p>
           </td>
         </tr>
       </table>
       <br />
-      <ol type="1">
-        <li>
-          Remove Agencourt beads from 4 &#8451;. Place on the bench top to reach
-          room temperature for use in the next step.
-        </li>
-        <li>Thaw P3 on ice if needed. Spin down and place on ice.</li>
-        <li>
-          Thaw P2 at room temperature. Mix by vortexing&#44; spin and place on
-          ice.
-        </li>
-        <li>
-          Prepare a master mix by combining P2 and P3 in an appropriately sized
-          capped tube according to the volumes shown in Table 11. Add P3 at the
-          last moment and mix well by pipetting&#44; taking care to avoid
-          bubbles. Spin down and place on ice.
-        </li>
-        <li>
-          On ice&#44; add 30 &#956;L of Library Amplification Master Mix to each
-          20 &#956;L of reserved sample for a total of 50 &#956;L.
-        </li>
-        <li>Mix well by pipetting&#44; spin down and place on ice.</li>
-        <li>
-          Place tubes in a pre&#45;warmed thermal cycler programmed to run
-          Program 6 &#40;Library Amplification&#59; see Table 3&#41;&#58;
-        </li>
-        <ol type="a">
-          <li>
-            95 &#8451; &#45; 2 mins, N &#40;95 &#8451; &#45; 15 s, 60 &#8451;
-            &#45; 1 min 72 &#8451; &#45; 30 s&#41;
-          </li>
-          <li>hold at 10 &#8451;</li>
-        </ol>
-        <li>
-          Remove the tubes from the thermal cycler&#44; spin to collect
-          condensation and place on ice.
-        </li>
-        <br />
-      </ol>
-      <li><strong>Amplified Library Purification</strong></li>
-      <br />
-      <ol type="1">
-        <li>
-          Ensure the Agencourt beads have completely reached room temperature
-          before proceeding.
-        </li>
-        <li>
-          Resuspend the beads by inverting and tapping the tube. Ensure the
-          beads are fully resuspended before adding to samples. After
-          resuspending, do not spin the beads.
-        </li>
-        <li>
-          Add 50 &#956;L &#40;1 volume&#41; of the bead suspension to each
-          reaction. Mix thoroughly by pipetting 10 times.
-        </li>
-        <li>Incubate at room temperature for 10 minutes.</li>
-        <li>
-          Transfer the tubes to the magnet and let stand 5 minutes to completely
-          clear the solution of beads.
-        </li>
-        <li>Carefully remove the binding buffer and discard it.</li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em>NOTE&#58;<br /></em></strong
-            ><strong
-              ><em
-                >The beads should not disperse&#59; instead&#44; they will stay
-                on the walls of the tubes. Significant loss of beads at this
-                stage will impact the final yield&#44; so ensure beads are not
-                removed with the binding buffer or the wash.</em
-              ></strong
-            ><strong></strong>
-          </p>
-        </ul>
-        <br />
-        <li>
-          With samples still on the magnet&#44; add 200 μL of freshly prepared
-          70&#37; ethanol.
-        </li>
-        <li>Remove the 70&#37; ethanol wash using a pipette.</li>
-        <li>Repeat steps 7 and 8 for a total of two washes.</li>
-        <br />
-        <ul>
-          <p>
-            <strong
-              ><em>NOTE&#58;<br /></em></strong
-            ><strong
-              ><em
-                >With the final wash&#44; it is critical to remove as much of
-                the ethanol as possible. Use at least two pipetting steps and
-                allow excess ethanol to collect at the bottom of the tubes after
-                removing most of the ethanol in the first pipetting step</em
-              ></strong
-            ><strong></strong>
-          </p>
-        </ul>
-        <br />
-        <li>
-          Air dry the beads on the magnet for 10 minutes. Inspect each tube
-          carefully to ensure that all of the ethanol has evaporated. It is
-          critical that all residual ethanol be removed prior to continuing.
-        </li>
-        <li>Remove the tubes from the magnet.</li>
-        <li>
-          Add 20 &#956;L Low&#45;EDTA TE Buffer to the dried beads. Mix
-          thoroughly to ensure all beads are resuspended.
-        </li>
-        <li>
-          Transfer the tubes to the magnet and let stand for 5 minutes to
-          completely clear the solution of beads.
-        </li>
-        <li>
-          Carefully remove 18 &#956;L of the eluate&#44; ensuring as few beads
-          as possible are carried over and transfer to a fresh set of PCR tubes.
-        </li>
-      </ol>
-      <br />
+      <li>Spin down FR2 and place on ice.</li>
       <li>
-        <strong>Quantitative and Qualitative Assessment of the Library</strong>
+        Thaw FR1 at room temperature. Mix by vortexing&#44; spin down and
+        place on ice.
+      </li>
+      <li>
+        Prepare a master mix by combining FR1 and FR2 in a 0.5 mL capped
+        tube&#44; according to the volumes shown in Table 7.
+      </li>
+      <li>
+        Add 5 &#956;L of the Final Repair Master Mix to each sample tube for a
+        total of 20 &#956;L.
+      </li>
+      <li>Mix by pipetting&#44; cap and spin tubes and place on ice.</li>
+      <li>
+        Place the tubes in a pre&#45;warmed thermal cycler programmed to run
+        Program 3 &#40;Final Repair&#59; see Table 3&#41;&#58;
+      </li>
+      <li>60 &#8451; &#45; 10 min&#44; hold at 4 &#8451;</li>
+      <li>
+        Remove the tubes from the thermal cycler&#44; spin to collect
+        condensation and place on ice.
       </li>
       <br />
-      <ol type="1">
-        <li>
-          Quantify the libraries using a fluorometric assay and&#47;or qPCR.
-        </li>
-        <li>
-          Validate libraries using the hsDNA kit for BioAnalyzer or an
-          equivalent assay. An example trace using 1 uL of 5 ng&#47;&#956;L
-          library on the hsDNA chip is shown in <strong>Figure 6 </strong>below.
-        </li>
-        <br />
-        <p align="center">
-          <strong
-            >Figure 6. Fragment distribution when 1 &#956;L of 5 ng&#47;&#956;L
-            library is loaded into a High Sensitivity DNA assay from 200 ng
-            human DNA input.</strong
-          >
-        </p>
-        <br />
-        <img
-          src="/assets/workflow/Islet Molecular Phenotyping Studies/figure-6.png"
-          width="480"
-          height="280"
-          alt="figure-6-wgbs"
-          style="vertical-align: middle"
-        /><br />
-        <br />
-        <li>
-          Normalize and pool libraries following the Illumina guidelines
-          &ldquo;Best practices for manually normalizing library
-          concentrations&rdquo; and the &ldquo;Low&#45;Diversity
-          Sequencing&rdquo; guidelines for your specific sequencer. See Appendix
-          A. of this guide for guidelines on color balancing and multiplexing of
-          Tecan libraries.
-        </li>
-        <br />
-      </ol>
-
+      <strong><em>NOTE&#58;<br />Optional stopping point&#58; Store samples at
+          &#8722;20 &#8451;.</em></strong><br />
+      <br />
       <li>
-        <strong>Barcode Sequences and Guidelines for Multiplexing</strong>
+        If using the True Methyl oxBS Module, continue with section H. DNA
+        Purification and Denaturation. For alternative bisulfite conversion
+        methods, perform bisulfite conversion according to the manufacturer
+        recommendations and proceed to protocol section
+        <strong>L. Library Amplification Optimization with qPCR</strong>.
+      </li>
+    </ol>
+    <br />
+    <ul>
+      <p>
+        <strong><em>NOTE&#58;<br />Bisulfite conversion is critical for
+            successful
+            library amplification</em></strong>
+      </p>
+    </ul>
+    <br />
+
+    <li><strong>DNA Purification and Denaturation</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Remove the TrueMethyl oxBS Module Oxidant Solution from &#8722;20
+        &#8451; and thaw on ice for use in the next step.
       </li>
       <br />
-      <ol type="1">
-        <li>
-          Barcode sequences and multiplexing guidelines for adaptors used in the
-          Ultra low Methyl&#45;Seq library prep kit can be found in Tables 12
-          and 13.
-        </li>
-        <li>
-          All barcode sequences are separated by an edit distance of three. For
-          further details on the barcode design strategy&#44; please refer to
-          Faircloth BC&#44; Glenn TC &#40;2012&#41; Not All Sequence Tags Are
-          Created Equal&#58; Designing and Validating Sequence Identification
-          Tags Robust to Indels. PLoS ONE 7&#40;8&#41;&#58; e42543.
-          doi:10.1371&#47;journal.pone.0042543.
-        </li>
-        <br />
-        <p align="center">
-          <strong
-            >Table 12&#58; Barcode sequences for adaptors used in the Ultra low
-            Methyl&#45;Seq 32&#45;plex Adaptor Plate &#40;S02694&#44; Part No.
-            0366&#41;</strong
-          >
-        </p>
-        <ul>
-          <br />
-          <p>
-            <strong
-              ><em
-                >NOTE&#58;<br />Barcodes in the Ultra low Methyl&#45;Seq
-                32&#45;plex Adaptor Plate are color balanced in pairs &#40;i.e.
-                A01 &#43; B01&#44; C01 &#43; D01&#44; etc.&#41; and in sets of 8
-                by column.</em
-              ></strong
-            >
-          </p>
-        </ul>
-        <br />
-
-        <table border="1" align="center" cellspacing="0" cellpadding="0">
-          <tr>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>PLATE POSITION</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>BARCODE SEQUENCE</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>PLATE POSITION</strong></p>
-            </td>
-            <td bgcolor="#9ebddc">
-              <p align="center"><strong>BARCODE SEQUENCE</strong></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">A01</p>
-            </td>
-            <td>
-              <p align="center">CGCTACAT</p>
-            </td>
-            <td>
-              <p align="center">A03</p>
-            </td>
-            <td>
-              <p align="center">GTACACCT</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">B01</p>
-            </td>
-            <td>
-              <p align="center">AATCCAGC</p>
-            </td>
-            <td>
-              <p align="center">B03</p>
-            </td>
-            <td>
-              <p align="center">ACGAGAAC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">C01</p>
-            </td>
-            <td>
-              <p align="center">CGTCTAAC</p>
-            </td>
-            <td>
-              <p align="center">C03</p>
-            </td>
-            <td>
-              <p align="center">CGACCTAA</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">D01</p>
-            </td>
-            <td>
-              <p align="center">AACTCGGA</p>
-            </td>
-            <td>
-              <p align="center">D03</p>
-            </td>
-            <td>
-              <p align="center">TACATCGG</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">E01</p>
-            </td>
-            <td>
-              <p align="center">GTCGAGAA</p>
-            </td>
-            <td>
-              <p align="center">E03</p>
-            </td>
-            <td>
-              <p align="center">ATCGTCTC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">F01</p>
-            </td>
-            <td>
-              <p align="center">ACAACAGC</p>
-            </td>
-            <td>
-              <p align="center">F03</p>
-            </td>
-            <td>
-              <p align="center">CCAACACT</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">G01</p>
-            </td>
-            <td>
-              <p align="center">ATGACAGG</p>
-            </td>
-            <td>
-              <p align="center">G03</p>
-            </td>
-            <td>
-              <p align="center">TCTAGGAG</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">H01</p>
-            </td>
-            <td>
-              <p align="center">GCACACAA</p>
-            </td>
-            <td>
-              <p align="center">H03</p>
-            </td>
-            <td>
-              <p align="center">CTCGAACA</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">A02</p>
-            </td>
-            <td>
-              <p align="center">CTCCTAGT</p>
-            </td>
-            <td>
-              <p align="center">A04</p>
-            </td>
-            <td>
-              <p align="center">ACGGACTT</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">B02</p>
-            </td>
-            <td>
-              <p align="center">TCTTCGAC</p>
-            </td>
-            <td>
-              <p align="center">B04</p>
-            </td>
-            <td>
-              <p align="center">CTAAGACC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">C02</p>
-            </td>
-            <td>
-              <p align="center">GACTACGA</p>
-            </td>
-            <td>
-              <p align="center">C04</p>
-            </td>
-            <td>
-              <p align="center">AACCGAAC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">D02</p>
-            </td>
-            <td>
-              <p align="center">ACTCCTAC</p>
-            </td>
-            <td>
-              <p align="center">D04</p>
-            </td>
-            <td>
-              <p align="center">CCTTAGGT</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">E02</p>
-            </td>
-            <td>
-              <p align="center">CTTCCTTC</p>
-            </td>
-            <td>
-              <p align="center">E04</p>
-            </td>
-            <td>
-              <p align="center">CCTATACC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">F02</p>
-            </td>
-            <td>
-              <p align="center">ACCATCCT</p>
-            </td>
-            <td>
-              <p align="center">F04</p>
-            </td>
-            <td>
-              <p align="center">AACGCCTT</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">G02</p>
-            </td>
-            <td>
-              <p align="center">CGTCCATT</p>
-            </td>
-            <td>
-              <p align="center">G04</p>
-            </td>
-            <td>
-              <p align="center">TCCATTGC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p align="center">H02</p>
-            </td>
-            <td>
-              <p align="center">AACTTGCC</p>
-            </td>
-            <td>
-              <p align="center">H04</p>
-            </td>
-            <td>
-              <p align="center">CAAGCCAA</p>
-            </td>
-          </tr>
-        </table>
-        <br />
-      </ol>
-      <li><strong>Oxidant Color Changes</strong></li>
+      <strong><em>NOTE&#58;<br />
+          The Oxidant Solution is light&#45;sensitive. Keep protected from
+          light.</em></strong><br />
       <br />
-      <ol type="1">
-        <li>
-          Upon receipt of the kit&#44; the color of the thawed Oxidant Solution
-          should resemble Solution A in <strong>Figure7</strong>.
-        </li>
-        <li>
-          If the Oxidant Solution looks dark yellow or green with considerable
-          amounts of black precipitate &#40;Solution D or E&#41;&#44; it is a
-          sign that the reagent has become exposed to contaminants or CO2. If
-          you suspect that this has occurred&#44; please do not use the Oxidant
-          Solution and contact Tecan NGS technical support for advice.
-        </li>
-        <br />
-        <p align="center">
-          <strong>Figure 7. Expected Oxidant Solution Color Changes</strong>
-        </p>
-        <br />
-        <img
-          src="/assets/workflow/Islet Molecular Phenotyping Studies/figure-7.png"
-          width="390"
-          height="290"
-          alt="oxidation-color-change"
-          style="vertical-align: middle"
-        />
-        <br />
-        <li>Figure description&#58;</li>
-        <br />
-        <ol type="A">
-          <b>
-            <li>
-              Oxidant Solution stock concentration supplied in the TrueMethyl
-              oxBS Module.
-            </li>
-          </b>
-          <b>
-            <li>
-              10&#45;fold dilution of the Oxidant Solution in alkaline solution.
-            </li>
-          </b>
-          <b>
-            <li>Working oxidant concentration &#40;WOC&#41;.</li>
-          </b>
-          <b>
-            <li>5&#58;1 molar excess of WOC&#58;ethanol.</li>
-          </b>
-          <b>
-            <li>E. 20&#58;1 molar excess of ethanol&#58;WOC.</li> </b
-          ><br />
-        </ol>
 
+      <p align="center">
+        <strong>Table 8&#58; Magnetic Bead Binding Solution 1 Master
+          Mix</strong>
+      </p>
+      <table
+        border="1"
+        cellspacing="0"
+        cellpadding="0"
+        align="center"
+      >
+        <tr>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>REAGENT</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>BINDING BUFFER 1</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>MAGNETIC BEAD SOLUTION</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">STORAGE</p>
+          </td>
+          <td>
+            <p align="center">4 &#8451;</p>
+          </td>
+          <td>
+            <p align="center">4 &#8451;</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">1X REACTION VOLUME</p>
+          </td>
+          <td>
+            <p align="center">120 &#956;L</p>
+          </td>
+          <td>
+            <p align="center">2.4 &#956;L</p>
+          </td>
+        </tr>
+      </table>
+      <br />
+
+      <li>
+        Remove Aceto-nitrile&#44; Ultra Pure water&#44; and Denaturing
+        Solution from storage and place on bench top.
+      </li>
+      <li>
+        Prepare a fresh stock of 80&#37; aceto&#45;nitrile&#44; using the
+        Ultra Pure water provided with the kit. Mix by vortexing or inversion
+        and place at room temperature.
+      </li>
+      <li>
+        Ensure Magnetic Bead Solution and Binding Buffer 1 have reached room
+        temperature before proceeding.
+      </li>
+      <li>Mix Binding Buffer 1 by inversion until homogenized.</li>
+      <li>Vortex Magnetic Bead Solution until homogenized.</li>
+      <li>
+        Prepare a master mix of Magnetic Bead Binding Solution 1
+        &#40;MBBS1&#41; as directed in Table 8.
+      </li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />MBBS1 should be prepared fresh on the day
+              of
+              use. Do not store for longer than 1</em></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Vortex MBBS1 master mix thoroughly to ensure the beads are homogenized
+        in solution.
+      </li>
+      <li>
+        At room temperature, add 30 μL water of Ultra Pure water to each
+        sample for a total of 50 &#956;L.
+      </li>
+      <li>
+        Add 100 &#956;L of MBBS1 master mix to each 0.2 mL tube containing 50
+        &#956;L NGS library for a total of 150 &#956;L. Mix by pipetting and
+        centrifuge briefly.
+      </li>
+      <li>Incubate at room temperature for 20 mins.</li>
+      <li>
+        Transfer tubes to a magnetic separation plate and incubate at room
+        temperature for 5 minutes to completely clear the solution of beads.
+      </li>
+      <li>
+        Keeping the tubes on the magnet, carefully remove the supernatant and
+        discard it.
+      </li>
+      <li>
+        With the tubes still on the magnet&#44; carefully add 200 &#956;L of
+        80&#37; Aceto&#45;nitrile wash to the tubes without disturbing the
+        bead pellet.
+      </li>
+      <li>
+        Remove and discard the 200 &#956;L 80&#37; Aceto&#45;nitrile wash&#44;
+        carefully avoiding aspiration of the bead pellet.
+      </li>
+      <li>
+        Repeat Steps 13 and 14 twice to perform 3 x 200 &#956;L 80&#37;
+        Aceto&#45;nitrile washes in total. Remove as much of the final wash as
+        possible.
+      </li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />Ensure the tubes are dry before continuing
+              the
+              protocol. If the tubes aren&#39;t dry after 5 minutes&#44;
+              incubate for a longer period of time.</em></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Air dry the bead pellets for 5 minutes at room temperature&#44;
+        leaving the lids of the tubes open.
+      </li>
+      <li>Remove the tubes from the magnet.</li>
+      <li>
+        Add 10 &#956;L of Denaturing Solution directly onto the bead pellet.
+        Mix thoroughly to ensure all beads are resuspended.
+      </li>
+      <li>Centrifuge briefly to collect solution at bottom of the tubes.</li>
+      <li>
+        Place the tubes in a pre&#45;warmed thermal cycler programmed to run
+        Program 4 &#40;Denaturation&#59; see Table 3&#41;&#58;
+      </li>
+      <ol type="a">
+        <li>37 &#8451; &#45; 5 mins</li>
+        <li>hold at 25 &#8451;</li>
+      </ol>
+      <li>
+        Remove the tubes from the thermal cycler&#44; spin to collect
+        condensation and transfer to the magnet.
+      </li>
+      <li>Incubate at room temperature for 2 minutes.</li>
+      <li>
+        Carefully remove 9 &#956;L of the eluate&#44; ensuring as few beads as
+        possible are carried over&#44; transfer to a fresh 1.5 mL
+        micro&#45;centrifuge tube and place at room temperature.
+      </li>
+      <li>Remove Ultra Pure water from storage and place on bench top.</li>
+      <li>Set a heat block to 40 &#8451;.</li>
+      <li>
+        Prepare individual oxidation and mock oxidation reactions as
+        follows&#58;
+      </li>
+      <ol type="a">
         <li>
-          During oxidation &#40;section V. I.&#41;&#44; the color of the
-          oxidation reaction should be similar to Solution B or C in
-          <strong>Figure 7</strong>. It is normal for a small amount of black
-          precipitate to form during the oxidation reaction. The purpose of the
-          strong centrifugation step following oxidation is to pellet the dark
-          precipitate and enable removal of the clear orange&#47;yellow solution
-          without this contaminant. After the oxidation reaction and subsequent
-          10 minute centrifugation are complete&#44; the solution should remain
-          orange indicating a successful oxidation.
+          <strong>Do not do:</strong> For each sample to be processed through
+          the oxBS workflow, add 1 μL of oxidant solution to 9 μL of DNA for a
+          total of 10 μL.
         </li>
         <li>
-          If the post&#45;oxidation color appears as Solution D&#44; it suggests
-          partial decomposition of the oxidant&#44; indicating that oxidation of
-          the DNA samples was successful. However&#44; if the post-oxidation
-          color resembles Solution E&#44; significant decomposition of the
-          oxidant has likely occurred&#44; resulting in incomplete conversion of
-          5&#45;hmC &#45;&#45;&gt; U. In this instance&#44; it is recommended to
-          re&#45;purify the sample in order to remove contaminants from the
-          starting DNA sample solution. To avoid contaminants&#44; ensure all
-          guidance regarding oxidation solution sensitivity in section III. D.
-          is followed&#44; including the use of only Ultra Pure Water provided
-          with the TrueMethyl oxBS Module in steps containing the oxidant.
+          <strong>Only do&#58;</strong> For each sample to be processed
+          through the MOCK oxBS workflow&#44; add 1 μL of Ultra Pure water to
+          9 &#956;L of DNA for a total of 10 &#956;L.
+        </li>
+      </ol>
+      <li>Mix reactions by vortexing and centrifuge briefly.</li>
+      <li>
+        Place tubes in heat block and incubate for 10 min at 40 &#8451;.
+      </li>
+      <li>
+        Centrifuge reactions at 14000 x g for 10 minutes at room temperature
+        to pellet any black precipitate. MOCK treated samples will remain
+        clear and will not have any black precipitate.
+      </li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />In samples treated with oxidant
+              solution&#44;
+              the color of the oxidation reaction should remain orange after
+              the 10 minute centrifugation&#44; indicating a successful
+              oxidation. If the solution turns any color other than
+              orange&#44; please see topic XVI below.</em></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Transfer the orange supernatant to a fresh 0.2 mL PCR tube and place
+        at room temperature. Proceed immediately to the next step.
+      </li>
+      <br />
+
+      <ul type="disc">
+        <strong><em>NOTE&#58;</em></strong><br />
+        <li>
+          <strong><em>Take care not to carry any black precipitate over as this
+              could
+              inhibit downstream steps.</em></strong>
         </li>
         <li>
-          As a final note on color changes&#44; samples that have been processed
-          using the Oxidant Solution may also take on a light grey color after
-          addition of the Bisulfite Conversion Solution &#40;section V. J.&#41;.
-          This is normal and will not impact downstream processing.
+          <strong><em>Do not place the oxidized samples on ice to cool as this
+              may
+              cause the solution to precipitate.</em></strong>
         </li>
-        <li>Next steps&#58;</li>
-          <ol type="a">
-          <li>Qubit and BioAnalyzer to do the concentration</li>
-          <li>Kapa concentration using Kapa kit &#40;KK4808&#41;</li>
-          <li>Me&#45;seq for balance</li>
-          <li>Nova&#45;seq 6000 for final sequencing</li>
+      </ul>
+    </ol>
+    <br />
+    <li><strong>Bisulfite Conversion</strong></li>
+    <br />
+    <ol type="1">
+      <li>Set a heat block or heated orbital incubator to 60 &#8451;.</li>
+      <li>
+        Remove Bisulfite Diluent and Bisulfite Reagent aliquots from storage
+        and place on bench top. Remove 1 aliquot of Bisulfite Reagent for
+        every 20 reactions to be processed.
+      </li>
+      <li>
+        Prepare Bisulfite Reagent Solution by adding 700 &#956;L of Bisulfite
+        Diluent to each aliquot of Bisulfite Reagent.
+      </li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />Each aliquot of Bisulfite Reagent Solution
+              is
+              sufficient for up to 20 samples. A fresh aliquot of solution
+              should be prepared each time the kit is used and disposed of
+              immediately after use.</em></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Seal the lid of each aliquot with Bisulfite Reagent Solution tightly.
+      </li>
+      <li>
+        Incubate the aliquots of Bisulfite Reagent Solution for 15 min at 60
+        &#8451;. Vortex regularly until the Bisulfite Reagent Solution is
+        completely dissolved.
+      </li>
+      <li>
+        Spin down Bisulfite Reagent Solution briefly and place at room
+        temperature.
+      </li>
+      <li>
+        Ensure oxidized DNA samples from previous step are at room temperature
+        before proceeding.
+      </li>
+      <li>
+        Prepare Bisulfite Conversion Reaction mix by adding 30 &#956;L of
+        Bisulfite Reagent Solution to each 10 &#956;L of DNA for a total of 40
+        &#956;L. Ensure that each sample pair being processed through the oxBS
+        and MOCK oxBS workflow is treated with the same aliquot of Bisulfite
+        Reagent Solution. Mix by pipetting&#44; spin down and place at room
+        temperature.
+      </li>
+      <li>Mix by pipetting&#44; spin down and place at room temperature.</li>
+      <br />
+
+      <br />
+      <ul type="disc">
+        <strong><em>NOTE&#58;</em></strong><br />
+        <li>
+          <strong><em>If the Bisulfite Reagent Solution precipitates&#44; return
+              to
+              60 &#8451; until dissolved.</em></strong>
+        </li>
+        <li>
+          <strong><em>Samples treated with the oxidant solution may turn light
+              gray
+              in color.</em></strong>
+        </li>
+        <br />
+      </ul>
+      <br />
+
+      <li>
+        Place the tubes in a pre&#45;warmed thermal cycler programmed to run
+        Program 5 &#40;Bisulfite Conversion&#44; see Table 3&#41;&#58;
+      </li>
+      <ol type="a">
+        <li>95 &#8451; &#45; 5 mins, 60 &#8451; &#45; 20 mins</li>
+        <li>95 &#8451; &#45; 5 mins, 60 &#8451; &#45; 40 mins</li>
+        <li>95 &#8451; &#45; 5 mins, 60 &#8451; &#45; 45 mins</li>
+        <li>hold at 20 &#8451;</li>
+      </ol>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;</em></strong><br />
+          <strong><em>Optional stopping point&#58; You may hold samples at room
+              temperature &#40;&#43;20 &#8451;&#41; for up to 16 hours. Do not
+              store below &#43;20 &#8451;.
+            </em></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Once the bisulfite conversion is complete&#44; centrifuge samples
+        briefly to collect solution at bottom of the tubes.
+      </li>
+      <li>
+        Transfer samples to 1.5 mL tubes and centrifuge for 10 min at 14000 x
+        g.
+      </li>
+      <li>
+        Continue to K. Bisulfite&#45;Converted DNA Desulfonation and
+        Purification while the samples are in the centrifuge.
+      </li>
+    </ol>
+    <br />
+    <li>
+      <strong>Bisulfite&#45;Converted DNA Desulfonation and
+        Purification</strong>
+    </li>
+    <br />
+    <ol type="1">
+      <li>
+        Remove Desulfonation Buffer&#44; Binding Buffer 2&#44; Magnetic Bead
+        Solution and Elution Buffer from storage and place at room temperature
+        for a minimum of 30 minutes before use
+      </li>
+
+      <p align="center">
+        <strong>Table 9&#58; Magnetic Bead Binding Solution 2 Master
+          Mix</strong>
+      </p>
+
+      <table
+        border="1"
+        align="center"
+        cellspacing="0"
+        cellpadding="0"
+      >
+        <tr>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>REAGENT</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>BINDING BUFFER 2</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>MAGNETIC BEAD SOLUTION</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">STORAGE</p>
+          </td>
+          <td>
+            <p align="center">4 &#8451;</p>
+          </td>
+          <td>
+            <p align="center">4 &#8451;</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">1X REACTION VOLUME</p>
+          </td>
+          <td>
+            <p align="center">200 &#956;L</p>
+          </td>
+          <td>
+            <p align="center">2.4 &#956;L</p>
+          </td>
+        </tr>
+      </table>
+      <br />
+
+      <li>
+        Prepare a fresh stock of 70&#37; Ethanol. Mix by vortexing or
+        inversion.
+      </li>
+      <li>Mix Binding Buffer 2 by inversion until homogenized.</li>
+      <li>Vortex Magnetic Bead Solution until homogenized.</li>
+      <li>
+        Prepare a master mix of Magnetic Bead Binding Solution 2
+        &#40;MBBS2&#41; as directed in Table 10.
+      </li>
+      <br />
+      <ul type="disc">
+        <strong><em>NOTE&#58;</em></strong>
+        <li>
+          <strong><em>MBBS2 should be prepared fresh on the day of use. Do not
+              store
+              for longer than 1 week.</em></strong>
+        </li>
+        <li>
+          <strong><em>MBBS2 is a viscous solution. Pipet this reagent slowly and
+              mix
+              thoroughly. Ensure that MBBS2 and the MBBS2-sample mix are
+              well&#45;mixed.</em></strong>
+        </li>
+        <br />
+      </ul>
+      <li>
+        Transfer 40 &#956;L of the supernatant to a fresh set of 0.2 mL PCR
+        tubes. Avoid disturbing the pellet in the oxBS&#45;treated samples.
+      </li>
+      <li>
+        Vortex MBBS2 thoroughly to ensure the solution is homogenous before
+        aliquoting.
+      </li>
+      <li>
+        Carefully add 160 &#956;L of MBBS2 to each tube containing 40 &#956;L
+        bisulfite converted sample for a total of 200 &#956;L. Mix thoroughly
+        by pipetting slowly and gently&#44; spin down and place at room
+        temperature.
+      </li>
+      <li>Incubate at room temperature for 5 minutes.</li>
+      <li>Centrifuge briefly to collect solution at bottom of the tubes.</li>
+      <li>
+        Place the tubes onto the magnet and incubate at room temperature for
+        at least 5 minutes to completely clear the solution of beads.
+      </li>
+      <li>
+        Carefully remove the supernatant and discard it.<br />
+        13. Remove the tubes from the magnet.<br />
+        14. Add 200 μL of 70&#37; Ethanol to each sample tube. Resuspend the
+        beads completely by pipetting.
+      </li>
+      <li>
+        Place the tubes on the magnet and incubate at room temperature for 5
+        minutes to completely clear the solution of beads.
+      </li>
+      <li>
+        Carefully remove the 70&#37; Ethanol wash and discard it. Remove as
+        much of the wash as possible.
+      </li>
+      <li>Remove samples from the magnet.</li>
+      <li>
+        Add 200 μL of Desulfonation Buffer with EtOH added directly onto the
+        bead pellet. Resuspend the beads completely by pipetting.
+      </li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br />Be sure that the ethanol has been added to
+              the
+              desulfonation buffer&#44; as described in Section III B.
+              Preparation of Desulfonation Buffer for the TrueMethyl oxBS
+              Module.</em></strong><strong></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Close lids of sample tubes securely and place the tubes into the
+        magnetic separation rack. Incubate at room temperature for 5 minutes
+        to completely clear the solution of beads.
+      </li>
+      <li>
+        Remove the tubes from the magnet&#44; open the tubes&#44; and return
+        to the magnet.
+      </li>
+      <li>
+        Carefully remove 200 &#956;L of the Desulfonation Buffer and discard
+        it. Remove as much of the Desulfonation Buffer as possible without
+        disturbing the bead pellet.
+      </li>
+      <li>Remove the tubes from the magnet.</li>
+      <li>
+        Add 200 &#956;L of 70&#37; Ethanol to each sample tube. Resuspend the
+        beads completely by pipetting.
+      </li>
+      <li>
+        Place the tubes onto the magnet and incubate at room temperature for 5
+        minutes to completely clear the solution of beads.
+      </li>
+      <li>Remove the 200 &#956;L 70&#37; Ethanol wash and discard it.</li>
+      <li>
+        Repeat Steps 23&#45;25 to perform 2 x 200 &#956;L 70&#37; Ethanol
+        washes in total. Remove as much of the final wash as possible.
+      </li>
+      <li>
+        Air&#45;dry the the beads on the magnet for 15 minutes. Inspect each
+        tube carefully to ensure that all of the ethanol has evaporated.
+      </li>
+      <li>Remove the tubes from the magnet.</li>
+      <li>
+        Add Elution Buffer directly onto the bead pellet and resuspend
+        completely by pipetting&#58;
+      </li>
+      <ol type="a">
+        <li>
+          For Library Amplification Optimization with qPCR
+          &#40;recommended&#41;&#44; resuspend beads in 23 &#956;L Elution
+          Buffer.
+        </li>
+        <li>
+          If qPCR optimization is not required&#44; resuspend beads in 21
+          &#956;L Elution Buffer.
+        </li>
+      </ol>
+      <li>
+        Incubate at room temperature for 5 minutes to elute the TrueMethyl
+        converted DNA from the beads.
+      </li>
+      <li>Centrifuge briefly to collect sample at bottom of the tubes.</li>
+      <li>
+        Place the tubes onto the magnet and incubate at room temperature for 5
+        minutes to completely clear the solution of beads.
+      </li>
+      <li>Carefully transfer eluate into a fresh 0.2 mL tube:</li>
+      <ol type="a">
+        <li>
+          For Library Amplification Optimization with qPCR
+          &#40;recommended&#41;&#44; transfer 22 &#956;L eluate.
+        </li>
+        <li>
+          If qPCR optimization is not required&#44; transfer 20 &#956;L
+          eluate.
+        </li>
+        <br />
       </ol>
     </ol>
+    <br />
+    <li><strong>Library Amplification Optimization with qPCR</strong></li>
+
+    <p align="center">
+      <strong>Table 10&#58; Library Amplification qPCR Master Mix</strong>
+    </p>
+    <table
+      border="1"
+      align="center"
+      cellspacing="0"
+      cellpadding="0"
+    >
+      <tr>
+        <td
+          width="200"
+          bgcolor="#9ebddc"
+        >
+          <br />
+          <p align="center"><strong>REAGENT</strong></p>
+        </td>
+        <td
+          width="200"
+          bgcolor="#9ebddc"
+        >
+          <p align="center">
+            <strong>AMPLIFICATION PRIMER MIX &#40;RED&#58; P2 </strong>ver
+            <strong>8&#41;</strong>
+          </p>
+        </td>
+        <td
+          width="200"
+          bgcolor="#9ebddc"
+        >
+          <p align="center">
+            <strong>AMPLIFICATION ENZYME MIX &#40;RED&#58; P3 </strong>ver
+            <strong>3&#41;</strong>
+          </p>
+        </td>
+        <td
+          width="200"
+          bgcolor="#9ebddc"
+        >
+          <p align="center"><strong>20 x EvaGreen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="119">
+          <p align="center">STORAGE</p>
+        </td>
+        <td width="184">
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+        <td width="184">
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+        <td width="78">
+          <p align="center">4 &#8451;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="119">
+          <p align="center">1X REACTION VOLUME</p>
+        </td>
+        <td width="184">
+          <p align="center">1.0 &#956;L</p>
+        </td>
+        <td width="184">
+          <p align="center">4.75 &#956;L</p>
+        </td>
+        <td width="78">
+          <p align="center">0.5 &#956;L</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <ol type="1">
+      <li>
+        Aliquot 2 &#956;L of each sample into a fresh set of 0.2 mL tubes.
+        Reserve the remaining 20 &#956;L of sample on ice.
+      </li>
+      <li>
+        Add 14 &#956;L of Low&#45;EDTA TE Buffer to each sample for a total of
+        16 &#956;L. Mix well by pipetting&#44; spin down and place on the
+        bench top.
+      </li>
+      <li>
+        Aliquot 3.75 &#956;L of each sample into an appropriate PCR plate or
+        optically clear strip tubes&#44; in triplicate. Mix well by
+        pipetting&#44; spin down and place on ice.
+      </li>
+      <li>
+        Prepare a master mix by combining P2&#44; P3 and 20x EvaGreen in an
+        appropriately sized capped tube according to the volumes shown in
+        Table 11. Add P3 at the last moment and mix well by pipetting&#44;
+        taking care to avoid bubbles. Spin down and place on ice.
+      </li>
+      <li>
+        On ice&#44; add 6.25 &#956;L of Library Amplification qPCR Master Mix
+        to each 3.75 &#956;L of sample&#44; in triplicate&#44; for a total of
+        10 &#956;L per replicate.
+      </li>
+      <li>Mix well by pipetting&#44; spin down and place on ice.</li>
+      <li>Perform qPCR with the following cycling conditions&#58;</li>
+      <ol type="a">
+        <li>95 &#8451; &#45; 2 mins&#44; 35x&#40;95 &#8451; &#45; 15s</li>
+        <li>60 &#8451; &#45; 1 min&#44; 72 &#8451; &#45; 30s&#41;</li>
+      </ol>
+      <li>
+        Examine the log fluorescence vs. cycle number plot from the qPCR
+        system to determine the appropriate number of library amplification
+        cycles.
+      </li>
+      <ol type="a">
+        <li>
+          First&#44; select a cycle number within the late exponential phase
+          of the amplification plot. In the example in
+          <strong>Figure 5</strong>&#44; this is 11 cycles the &lsquo;BS
+          Library&rsquo; &#40;blue dotted vertical line&#44; left&#41; and 14
+          cycles in the &lsquo;oxBS Library&rsquo; &#40;red dotted vertical
+          line&#44; right&#41;.
+        </li>
+        <li>
+          Next&#44; subtract 3 from the selected cycle to determine the number
+          of PCR cycles to perform in the next step &#40;M. Library
+          Amplification&#41;. This compensates for the 1&#58;8 dilution of
+          sample used in the qPCR reaction.
+        </li>
+      </ol>
+    </ol>
+    <br />
+    <li><strong>Library Amplification</strong></li>
+    <br />
+    <p align="center">
+      <strong>Table 11&#58; Library Amplification Master Mix</strong>
+    </p>
+    <table
+      border="1"
+      align="center"
+      cellspacing="0"
+      cellpadding="0"
+      width="0"
+    >
+      <tr>
+        <td bgcolor="#9ebddc">
+          <br />
+          <p align="center"><strong>REAGENT</strong></p>
+        </td>
+        <td
+          width="300"
+          bgcolor="#9ebddc"
+        >
+          <p align="center">
+            <strong>AMPLIFICATION PRIMER MIX &#40;RED&#58; P2 </strong>ver
+            <strong>8&#41;</strong>
+          </p>
+        </td>
+        <td
+          width="300"
+          bgcolor="#9ebddc"
+        >
+          <p align="center">
+            <strong>AMPLIFICATION ENZYME MIX &#40;RED&#58; P3 </strong>ver
+            <strong>3&#41;</strong>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p align="center">STORAGE</p>
+        </td>
+        <td width="300">
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+        <td width="300">
+          <p align="center">&#8722;20 &#8451;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="300">
+          <p align="center">1X REACTION VOLUME</p>
+        </td>
+        <td width="300">
+          <p align="center">5.0 &#956;L</p>
+        </td>
+        <td width="300">
+          <p align="center">25 L</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <ol type="1">
+      <li>
+        Remove Agencourt beads from 4 &#8451;. Place on the bench top to reach
+        room temperature for use in the next step.
+      </li>
+      <li>Thaw P3 on ice if needed. Spin down and place on ice.</li>
+      <li>
+        Thaw P2 at room temperature. Mix by vortexing&#44; spin and place on
+        ice.
+      </li>
+      <li>
+        Prepare a master mix by combining P2 and P3 in an appropriately sized
+        capped tube according to the volumes shown in Table 11. Add P3 at the
+        last moment and mix well by pipetting&#44; taking care to avoid
+        bubbles. Spin down and place on ice.
+      </li>
+      <li>
+        On ice&#44; add 30 &#956;L of Library Amplification Master Mix to each
+        20 &#956;L of reserved sample for a total of 50 &#956;L.
+      </li>
+      <li>Mix well by pipetting&#44; spin down and place on ice.</li>
+      <li>
+        Place tubes in a pre&#45;warmed thermal cycler programmed to run
+        Program 6 &#40;Library Amplification&#59; see Table 3&#41;&#58;
+      </li>
+      <ol type="a">
+        <li>
+          95 &#8451; &#45; 2 mins, N &#40;95 &#8451; &#45; 15 s, 60 &#8451;
+          &#45; 1 min 72 &#8451; &#45; 30 s&#41;
+        </li>
+        <li>hold at 10 &#8451;</li>
+      </ol>
+      <li>
+        Remove the tubes from the thermal cycler&#44; spin to collect
+        condensation and place on ice.
+      </li>
+      <br />
+    </ol>
+    <li><strong>Amplified Library Purification</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Ensure the Agencourt beads have completely reached room temperature
+        before proceeding.
+      </li>
+      <li>
+        Resuspend the beads by inverting and tapping the tube. Ensure the
+        beads are fully resuspended before adding to samples. After
+        resuspending, do not spin the beads.
+      </li>
+      <li>
+        Add 50 &#956;L &#40;1 volume&#41; of the bead suspension to each
+        reaction. Mix thoroughly by pipetting 10 times.
+      </li>
+      <li>Incubate at room temperature for 10 minutes.</li>
+      <li>
+        Transfer the tubes to the magnet and let stand 5 minutes to completely
+        clear the solution of beads.
+      </li>
+      <li>Carefully remove the binding buffer and discard it.</li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br /></em></strong><strong><em>The beads should
+              not disperse&#59; instead&#44; they will stay
+              on the walls of the tubes. Significant loss of beads at this
+              stage will impact the final yield&#44; so ensure beads are not
+              removed with the binding buffer or the
+              wash.</em></strong><strong></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        With samples still on the magnet&#44; add 200 μL of freshly prepared
+        70&#37; ethanol.
+      </li>
+      <li>Remove the 70&#37; ethanol wash using a pipette.</li>
+      <li>Repeat steps 7 and 8 for a total of two washes.</li>
+      <br />
+      <ul>
+        <p>
+          <strong><em>NOTE&#58;<br /></em></strong><strong><em>With the final
+              wash&#44; it is critical to remove as much of
+              the ethanol as possible. Use at least two pipetting steps and
+              allow excess ethanol to collect at the bottom of the tubes after
+              removing most of the ethanol in the first pipetting
+              step</em></strong><strong></strong>
+        </p>
+      </ul>
+      <br />
+      <li>
+        Air dry the beads on the magnet for 10 minutes. Inspect each tube
+        carefully to ensure that all of the ethanol has evaporated. It is
+        critical that all residual ethanol be removed prior to continuing.
+      </li>
+      <li>Remove the tubes from the magnet.</li>
+      <li>
+        Add 20 &#956;L Low&#45;EDTA TE Buffer to the dried beads. Mix
+        thoroughly to ensure all beads are resuspended.
+      </li>
+      <li>
+        Transfer the tubes to the magnet and let stand for 5 minutes to
+        completely clear the solution of beads.
+      </li>
+      <li>
+        Carefully remove 18 &#956;L of the eluate&#44; ensuring as few beads
+        as possible are carried over and transfer to a fresh set of PCR tubes.
+      </li>
+    </ol>
+    <br />
+    <li>
+      <strong>Quantitative and Qualitative Assessment of the Library</strong>
+    </li>
+    <br />
+    <ol type="1">
+      <li>
+        Quantify the libraries using a fluorometric assay and&#47;or qPCR.
+      </li>
+      <li>
+        Validate libraries using the hsDNA kit for BioAnalyzer or an
+        equivalent assay. An example trace using 1 uL of 5 ng&#47;&#956;L
+        library on the hsDNA chip is shown in <strong>Figure 6 </strong>below.
+      </li>
+      <br />
+      <p align="center">
+        <strong>Figure 6. Fragment distribution when 1 &#956;L of 5
+          ng&#47;&#956;L
+          library is loaded into a High Sensitivity DNA assay from 200 ng
+          human DNA input.</strong>
+      </p>
+      <br />
+      <img
+        src="/assets/workflow/Islet Molecular Phenotyping Studies/figure-6.png"
+        width="480"
+        height="280"
+        alt="figure-6-wgbs"
+        style="vertical-align: middle"
+      /><br />
+      <br />
+      <li>
+        Normalize and pool libraries following the Illumina guidelines
+        &ldquo;Best practices for manually normalizing library
+        concentrations&rdquo; and the &ldquo;Low&#45;Diversity
+        Sequencing&rdquo; guidelines for your specific sequencer. See Appendix
+        A. of this guide for guidelines on color balancing and multiplexing of
+        Tecan libraries.
+      </li>
+      <br />
+    </ol>
+
+    <li>
+      <strong>Barcode Sequences and Guidelines for Multiplexing</strong>
+    </li>
+    <br />
+    <ol type="1">
+      <li>
+        Barcode sequences and multiplexing guidelines for adaptors used in the
+        Ultra low Methyl&#45;Seq library prep kit can be found in Tables 12
+        and 13.
+      </li>
+      <li>
+        All barcode sequences are separated by an edit distance of three. For
+        further details on the barcode design strategy&#44; please refer to
+        Faircloth BC&#44; Glenn TC &#40;2012&#41; Not All Sequence Tags Are
+        Created Equal&#58; Designing and Validating Sequence Identification
+        Tags Robust to Indels. PLoS ONE 7&#40;8&#41;&#58; e42543.
+        doi:10.1371&#47;journal.pone.0042543.
+      </li>
+      <br />
+      <p align="center">
+        <strong>Table 12&#58; Barcode sequences for adaptors used in the Ultra
+          low
+          Methyl&#45;Seq 32&#45;plex Adaptor Plate &#40;S02694&#44; Part No.
+          0366&#41;</strong>
+      </p>
+      <ul>
+        <br />
+        <p>
+          <strong><em>NOTE&#58;<br />Barcodes in the Ultra low Methyl&#45;Seq
+              32&#45;plex Adaptor Plate are color balanced in pairs &#40;i.e.
+              A01 &#43; B01&#44; C01 &#43; D01&#44; etc.&#41; and in sets of 8
+              by column.</em></strong>
+        </p>
+      </ul>
+      <br />
+
+      <table
+        border="1"
+        align="center"
+        cellspacing="0"
+        cellpadding="0"
+      >
+        <tr>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>PLATE POSITION</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>BARCODE SEQUENCE</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>PLATE POSITION</strong></p>
+          </td>
+          <td bgcolor="#9ebddc">
+            <p align="center"><strong>BARCODE SEQUENCE</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">A01</p>
+          </td>
+          <td>
+            <p align="center">CGCTACAT</p>
+          </td>
+          <td>
+            <p align="center">A03</p>
+          </td>
+          <td>
+            <p align="center">GTACACCT</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">B01</p>
+          </td>
+          <td>
+            <p align="center">AATCCAGC</p>
+          </td>
+          <td>
+            <p align="center">B03</p>
+          </td>
+          <td>
+            <p align="center">ACGAGAAC</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">C01</p>
+          </td>
+          <td>
+            <p align="center">CGTCTAAC</p>
+          </td>
+          <td>
+            <p align="center">C03</p>
+          </td>
+          <td>
+            <p align="center">CGACCTAA</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">D01</p>
+          </td>
+          <td>
+            <p align="center">AACTCGGA</p>
+          </td>
+          <td>
+            <p align="center">D03</p>
+          </td>
+          <td>
+            <p align="center">TACATCGG</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">E01</p>
+          </td>
+          <td>
+            <p align="center">GTCGAGAA</p>
+          </td>
+          <td>
+            <p align="center">E03</p>
+          </td>
+          <td>
+            <p align="center">ATCGTCTC</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">F01</p>
+          </td>
+          <td>
+            <p align="center">ACAACAGC</p>
+          </td>
+          <td>
+            <p align="center">F03</p>
+          </td>
+          <td>
+            <p align="center">CCAACACT</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">G01</p>
+          </td>
+          <td>
+            <p align="center">ATGACAGG</p>
+          </td>
+          <td>
+            <p align="center">G03</p>
+          </td>
+          <td>
+            <p align="center">TCTAGGAG</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">H01</p>
+          </td>
+          <td>
+            <p align="center">GCACACAA</p>
+          </td>
+          <td>
+            <p align="center">H03</p>
+          </td>
+          <td>
+            <p align="center">CTCGAACA</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">A02</p>
+          </td>
+          <td>
+            <p align="center">CTCCTAGT</p>
+          </td>
+          <td>
+            <p align="center">A04</p>
+          </td>
+          <td>
+            <p align="center">ACGGACTT</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">B02</p>
+          </td>
+          <td>
+            <p align="center">TCTTCGAC</p>
+          </td>
+          <td>
+            <p align="center">B04</p>
+          </td>
+          <td>
+            <p align="center">CTAAGACC</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">C02</p>
+          </td>
+          <td>
+            <p align="center">GACTACGA</p>
+          </td>
+          <td>
+            <p align="center">C04</p>
+          </td>
+          <td>
+            <p align="center">AACCGAAC</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">D02</p>
+          </td>
+          <td>
+            <p align="center">ACTCCTAC</p>
+          </td>
+          <td>
+            <p align="center">D04</p>
+          </td>
+          <td>
+            <p align="center">CCTTAGGT</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">E02</p>
+          </td>
+          <td>
+            <p align="center">CTTCCTTC</p>
+          </td>
+          <td>
+            <p align="center">E04</p>
+          </td>
+          <td>
+            <p align="center">CCTATACC</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">F02</p>
+          </td>
+          <td>
+            <p align="center">ACCATCCT</p>
+          </td>
+          <td>
+            <p align="center">F04</p>
+          </td>
+          <td>
+            <p align="center">AACGCCTT</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">G02</p>
+          </td>
+          <td>
+            <p align="center">CGTCCATT</p>
+          </td>
+          <td>
+            <p align="center">G04</p>
+          </td>
+          <td>
+            <p align="center">TCCATTGC</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p align="center">H02</p>
+          </td>
+          <td>
+            <p align="center">AACTTGCC</p>
+          </td>
+          <td>
+            <p align="center">H04</p>
+          </td>
+          <td>
+            <p align="center">CAAGCCAA</p>
+          </td>
+        </tr>
+      </table>
+      <br />
+    </ol>
+    <li><strong>Oxidant Color Changes</strong></li>
+    <br />
+    <ol type="1">
+      <li>
+        Upon receipt of the kit&#44; the color of the thawed Oxidant Solution
+        should resemble Solution A in <strong>Figure7</strong>.
+      </li>
+      <li>
+        If the Oxidant Solution looks dark yellow or green with considerable
+        amounts of black precipitate &#40;Solution D or E&#41;&#44; it is a
+        sign that the reagent has become exposed to contaminants or CO2. If
+        you suspect that this has occurred&#44; please do not use the Oxidant
+        Solution and contact Tecan NGS technical support for advice.
+      </li>
+      <br />
+      <p align="center">
+        <strong>Figure 7. Expected Oxidant Solution Color Changes</strong>
+      </p>
+      <br />
+      <img
+        src="/assets/workflow/Islet Molecular Phenotyping Studies/figure-7.png"
+        width="390"
+        height="290"
+        alt="oxidation-color-change"
+        style="vertical-align: middle"
+      />
+      <br />
+      <li>Figure description&#58;</li>
+      <br />
+      <ol type="A">
+        <b>
+          <li>
+            Oxidant Solution stock concentration supplied in the TrueMethyl
+            oxBS Module.
+          </li>
+        </b>
+        <b>
+          <li>
+            10&#45;fold dilution of the Oxidant Solution in alkaline solution.
+          </li>
+        </b>
+        <b>
+          <li>Working oxidant concentration &#40;WOC&#41;.</li>
+        </b>
+        <b>
+          <li>5&#58;1 molar excess of WOC&#58;ethanol.</li>
+        </b>
+        <b>
+          <li>E. 20&#58;1 molar excess of ethanol&#58;WOC.</li>
+        </b><br />
+      </ol>
+
+      <li>
+        During oxidation &#40;section V. I.&#41;&#44; the color of the
+        oxidation reaction should be similar to Solution B or C in
+        <strong>Figure 7</strong>. It is normal for a small amount of black
+        precipitate to form during the oxidation reaction. The purpose of the
+        strong centrifugation step following oxidation is to pellet the dark
+        precipitate and enable removal of the clear orange&#47;yellow solution
+        without this contaminant. After the oxidation reaction and subsequent
+        10 minute centrifugation are complete&#44; the solution should remain
+        orange indicating a successful oxidation.
+      </li>
+      <li>
+        If the post&#45;oxidation color appears as Solution D&#44; it suggests
+        partial decomposition of the oxidant&#44; indicating that oxidation of
+        the DNA samples was successful. However&#44; if the post-oxidation
+        color resembles Solution E&#44; significant decomposition of the
+        oxidant has likely occurred&#44; resulting in incomplete conversion of
+        5&#45;hmC &#45;&#45;&gt; U. In this instance&#44; it is recommended to
+        re&#45;purify the sample in order to remove contaminants from the
+        starting DNA sample solution. To avoid contaminants&#44; ensure all
+        guidance regarding oxidation solution sensitivity in section III. D.
+        is followed&#44; including the use of only Ultra Pure Water provided
+        with the TrueMethyl oxBS Module in steps containing the oxidant.
+      </li>
+      <li>
+        As a final note on color changes&#44; samples that have been processed
+        using the Oxidant Solution may also take on a light grey color after
+        addition of the Bisulfite Conversion Solution &#40;section V. J.&#41;.
+        This is normal and will not impact downstream processing.
+      </li>
+      <li>Next steps&#58;</li>
+      <ol type="a">
+        <li>Qubit and BioAnalyzer to do the concentration</li>
+        <li>Kapa concentration using Kapa kit &#40;KK4808&#41;</li>
+        <li>Me&#45;seq for balance</li>
+        <li>Nova&#45;seq 6000 for final sequencing</li>
+      </ol>
+    </ol>
+  </ol>
+</body>
+</html>
