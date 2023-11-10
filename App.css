@@ -1300,3 +1300,7 @@ p.input-help {
 .toc_container{
   justify-content: space-between;
 }
+
+.ui.GRS_label{
+background-color: #212442;
+}
