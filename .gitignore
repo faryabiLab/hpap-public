@@ -10,5 +10,5 @@
 /history/V*
 /sftp_pubkey/key*.txt
 
-# directory of JSON files for Washington University Genome Browser
-/wugb_json
+# User-generated JSON files (for Washington University Genome Browser)
+/wugb_json/*.json
