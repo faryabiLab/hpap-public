@@ -657,9 +657,20 @@ h3{
   color: white;
 }
 
-.main-app .landing-page .scrollable {
-  height: 993px;
+.main-app .landing-page .scrollable_pub {
+  height: 600px;
   overflow-y: scroll;
+}
+
+.main-app .landing-page .scrollable_updates {
+  height: 418px;
+  overflow-y: scroll;
+}
+
+.main-app .landing-page .landing-plot {
+  overflow-x:hidden;
+  display:flex;
+  justify-content:center;
 }
 
 .main-app .landing-page .updates_link {
