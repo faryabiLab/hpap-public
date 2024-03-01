@@ -13,3 +13,6 @@
 
 # User-generated JSON files (for Washington University Genome Browser)
 /wugb_json/*.json
+
+#Ignore these mac-OS specific files
+.DS_Store
