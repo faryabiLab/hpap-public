@@ -1315,3 +1315,11 @@ p.input-help {
 .ui.GRS_label{
 background-color: #212442;
 }
+
+.toc_accordion li{
+  font-size: 1.1rem;
+}
+  
+.toc_accordion p{
+  margin: 0 20px;
+}
