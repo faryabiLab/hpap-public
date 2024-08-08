@@ -1326,3 +1326,10 @@ background-color: #212442;
 .toc_accordion p{
   margin: 0 20px;
 }
+
+.getting-started .toc{
+  width: 10%;
+  position:fixed;
+  margin-top: 2em;
+  z-index: 99;
+}
