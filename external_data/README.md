@@ -1,6 +1,6 @@
 ### This directory includes some external data for HPAP.
 
-* `bigwigs.json`: originally created by Elisabetta Manduchi on 12/09/2025.
+* `bigwigs.json`: originally created by `Elisabetta Manduchi` on 12/09/2025.
 
 * `create_dna_methylome_json.py`: a Pythojn script that reads `bigwigs.json`
   to generate `dna_methylome.json`
