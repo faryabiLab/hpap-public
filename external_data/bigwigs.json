@@ -1,0 +1,4146 @@
+[
+   {
+      "name" : "HPAP-002 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP002-alpha-100956.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-002",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-002 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP002-alpha-100956.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-002",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-003 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP003-alpha-98525.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-003",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-003 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP003-alpha-98525.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-003",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-003 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP003-beta-98526.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-003",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-003 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP003-beta-98526.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-003",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-004 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP004-alpha-98527.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-004",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-004 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP004-alpha-98527.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-004",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-004 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP004-beta-98528.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-004",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-004 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP004-beta-98528.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-004",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-005 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP005-alpha-98529.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-005",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-005 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP005-alpha-98529.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-005",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-005 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP005-beta-98530.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-005",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-005 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP005-beta-98530.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-005",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-006 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP006-alpha-98531.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-006",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-006 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP006-alpha-98531.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-006",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-006 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP006-beta-98532.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-006",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-006 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP006-beta-98532.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-006",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-008 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP008-alpha-98533.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-008",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-008 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP008-alpha-98533.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-008",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-008 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP008-beta-98534.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-008",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-008 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP008-beta-98534.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-008",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-009 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP009-alpha-98535.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-009",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-009 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP009-alpha-98535.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-009",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-009 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP009-beta-98536.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-009",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-009 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP009-beta-98536.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-009",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-011 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP011-alpha-98537.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-011",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-011 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP011-alpha-98537.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-011",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-011 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP011-beta-98538.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-011",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-011 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP011-beta-98538.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-011",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-012 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP012-alpha-100929.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-012",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-012 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP012-alpha-100929.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-012",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-013 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP013-alpha-100958.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-013",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-013 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP013-alpha-100958.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-013",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-013 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP013-beta-100959.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-013",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-013 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP013-beta-100959.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-013",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-014 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP014-alpha-100931.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-014",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-014 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP014-alpha-100931.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-014",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-014 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP014-beta-100960.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-014",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-014 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP014-beta-100960.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-014",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-015 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP015-alpha-100932.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-015",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-015 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP015-alpha-100932.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-015",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-015 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP015-beta-100933.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-015",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-015 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP015-beta-100933.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-015",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-017 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP017-alpha-100934.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-017",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-017 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP017-alpha-100934.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-017",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-017 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP017-beta-100935.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-017",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-017 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP017-beta-100935.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-017",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-018 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP018-alpha-100936.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-018",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-018 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP018-alpha-100936.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-018",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-018 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP018-beta-100961.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-018",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-018 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP018-beta-100961.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-018",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-019 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP019-alpha-100937.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-019",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-019 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP019-alpha-100937.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-019",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-019 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP019-beta-100938.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-019",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-019 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP019-beta-100938.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-019",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-022 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP022-alpha-100939.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-022",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-022 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP022-alpha-100939.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-022",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-022 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP022-beta-100962.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-022",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-022 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP022-beta-100962.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-022",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-026 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP026-alpha-100941.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-026",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-026 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP026-alpha-100941.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-026",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-026 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP026-beta-100942.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-026",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-026 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP026-beta-100942.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-026",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-029 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP029-alpha-100943.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-029",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-029 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP029-alpha-100943.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-029",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-029 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP029-beta-100944.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-029",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-029 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP029-beta-100944.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-029",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-035 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP035-alpha-100945.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-035",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-035 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP035-alpha-100945.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-035",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-035 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP035-beta-100946.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-035",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-035 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP035-beta-100946.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-035",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-036 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP036-alpha-100947.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-036",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-036 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP036-alpha-100947.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-036",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-036 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP036-beta-100948.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-036",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-036 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP036-beta-100948.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-036",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-038 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP038-alpha-100949.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-038",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-038 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP038-alpha-100949.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-038",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-038 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP038-beta-100950.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-038",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-038 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP038-beta-100950.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-038",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-040 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP040-alpha-100951.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-040",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-040 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP040-alpha-100951.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-040",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-040 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP040-beta-100952.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-040",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-040 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP040-beta-100952.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-040",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-045 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP045-alpha-100953.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-045",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-045 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP045-alpha-100953.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-045",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-045 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP045-beta-100954.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-045",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-045 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP045-beta-100954.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-045",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-047 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP047-alpha-100963.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-047",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-047 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP047-alpha-100963.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-047",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-047 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP047-beta-100964.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-047",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-047 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP047-beta-100964.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-047",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-049 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP049-alpha-100965.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-049",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-049 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP049-alpha-100965.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-049",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-049 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP049-beta-100966.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-049",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-049 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP049-beta-100966.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-049",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-051 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP051-alpha-98957.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-051",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-051 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP051-alpha-98957.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-051",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-051 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP051-beta-98958.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-051",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-051 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP051-beta-98958.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-051",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-052 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP052-alpha-98959.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-052",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-052 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP052-alpha-98959.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-052",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-052 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP052-beta-98960.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-052",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-052 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP052-beta-98960.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-052",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-053 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP053-alpha-98961.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-053",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-053 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP053-alpha-98961.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-053",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-053 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP053-beta-98962.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-053",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-053 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP053-beta-98962.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-053",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-054 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP054-alpha-98963.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-054",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-054 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP054-alpha-98963.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-054",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-054 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP054-beta-98964.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-054",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-054 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP054-beta-98964.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-054",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-055 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP055-alpha-100967.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-055",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-055 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP055-alpha-100967.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-055",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-056 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP056-alpha-98965.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-056",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-056 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP056-alpha-98965.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-056",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-056 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP056-beta-98966.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-056",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-056 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP056-beta-98966.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-056",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-057 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP057-alpha-98967.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-057",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-057 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP057-alpha-98967.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-057",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-057 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP057-beta-98968.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-057",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-057 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP057-beta-98968.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-057",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-058 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP058-alpha-98969.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-058",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-058 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP058-alpha-98969.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-058",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-058 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP058-beta-98970.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-058",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-058 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP058-beta-98970.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-058",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-062 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP062-alpha-101031.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-062",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-062 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP062-alpha-101031.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-062",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-063 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP063-alpha-100968.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-063",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-063 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP063-alpha-100968.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-063",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-063 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP063-beta-100970.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-063",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-063 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP063-beta-100970.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-063",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-064 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP064-alpha-101032.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-064",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-064 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP064-alpha-101032.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-064",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-066 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP066-alpha-100971.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-066",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-066 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP066-alpha-100971.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-066",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-067 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP067-alpha-100972.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-067",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-067 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP067-alpha-100972.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-067",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-067 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP067-beta-100973.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-067",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-067 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP067-beta-100973.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-067",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-069 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP069-alpha-101033.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-069",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-069 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP069-alpha-101033.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-069",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-069 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP069-beta-101034.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-069",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-069 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP069-beta-101034.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-069",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-072 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP072-alpha-101035.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-072",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-072 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP072-alpha-101035.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-072",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-072 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP072-beta-101036.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-072",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-072 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP072-beta-101036.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-072",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-074 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP074-alpha-100974.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-074",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-074 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP074-alpha-100974.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-074",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-074 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP074-beta-100975.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-074",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-074 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP074-beta-100975.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-074",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-075 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP075-alpha-100976.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-075",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-075 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP075-alpha-100976.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-075",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-075 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP075-beta-100977.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-075",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-075 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP075-beta-100977.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-075",
+         "modification" : "5hmC+5mC",
+         "assay" : "WGBS",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-090 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP090-alpha-113099.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-090",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-090 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP090-alpha-113099.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-090",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-090 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP090-beta-113100.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-090",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-090 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP090-beta-113100.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-090",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-090 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP090-exocrine-113098.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-090",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-090 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP090-exocrine-113098.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-090",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-093 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP093-alpha-113102.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-093",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-093 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP093-alpha-113102.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-093",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-093 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP093-beta-113103.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-093",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-093 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP093-beta-113103.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-093",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-093 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP093-exocrine-113101.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-093",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-093 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP093-exocrine-113101.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-093",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-097 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP097-alpha-113105.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-097",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-097 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP097-alpha-113105.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-097",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-097 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP097-beta-113106.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-097",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-097 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP097-beta-113106.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-097",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-097 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP097-exocrine-113104.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-097",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-097 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP097-exocrine-113104.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-097",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-100 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP100-alpha-113108.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-100",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-100 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP100-alpha-113108.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-100",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-100 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP100-beta-113109.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-100",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-100 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP100-beta-113109.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-100",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-100 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP100-exocrine-113107.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-100",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-100 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP100-exocrine-113107.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-100",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-106 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP106-alpha-113114.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-106",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-106 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP106-alpha-113114.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-106",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-106 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP106-beta-113115.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-106",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-106 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP106-beta-113115.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-106",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-106 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP106-exocrine-113113.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-106",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-106 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP106-exocrine-113113.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-106",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-107 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP107-alpha-5000180.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-107",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-107 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP107-alpha-5000180.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-107",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-107 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP107-beta-5000181.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-107",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-107 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP107-beta-5000181.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-107",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-107 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP107-exocrine-5000182.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-107",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-107 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP107-exocrine-5000182.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-107",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-108 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP108-beta-113116.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-108",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-108 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP108-beta-113116.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-108",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-110 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP110-alpha-5000183.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-110",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-110 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP110-alpha-5000183.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-110",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-110 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP110-beta-5000184.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-110",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-110 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP110-beta-5000184.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-110",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-110 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP110-exocrine-5000185.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-110",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-110 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP110-exocrine-5000185.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-110",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-111 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP111-alpha-113118.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-111",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-111 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP111-alpha-113118.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-111",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-111 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP111-beta-113119.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-111",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-111 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP111-beta-113119.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-111",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-111 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP111-exocrine-113117.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-111",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-111 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP111-exocrine-113117.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-111",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-117 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP117-alpha-113121.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-117",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-117 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP117-alpha-113121.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-117",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-117 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP117-beta-113122.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-117",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-117 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP117-beta-113122.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-117",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-117 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP117-exocrine-113120.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-117",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-117 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP117-exocrine-113120.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-117",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-118 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP118-alpha-113124.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-118",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-118 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP118-alpha-113124.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-118",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-118 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP118-beta-113125.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-118",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-118 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP118-beta-113125.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-118",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-118 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP118-exocrine-113123.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-118",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-118 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP118-exocrine-113123.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-118",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-123 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP123-alpha-5000188.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-123",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-123 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP123-alpha-5000188.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-123",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-123 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP123-exocrine-5000189.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-123",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-123 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP123-exocrine-5000189.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-123",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-124 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP124-alpha-113127.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-124",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-124 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP124-alpha-113127.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-124",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-124 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP124-beta-113128.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-124",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-124 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP124-beta-113128.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-124",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-124 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP124-exocrine-113126.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-124",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-124 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP124-exocrine-113126.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-124",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-125 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP125-alpha-5000190.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-125",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-125 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP125-alpha-5000190.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-125",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-129 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP129-alpha-5000193.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-129",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-129 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP129-alpha-5000193.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-129",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-129 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP129-beta-5000194.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-129",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-129 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP129-beta-5000194.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-129",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-129 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP129-exocrine-5000195.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-129",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-129 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP129-exocrine-5000195.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-129",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-131 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP131-alpha-5000196.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-131",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-131 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP131-alpha-5000196.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-131",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-131 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP131-beta-5000197.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-131",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-131 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP131-beta-5000197.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-131",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-131 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP131-exocrine-5000198.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-131",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-131 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP131-exocrine-5000198.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-131",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-132 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP132-alpha-5000199.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-132",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-132 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP132-alpha-5000199.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-132",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-132 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP132-beta-5000200.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-132",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-132 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP132-beta-5000200.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-132",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-132 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP132-exocrine-5000201.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-132",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-132 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP132-exocrine-5000201.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-132",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-134 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP134-alpha-113130.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-134",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-134 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP134-alpha-113130.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-134",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-134 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP134-beta-113131.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-134",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-134 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP134-beta-113131.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-134",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-134 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP134-exocrine-113129.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-134",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-134 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP134-exocrine-113129.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-134",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-135 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP135-alpha-5000202.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-135",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-135 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP135-alpha-5000202.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-135",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-135 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP135-beta-5000203.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-135",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-135 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP135-beta-5000203.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-135",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-135 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP135-exocrine-5000204.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-135",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-135 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP135-exocrine-5000204.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-135",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-136 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP136-alpha-113133.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-136",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-136 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP136-alpha-113133.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-136",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-136 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP136-beta-113134.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-136",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-136 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP136-beta-113134.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-136",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-136 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP136-exocrine-113132.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-136",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-136 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP136-exocrine-113132.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-136",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-137 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP137-beta-5000205.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-137",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-137 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP137-beta-5000205.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-137",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-139 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP139-beta-5000207.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-139",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-139 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP139-beta-5000207.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-139",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-139 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP139-exocrine-5000208.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-139",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-139 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP139-exocrine-5000208.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-139",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-146 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP146-alpha-5000209.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-146",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-146 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP146-alpha-5000209.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-146",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "50%-75%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-146 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP146-beta-5000210.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-146",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-146 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP146-beta-5000210.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-146",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-146 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP146-exocrine-5000211.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-146",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-146 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP146-exocrine-5000211.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-146",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-148 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP148-exocrine-5000212.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-148",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-148 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP148-exocrine-5000212.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-148",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-151 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP151-alpha-5000213.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-151",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-151 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP151-alpha-5000213.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-151",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-151 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP151-beta-5000214.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-151",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-151 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP151-beta-5000214.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-151",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "0%-25%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-151 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP151-exocrine-5000215.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-151",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-151 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP151-exocrine-5000215.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-151",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-155 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP155-alpha-5000216.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-155",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-155 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP155-alpha-5000216.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-155",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-155 methylSeq M beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP155-beta-5000217.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-155",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-155 methylSeq Cov beta",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP155-beta-5000217.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-155",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "beta",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-155 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP155-exocrine-5000218.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-155",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-155 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP155-exocrine-5000218.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-155",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-156 methylSeq M alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP156-alpha-5000219.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-156",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-156 methylSeq Cov alpha",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP156-alpha-5000219.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-156",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "alpha",
+         "estimated_purity" : "25%-50%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-156 methylSeq M exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP156-exocrine-5000221.filt.bigwig",
+      "metadata" : {
+         "signal" : "methylation fraction",
+         "donor" : "HPAP-156",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   },
+   {
+      "name" : "HPAP-156 methylSeq Cov exocrine",
+      "url" : "https://faryabi16.pmacs.upenn.edu/wugb/manduchi/HPAP156-exocrine-5000221.filt.cov.bigwig",
+      "metadata" : {
+         "signal" : "coverage",
+         "donor" : "HPAP-156",
+         "modification" : "5hmC+5mC",
+         "assay" : "EM-Seq",
+         "cell_type" : "exocrine",
+         "estimated_purity" : "75%-100%"
+      },
+      "type" : "bigwig",
+      "showOnHubLoad" : true
+   }
+]

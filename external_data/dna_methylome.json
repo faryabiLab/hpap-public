@@ -1,0 +1,4211 @@
+{
+  "General": {
+    "Tissue_type": "None",
+    "Platform": "Illumina",
+    "Institution": "University of Pennsylvania",
+    "dbGAP_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002465.v2.p1"
+  },
+  "HPAP-002": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-002 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP002-alpha-100956.filt.bigwig"
+        },
+        {
+          "name": "HPAP-002 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP002-alpha-100956.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-003": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-003 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP003-alpha-98525.filt.bigwig"
+        },
+        {
+          "name": "HPAP-003 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP003-alpha-98525.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-003 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP003-beta-98526.filt.bigwig"
+        },
+        {
+          "name": "HPAP-003 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP003-beta-98526.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-004": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-004 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP004-alpha-98527.filt.bigwig"
+        },
+        {
+          "name": "HPAP-004 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP004-alpha-98527.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-004 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP004-beta-98528.filt.bigwig"
+        },
+        {
+          "name": "HPAP-004 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP004-beta-98528.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-005": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-005 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP005-alpha-98529.filt.bigwig"
+        },
+        {
+          "name": "HPAP-005 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP005-alpha-98529.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-005 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP005-beta-98530.filt.bigwig"
+        },
+        {
+          "name": "HPAP-005 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP005-beta-98530.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-006": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-006 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP006-alpha-98531.filt.bigwig"
+        },
+        {
+          "name": "HPAP-006 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP006-alpha-98531.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-006 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP006-beta-98532.filt.bigwig"
+        },
+        {
+          "name": "HPAP-006 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP006-beta-98532.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-008": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-008 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP008-alpha-98533.filt.bigwig"
+        },
+        {
+          "name": "HPAP-008 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP008-alpha-98533.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-008 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP008-beta-98534.filt.bigwig"
+        },
+        {
+          "name": "HPAP-008 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP008-beta-98534.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-009": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-009 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP009-alpha-98535.filt.bigwig"
+        },
+        {
+          "name": "HPAP-009 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP009-alpha-98535.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-009 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP009-beta-98536.filt.bigwig"
+        },
+        {
+          "name": "HPAP-009 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP009-beta-98536.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-011": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-011 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP011-alpha-98537.filt.bigwig"
+        },
+        {
+          "name": "HPAP-011 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP011-alpha-98537.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-011 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP011-beta-98538.filt.bigwig"
+        },
+        {
+          "name": "HPAP-011 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP011-beta-98538.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-012": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-012 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP012-alpha-100929.filt.bigwig"
+        },
+        {
+          "name": "HPAP-012 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP012-alpha-100929.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-013": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-013 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP013-alpha-100958.filt.bigwig"
+        },
+        {
+          "name": "HPAP-013 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP013-alpha-100958.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-013 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP013-beta-100959.filt.bigwig"
+        },
+        {
+          "name": "HPAP-013 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP013-beta-100959.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-014": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-014 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP014-alpha-100931.filt.bigwig"
+        },
+        {
+          "name": "HPAP-014 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP014-alpha-100931.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-014 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP014-beta-100960.filt.bigwig"
+        },
+        {
+          "name": "HPAP-014 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP014-beta-100960.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-015": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-015 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP015-alpha-100932.filt.bigwig"
+        },
+        {
+          "name": "HPAP-015 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP015-alpha-100932.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-015 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP015-beta-100933.filt.bigwig"
+        },
+        {
+          "name": "HPAP-015 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP015-beta-100933.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-017": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-017 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP017-alpha-100934.filt.bigwig"
+        },
+        {
+          "name": "HPAP-017 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP017-alpha-100934.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-017 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP017-beta-100935.filt.bigwig"
+        },
+        {
+          "name": "HPAP-017 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP017-beta-100935.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-018": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-018 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP018-alpha-100936.filt.bigwig"
+        },
+        {
+          "name": "HPAP-018 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP018-alpha-100936.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-018 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP018-beta-100961.filt.bigwig"
+        },
+        {
+          "name": "HPAP-018 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP018-beta-100961.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-019": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-019 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP019-alpha-100937.filt.bigwig"
+        },
+        {
+          "name": "HPAP-019 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP019-alpha-100937.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-019 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP019-beta-100938.filt.bigwig"
+        },
+        {
+          "name": "HPAP-019 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP019-beta-100938.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-022": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-022 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP022-alpha-100939.filt.bigwig"
+        },
+        {
+          "name": "HPAP-022 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP022-alpha-100939.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-022 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP022-beta-100962.filt.bigwig"
+        },
+        {
+          "name": "HPAP-022 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP022-beta-100962.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-026": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-026 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP026-alpha-100941.filt.bigwig"
+        },
+        {
+          "name": "HPAP-026 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP026-alpha-100941.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-026 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP026-beta-100942.filt.bigwig"
+        },
+        {
+          "name": "HPAP-026 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP026-beta-100942.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-029": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-029 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP029-alpha-100943.filt.bigwig"
+        },
+        {
+          "name": "HPAP-029 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP029-alpha-100943.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-029 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP029-beta-100944.filt.bigwig"
+        },
+        {
+          "name": "HPAP-029 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP029-beta-100944.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-035": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-035 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP035-alpha-100945.filt.bigwig"
+        },
+        {
+          "name": "HPAP-035 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP035-alpha-100945.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-035 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP035-beta-100946.filt.bigwig"
+        },
+        {
+          "name": "HPAP-035 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP035-beta-100946.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-036": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-036 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP036-alpha-100947.filt.bigwig"
+        },
+        {
+          "name": "HPAP-036 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP036-alpha-100947.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-036 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP036-beta-100948.filt.bigwig"
+        },
+        {
+          "name": "HPAP-036 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP036-beta-100948.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-038": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-038 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP038-alpha-100949.filt.bigwig"
+        },
+        {
+          "name": "HPAP-038 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP038-alpha-100949.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-038 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP038-beta-100950.filt.bigwig"
+        },
+        {
+          "name": "HPAP-038 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP038-beta-100950.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-040": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-040 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP040-alpha-100951.filt.bigwig"
+        },
+        {
+          "name": "HPAP-040 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP040-alpha-100951.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-040 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP040-beta-100952.filt.bigwig"
+        },
+        {
+          "name": "HPAP-040 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP040-beta-100952.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-045": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-045 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP045-alpha-100953.filt.bigwig"
+        },
+        {
+          "name": "HPAP-045 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP045-alpha-100953.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-045 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP045-beta-100954.filt.bigwig"
+        },
+        {
+          "name": "HPAP-045 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP045-beta-100954.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-047": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-047 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP047-alpha-100963.filt.bigwig"
+        },
+        {
+          "name": "HPAP-047 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP047-alpha-100963.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-047 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP047-beta-100964.filt.bigwig"
+        },
+        {
+          "name": "HPAP-047 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP047-beta-100964.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-049": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-049 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP049-alpha-100965.filt.bigwig"
+        },
+        {
+          "name": "HPAP-049 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP049-alpha-100965.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-049 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP049-beta-100966.filt.bigwig"
+        },
+        {
+          "name": "HPAP-049 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP049-beta-100966.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-051": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-051 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP051-alpha-98957.filt.bigwig"
+        },
+        {
+          "name": "HPAP-051 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP051-alpha-98957.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-051 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP051-beta-98958.filt.bigwig"
+        },
+        {
+          "name": "HPAP-051 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP051-beta-98958.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-052": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-052 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP052-alpha-98959.filt.bigwig"
+        },
+        {
+          "name": "HPAP-052 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP052-alpha-98959.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-052 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP052-beta-98960.filt.bigwig"
+        },
+        {
+          "name": "HPAP-052 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP052-beta-98960.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-053": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-053 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP053-alpha-98961.filt.bigwig"
+        },
+        {
+          "name": "HPAP-053 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP053-alpha-98961.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-053 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP053-beta-98962.filt.bigwig"
+        },
+        {
+          "name": "HPAP-053 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP053-beta-98962.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-054": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-054 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP054-alpha-98963.filt.bigwig"
+        },
+        {
+          "name": "HPAP-054 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP054-alpha-98963.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-054 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP054-beta-98964.filt.bigwig"
+        },
+        {
+          "name": "HPAP-054 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP054-beta-98964.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-055": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-055 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP055-alpha-100967.filt.bigwig"
+        },
+        {
+          "name": "HPAP-055 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP055-alpha-100967.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-056": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-056 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP056-alpha-98965.filt.bigwig"
+        },
+        {
+          "name": "HPAP-056 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP056-alpha-98965.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-056 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP056-beta-98966.filt.bigwig"
+        },
+        {
+          "name": "HPAP-056 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP056-beta-98966.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-057": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-057 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP057-alpha-98967.filt.bigwig"
+        },
+        {
+          "name": "HPAP-057 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP057-alpha-98967.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-057 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP057-beta-98968.filt.bigwig"
+        },
+        {
+          "name": "HPAP-057 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP057-beta-98968.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-058": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-058 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP058-alpha-98969.filt.bigwig"
+        },
+        {
+          "name": "HPAP-058 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP058-alpha-98969.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-058 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP058-beta-98970.filt.bigwig"
+        },
+        {
+          "name": "HPAP-058 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP058-beta-98970.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-062": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-062 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP062-alpha-101031.filt.bigwig"
+        },
+        {
+          "name": "HPAP-062 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP062-alpha-101031.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-063": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-063 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP063-alpha-100968.filt.bigwig"
+        },
+        {
+          "name": "HPAP-063 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP063-alpha-100968.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-063 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP063-beta-100970.filt.bigwig"
+        },
+        {
+          "name": "HPAP-063 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP063-beta-100970.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-064": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-064 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP064-alpha-101032.filt.bigwig"
+        },
+        {
+          "name": "HPAP-064 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP064-alpha-101032.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-066": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-066 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP066-alpha-100971.filt.bigwig"
+        },
+        {
+          "name": "HPAP-066 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP066-alpha-100971.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-067": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-067 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP067-alpha-100972.filt.bigwig"
+        },
+        {
+          "name": "HPAP-067 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP067-alpha-100972.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-067 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP067-beta-100973.filt.bigwig"
+        },
+        {
+          "name": "HPAP-067 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP067-beta-100973.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-069": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-069 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP069-alpha-101033.filt.bigwig"
+        },
+        {
+          "name": "HPAP-069 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP069-alpha-101033.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-069 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP069-beta-101034.filt.bigwig"
+        },
+        {
+          "name": "HPAP-069 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP069-beta-101034.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-072": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-072 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP072-alpha-101035.filt.bigwig"
+        },
+        {
+          "name": "HPAP-072 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP072-alpha-101035.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-072 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP072-beta-101036.filt.bigwig"
+        },
+        {
+          "name": "HPAP-072 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP072-beta-101036.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-074": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-074 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP074-alpha-100974.filt.bigwig"
+        },
+        {
+          "name": "HPAP-074 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP074-alpha-100974.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-074 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP074-beta-100975.filt.bigwig"
+        },
+        {
+          "name": "HPAP-074 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP074-beta-100975.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-075": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-075 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP075-alpha-100976.filt.bigwig"
+        },
+        {
+          "name": "HPAP-075 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP075-alpha-100976.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-075 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP075-beta-100977.filt.bigwig"
+        },
+        {
+          "name": "HPAP-075 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP075-beta-100977.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-090": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-090 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP090-alpha-113099.filt.bigwig"
+        },
+        {
+          "name": "HPAP-090 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP090-alpha-113099.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-090 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP090-beta-113100.filt.bigwig"
+        },
+        {
+          "name": "HPAP-090 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP090-beta-113100.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-090 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP090-exocrine-113098.filt.bigwig"
+        },
+        {
+          "name": "HPAP-090 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP090-exocrine-113098.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-093": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-093 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP093-alpha-113102.filt.bigwig"
+        },
+        {
+          "name": "HPAP-093 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP093-alpha-113102.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-093 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP093-beta-113103.filt.bigwig"
+        },
+        {
+          "name": "HPAP-093 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP093-beta-113103.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-093 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP093-exocrine-113101.filt.bigwig"
+        },
+        {
+          "name": "HPAP-093 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP093-exocrine-113101.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-097": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-097 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP097-alpha-113105.filt.bigwig"
+        },
+        {
+          "name": "HPAP-097 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP097-alpha-113105.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-097 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP097-beta-113106.filt.bigwig"
+        },
+        {
+          "name": "HPAP-097 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP097-beta-113106.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-097 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP097-exocrine-113104.filt.bigwig"
+        },
+        {
+          "name": "HPAP-097 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP097-exocrine-113104.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-100": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-100 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP100-alpha-113108.filt.bigwig"
+        },
+        {
+          "name": "HPAP-100 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP100-alpha-113108.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-100 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP100-beta-113109.filt.bigwig"
+        },
+        {
+          "name": "HPAP-100 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP100-beta-113109.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-100 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP100-exocrine-113107.filt.bigwig"
+        },
+        {
+          "name": "HPAP-100 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP100-exocrine-113107.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-106": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-106 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP106-alpha-113114.filt.bigwig"
+        },
+        {
+          "name": "HPAP-106 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP106-alpha-113114.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-106 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP106-beta-113115.filt.bigwig"
+        },
+        {
+          "name": "HPAP-106 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP106-beta-113115.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-106 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP106-exocrine-113113.filt.bigwig"
+        },
+        {
+          "name": "HPAP-106 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP106-exocrine-113113.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-107": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-107 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP107-alpha-5000180.filt.bigwig"
+        },
+        {
+          "name": "HPAP-107 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP107-alpha-5000180.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-107 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP107-beta-5000181.filt.bigwig"
+        },
+        {
+          "name": "HPAP-107 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP107-beta-5000181.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-107 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP107-exocrine-5000182.filt.bigwig"
+        },
+        {
+          "name": "HPAP-107 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP107-exocrine-5000182.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-108": {
+    "assay": "EM-Seq",
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-108 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP108-beta-113116.filt.bigwig"
+        },
+        {
+          "name": "HPAP-108 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP108-beta-113116.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-110": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-110 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP110-alpha-5000183.filt.bigwig"
+        },
+        {
+          "name": "HPAP-110 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP110-alpha-5000183.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-110 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP110-beta-5000184.filt.bigwig"
+        },
+        {
+          "name": "HPAP-110 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP110-beta-5000184.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-110 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP110-exocrine-5000185.filt.bigwig"
+        },
+        {
+          "name": "HPAP-110 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP110-exocrine-5000185.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-111": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-111 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP111-alpha-113118.filt.bigwig"
+        },
+        {
+          "name": "HPAP-111 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP111-alpha-113118.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-111 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP111-beta-113119.filt.bigwig"
+        },
+        {
+          "name": "HPAP-111 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP111-beta-113119.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-111 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP111-exocrine-113117.filt.bigwig"
+        },
+        {
+          "name": "HPAP-111 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP111-exocrine-113117.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-117": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-117 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP117-alpha-113121.filt.bigwig"
+        },
+        {
+          "name": "HPAP-117 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP117-alpha-113121.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-117 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP117-beta-113122.filt.bigwig"
+        },
+        {
+          "name": "HPAP-117 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP117-beta-113122.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-117 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP117-exocrine-113120.filt.bigwig"
+        },
+        {
+          "name": "HPAP-117 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP117-exocrine-113120.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-118": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-118 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP118-alpha-113124.filt.bigwig"
+        },
+        {
+          "name": "HPAP-118 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP118-alpha-113124.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-118 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP118-beta-113125.filt.bigwig"
+        },
+        {
+          "name": "HPAP-118 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP118-beta-113125.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-118 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP118-exocrine-113123.filt.bigwig"
+        },
+        {
+          "name": "HPAP-118 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP118-exocrine-113123.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-123": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-123 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP123-alpha-5000188.filt.bigwig"
+        },
+        {
+          "name": "HPAP-123 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP123-alpha-5000188.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-123 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP123-exocrine-5000189.filt.bigwig"
+        },
+        {
+          "name": "HPAP-123 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP123-exocrine-5000189.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-124": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-124 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP124-alpha-113127.filt.bigwig"
+        },
+        {
+          "name": "HPAP-124 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP124-alpha-113127.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-124 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP124-beta-113128.filt.bigwig"
+        },
+        {
+          "name": "HPAP-124 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP124-beta-113128.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-124 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP124-exocrine-113126.filt.bigwig"
+        },
+        {
+          "name": "HPAP-124 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP124-exocrine-113126.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-125": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-125 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP125-alpha-5000190.filt.bigwig"
+        },
+        {
+          "name": "HPAP-125 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP125-alpha-5000190.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-129": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-129 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP129-alpha-5000193.filt.bigwig"
+        },
+        {
+          "name": "HPAP-129 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP129-alpha-5000193.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-129 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP129-beta-5000194.filt.bigwig"
+        },
+        {
+          "name": "HPAP-129 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP129-beta-5000194.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-129 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP129-exocrine-5000195.filt.bigwig"
+        },
+        {
+          "name": "HPAP-129 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP129-exocrine-5000195.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-131": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-131 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP131-alpha-5000196.filt.bigwig"
+        },
+        {
+          "name": "HPAP-131 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP131-alpha-5000196.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-131 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP131-beta-5000197.filt.bigwig"
+        },
+        {
+          "name": "HPAP-131 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP131-beta-5000197.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-131 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP131-exocrine-5000198.filt.bigwig"
+        },
+        {
+          "name": "HPAP-131 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP131-exocrine-5000198.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-132": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-132 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP132-alpha-5000199.filt.bigwig"
+        },
+        {
+          "name": "HPAP-132 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP132-alpha-5000199.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-132 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP132-beta-5000200.filt.bigwig"
+        },
+        {
+          "name": "HPAP-132 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP132-beta-5000200.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-132 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP132-exocrine-5000201.filt.bigwig"
+        },
+        {
+          "name": "HPAP-132 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP132-exocrine-5000201.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-134": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-134 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP134-alpha-113130.filt.bigwig"
+        },
+        {
+          "name": "HPAP-134 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP134-alpha-113130.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-134 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP134-beta-113131.filt.bigwig"
+        },
+        {
+          "name": "HPAP-134 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP134-beta-113131.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-134 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP134-exocrine-113129.filt.bigwig"
+        },
+        {
+          "name": "HPAP-134 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP134-exocrine-113129.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-135": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-135 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP135-alpha-5000202.filt.bigwig"
+        },
+        {
+          "name": "HPAP-135 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP135-alpha-5000202.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-135 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP135-beta-5000203.filt.bigwig"
+        },
+        {
+          "name": "HPAP-135 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP135-beta-5000203.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-135 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP135-exocrine-5000204.filt.bigwig"
+        },
+        {
+          "name": "HPAP-135 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP135-exocrine-5000204.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-136": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-136 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP136-alpha-113133.filt.bigwig"
+        },
+        {
+          "name": "HPAP-136 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP136-alpha-113133.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-136 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP136-beta-113134.filt.bigwig"
+        },
+        {
+          "name": "HPAP-136 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP136-beta-113134.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-136 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP136-exocrine-113132.filt.bigwig"
+        },
+        {
+          "name": "HPAP-136 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP136-exocrine-113132.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-137": {
+    "assay": "EM-Seq",
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-137 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP137-beta-5000205.filt.bigwig"
+        },
+        {
+          "name": "HPAP-137 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP137-beta-5000205.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-139": {
+    "assay": "EM-Seq",
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-139 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP139-beta-5000207.filt.bigwig"
+        },
+        {
+          "name": "HPAP-139 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP139-beta-5000207.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-139 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP139-exocrine-5000208.filt.bigwig"
+        },
+        {
+          "name": "HPAP-139 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP139-exocrine-5000208.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-146": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-146 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP146-alpha-5000209.filt.bigwig"
+        },
+        {
+          "name": "HPAP-146 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "50%-75%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP146-alpha-5000209.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-146 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP146-beta-5000210.filt.bigwig"
+        },
+        {
+          "name": "HPAP-146 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP146-beta-5000210.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-146 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP146-exocrine-5000211.filt.bigwig"
+        },
+        {
+          "name": "HPAP-146 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP146-exocrine-5000211.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-148": {
+    "assay": "EM-Seq",
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-148 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP148-exocrine-5000212.filt.bigwig"
+        },
+        {
+          "name": "HPAP-148 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP148-exocrine-5000212.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-151": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-151 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP151-alpha-5000213.filt.bigwig"
+        },
+        {
+          "name": "HPAP-151 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP151-alpha-5000213.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-151 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP151-beta-5000214.filt.bigwig"
+        },
+        {
+          "name": "HPAP-151 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "0%-25%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP151-beta-5000214.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-151 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP151-exocrine-5000215.filt.bigwig"
+        },
+        {
+          "name": "HPAP-151 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP151-exocrine-5000215.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-155": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-155 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP155-alpha-5000216.filt.bigwig"
+        },
+        {
+          "name": "HPAP-155 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP155-alpha-5000216.filt.cov.bigwig"
+        }
+      ]
+    },
+    "beta": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-155 methylSeq M beta",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP155-beta-5000217.filt.bigwig"
+        },
+        {
+          "name": "HPAP-155 methylSeq Cov beta",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP155-beta-5000217.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-155 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP155-exocrine-5000218.filt.bigwig"
+        },
+        {
+          "name": "HPAP-155 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP155-exocrine-5000218.filt.cov.bigwig"
+        }
+      ]
+    }
+  },
+  "HPAP-156": {
+    "assay": "EM-Seq",
+    "alpha": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-156 methylSeq M alpha",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP156-alpha-5000219.filt.bigwig"
+        },
+        {
+          "name": "HPAP-156 methylSeq Cov alpha",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "25%-50%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP156-alpha-5000219.filt.cov.bigwig"
+        }
+      ]
+    },
+    "exocrine": {
+      "status": "Available",
+      "bigwigs": [
+        {
+          "name": "HPAP-156 methylSeq M exocrine",
+          "metadata": {
+            "signal": "methylation fraction",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP156-exocrine-5000221.filt.bigwig"
+        },
+        {
+          "name": "HPAP-156 methylSeq Cov exocrine",
+          "metadata": {
+            "signal": "coverage",
+            "modification": "5hmC+5mC",
+            "estimated_purity": "75%-100%"
+          },
+          "type": "bigwig",
+          "showOnHubLoad": true,
+          "path": "manduchi/HPAP156-exocrine-5000221.filt.cov.bigwig"
+        }
+      ]
+    }
+  }
+}

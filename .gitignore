@@ -16,3 +16,6 @@
 
 #Ignore these mac-OS specific files
 .DS_Store
+
+# Emacs backup file:
+*~
