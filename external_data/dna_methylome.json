@@ -5,6 +5,15 @@
     "Institution": "University of Pennsylvania",
     "dbGAP_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002465.v2.p1"
   },
+  "HPAP-001": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Unavailable"
+    },
+    "beta": {
+      "status": "Unavailable"
+    }
+  },
   "HPAP-002": {
     "assay": "WGBS",
     "alpha": {
@@ -33,6 +42,9 @@
           "path": "manduchi/HPAP002-alpha-100956.filt.cov.bigwig"
         }
       ]
+    },
+    "beta": {
+      "status": "Unavailable"
     }
   },
   "HPAP-003": {
@@ -263,6 +275,15 @@
       ]
     }
   },
+  "HPAP-007": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Unavailable"
+    },
+    "beta": {
+      "status": "Unavailable"
+    }
+  },
   "HPAP-008": {
     "assay": "WGBS",
     "alpha": {
@@ -377,6 +398,15 @@
       ]
     }
   },
+  "HPAP-010": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Unavailable"
+    },
+    "beta": {
+      "status": "Unavailable"
+    }
+  },
   "HPAP-011": {
     "assay": "WGBS",
     "alpha": {
@@ -462,6 +492,9 @@
           "path": "manduchi/HPAP012-alpha-100929.filt.cov.bigwig"
         }
       ]
+    },
+    "beta": {
+      "status": "Unavailable"
     }
   },
   "HPAP-013": {
@@ -635,6 +668,15 @@
       ]
     }
   },
+  "HPAP-016": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Unavailable"
+    },
+    "beta": {
+      "status": "Unavailable"
+    }
+  },
   "HPAP-017": {
     "assay": "WGBS",
     "alpha": {
@@ -804,6 +846,24 @@
           "path": "manduchi/HPAP019-beta-100938.filt.cov.bigwig"
         }
       ]
+    }
+  },
+  "HPAP-020": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Unavailable"
+    },
+    "beta": {
+      "status": "Unavailable"
+    }
+  },
+  "HPAP-021": {
+    "assay": "WGBS",
+    "alpha": {
+      "status": "Unavailable"
+    },
+    "beta": {
+      "status": "Unavailable"
     }
   },
   "HPAP-022": {
@@ -2743,6 +2803,9 @@
   },
   "HPAP-108": {
     "assay": "EM-Seq",
+    "alpha": {
+      "status":"Unavailable"
+    },
     "beta": {
       "status": "Available",
       "bigwigs": [
@@ -2769,6 +2832,9 @@
           "path": "manduchi/HPAP108-beta-113116.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status":"Unavailable"
     }
   },
   "HPAP-110": {
@@ -3136,6 +3202,9 @@
         }
       ]
     },
+    "beta": {
+      "status":"Unavailable"
+    },
     "exocrine": {
       "status": "Available",
       "bigwigs": [
@@ -3276,6 +3345,12 @@
           "path": "manduchi/HPAP125-alpha-5000190.filt.cov.bigwig"
         }
       ]
+    },
+    "beta": {
+      "status":"Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-129": {
