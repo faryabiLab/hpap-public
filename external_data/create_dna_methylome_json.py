@@ -8,7 +8,7 @@ that will be used by both front-end and back-end.
 import json
 
 
-input_filename = "dna_methylome_bigwigs.json"
+input_filename = "original_dna_methylome_bigwigs.json"
 output_filename = "dna_methylome.json"
 url_prefix = "https://faryabi16.pmacs.upenn.edu/wugb/"
 
@@ -51,12 +51,13 @@ with open(input_filename) as ifo, open(output_filename, 'w') as ofo:
         path = x['url'].removeprefix(url_prefix)
         x['path'] = path
         del x['url']
+        del x['showOnHubLoad']
         del x['metadata']['donor']
         del x['metadata']['cell_type']
         del x['metadata']['assay']
 
-        bigwigs = cell_data.setdefault('bigwigs', [])
-        bigwigs.append(x)
+        wugb_files = cell_data.setdefault('wugb_files', [])
+        wugb_files.append(x)
 
     # Save output_data:
     json.dump(output_data, ofo, indent=2)
