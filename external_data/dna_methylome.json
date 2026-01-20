@@ -12,6 +12,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-002": {
@@ -42,6 +45,9 @@
       ]
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -96,6 +102,9 @@
           "path": "manduchi/HPAP003-beta-98526.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-004": {
@@ -149,6 +158,9 @@
           "path": "manduchi/HPAP004-beta-98528.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-005": {
@@ -202,6 +214,9 @@
           "path": "manduchi/HPAP005-beta-98530.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-006": {
@@ -255,6 +270,9 @@
           "path": "manduchi/HPAP006-beta-98532.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-007": {
@@ -263,6 +281,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -317,6 +338,9 @@
           "path": "manduchi/HPAP008-beta-98534.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-009": {
@@ -370,6 +394,9 @@
           "path": "manduchi/HPAP009-beta-98536.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-010": {
@@ -378,6 +405,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -432,6 +462,9 @@
           "path": "manduchi/HPAP011-beta-98538.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-012": {
@@ -462,6 +495,9 @@
       ]
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -516,6 +552,9 @@
           "path": "manduchi/HPAP013-beta-100959.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-014": {
@@ -569,6 +608,9 @@
           "path": "manduchi/HPAP014-beta-100960.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-015": {
@@ -622,6 +664,9 @@
           "path": "manduchi/HPAP015-beta-100933.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-016": {
@@ -684,6 +729,9 @@
           "path": "manduchi/HPAP017-beta-100935.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-018": {
@@ -737,6 +785,9 @@
           "path": "manduchi/HPAP018-beta-100961.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-019": {
@@ -790,6 +841,9 @@
           "path": "manduchi/HPAP019-beta-100938.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-020": {
@@ -807,6 +861,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -861,6 +918,9 @@
           "path": "manduchi/HPAP022-beta-100962.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-023": {
@@ -869,6 +929,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -879,6 +942,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-025": {
@@ -887,6 +953,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -941,6 +1010,9 @@
           "path": "manduchi/HPAP026-beta-100942.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-027": {
@@ -950,6 +1022,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-028": {
@@ -958,6 +1033,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1012,6 +1090,9 @@
           "path": "manduchi/HPAP029-beta-100944.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-030": {
@@ -1020,6 +1101,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1030,6 +1114,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-032": {
@@ -1038,6 +1125,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1048,6 +1138,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-034": {
@@ -1056,6 +1149,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1110,6 +1206,9 @@
           "path": "manduchi/HPAP035-beta-100946.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-036": {
@@ -1163,6 +1262,9 @@
           "path": "manduchi/HPAP036-beta-100948.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-037": {
@@ -1171,6 +1273,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1225,6 +1330,9 @@
           "path": "manduchi/HPAP038-beta-100950.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-039": {
@@ -1233,6 +1341,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1287,6 +1398,9 @@
           "path": "manduchi/HPAP040-beta-100952.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-041": {
@@ -1295,6 +1409,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1305,6 +1422,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-043": {
@@ -1314,6 +1434,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-044": {
@@ -1322,6 +1445,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1376,6 +1502,9 @@
           "path": "manduchi/HPAP045-beta-100954.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-046": {
@@ -1384,6 +1513,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1438,6 +1570,9 @@
           "path": "manduchi/HPAP047-beta-100964.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-048": {
@@ -1446,6 +1581,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1500,6 +1638,9 @@
           "path": "manduchi/HPAP049-beta-100966.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-050": {
@@ -1508,6 +1649,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1562,6 +1706,9 @@
           "path": "manduchi/HPAP051-beta-98958.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-052": {
@@ -1615,6 +1762,9 @@
           "path": "manduchi/HPAP052-beta-98960.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-053": {
@@ -1668,6 +1818,9 @@
           "path": "manduchi/HPAP053-beta-98962.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-054": {
@@ -1721,6 +1874,9 @@
           "path": "manduchi/HPAP054-beta-98964.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-055": {
@@ -1751,6 +1907,9 @@
       ]
     },
     "beta":{
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1805,6 +1964,9 @@
           "path": "manduchi/HPAP056-beta-98966.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-057": {
@@ -1858,6 +2020,9 @@
           "path": "manduchi/HPAP057-beta-98968.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-058": {
@@ -1911,6 +2076,9 @@
           "path": "manduchi/HPAP058-beta-98970.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-059": {
@@ -1920,7 +2088,10 @@
     },
     "beta": {
       "status": "Unavailable"
-    }
+    },
+    "exocrine": {
+      "status": "Unavailable"
+    
   },
   "HPAP-060": {
     "assay":"WGBS",
@@ -1929,7 +2100,10 @@
     },
     "beta": {
       "status": "Unavailable"
-  } 
+    },
+    "exocrine": {
+      "status": "Unavailable"
+    }
   },
   "HPAP-061": {
     "assay": "WGBS",
@@ -1937,6 +2111,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -1968,6 +2145,9 @@
       ]
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2022,6 +2202,9 @@
           "path": "manduchi/HPAP063-beta-100970.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-064": {
@@ -2053,6 +2236,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-065": {
@@ -2061,6 +2247,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2093,7 +2282,10 @@
     },
     "beta": {
       "status": "Unavailable"
-    } 
+    },
+    "exocrine": {
+      "status": "Unavailable"
+    }
   },
   "HPAP-067": {
     "assay": "WGBS",
@@ -2146,6 +2338,9 @@
           "path": "manduchi/HPAP067-beta-100973.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-068": {
@@ -2154,6 +2349,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2208,6 +2406,9 @@
           "path": "manduchi/HPAP069-beta-101034.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-070": {
@@ -2217,6 +2418,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-071": {
@@ -2225,6 +2429,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2279,6 +2486,9 @@
           "path": "manduchi/HPAP072-beta-101036.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-073": {
@@ -2287,6 +2497,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2341,6 +2554,9 @@
           "path": "manduchi/HPAP074-beta-100975.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-075": {
@@ -2394,6 +2610,9 @@
           "path": "manduchi/HPAP075-beta-100977.filt.cov.bigwig"
         }
       ]
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-076": {
@@ -2402,6 +2621,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2412,6 +2634,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-078": {
@@ -2420,6 +2645,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2430,6 +2658,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-080": {
@@ -2438,6 +2669,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2448,6 +2682,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-082": {
@@ -2456,6 +2693,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2466,6 +2706,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-084": {
@@ -2474,6 +2717,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2484,6 +2730,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-086": {
@@ -2492,6 +2741,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
@@ -2502,6 +2754,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-088": {
@@ -2511,6 +2766,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-089": {
@@ -2519,6 +2777,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
