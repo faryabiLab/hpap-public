@@ -676,6 +676,9 @@
     },
     "beta": {
       "status": "Unavailable"
+    },
+    "exocrine": {
+      "status": "Unavailable"
     }
   },
   "HPAP-017": {
@@ -852,6 +855,9 @@
       "status": "Unavailable"
     },
     "beta": {
+      "status": "Unavailable"
+    },
+    "exocrine": {
       "status": "Unavailable"
     }
   },
