@@ -10,7 +10,7 @@ import json
 
 input_filename = "original_dna_methylome_bigwigs.json"
 output_filename = "dna_methylome.json"
-url_prefix = "https://faryabi16.pmacs.upenn.edu/wugb/"
+url_prefix = "https://pub-data.faryabilab.com/wugb/"
 
 # Static data:
 output_data = {
